@@ -60,13 +60,13 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/maastricht_university_logo.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="getstarted-introduction">Get started</Button>
+            <Button href={docUrl('docker-introduction')}>Docker workshop</Button>
+            <Button href={docUrl('github-introduction')}>GitHub workshop</Button>
           </PromoSection>
         </div>
       </SplashContainer>
