@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://maastrichtu-ids.github.io//workshops/blog</id>
+    <title>IDS Workshops Blog</title>
+    <updated>2016-03-11T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://maastrichtu-ids.github.io//workshops/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest IDS Workshops news and events.</subtitle>
+    <logo>https://maastrichtu-ids.github.io//workshops/img/favicon.ico</logo>
+    <rights>Copyright © 2020 Institute of Data Science at Maastricht University</rights>
+    <entry>
+        <title type="html"><![CDATA[Blog Title]]></title>
+        <id>https://maastrichtu-ids.github.io//workshops/blog/2016/03/11/blog-post.html</id>
+        <link href="https://maastrichtu-ids.github.io//workshops/blog/2016/03/11/blog-post.html"/>
+        <updated>2016-03-11T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
+]]></summary>
+        <author>
+            <name>Blog Author</name>
+            <email/>
+            <uri>http://twitter.com/</uri>
+        </author>
+    </entry>
+</feed>
