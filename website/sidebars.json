@@ -1,10 +1,8 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Get started": ["doc1"],
+    "Build Docker": ["doc2"],
+    "Set GitHub Actions": ["doc3"],
+    "Set GitLab CI": ["doc3"]
   }
 }
