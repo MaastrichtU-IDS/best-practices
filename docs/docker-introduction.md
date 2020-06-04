@@ -7,7 +7,7 @@ title: Introduction to Docker
 
 Docker containers can be seen as extremely lightweight virtual environments in which you can run your code. The biggest advantage is knowing your container will work regardless of the environment it's being used in; no more 'On my laptop it works'.
 
- Additionally, containers can be persisted and shared as *images* so that others can expand on your code. For example, when creating a Docker for a Python container it is possible to *pull* a Python Docker Image and start your work from there. This image will already include a Python installation. Since images exist for most usecases, such applications and databases, Docker can be used to quickly use some prerequisites without installing them on your machine. 
+ Additionally, containers can be persisted and shared as *images* so that others can expand on your code. For example, when creating a container for a Python application it is possible to *pull* a Python Docker Image and start your work from there. Since images exist for most usecases, such applications and databases, Docker can be used to quickly use some prerequisites without installing them on your machine. 
 
 ## Using the Dockerfile
 The Dockerfile is used to provide installation steps that will create your Docker container.
