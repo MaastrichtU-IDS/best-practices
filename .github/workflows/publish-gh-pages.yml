@@ -22,6 +22,8 @@ jobs:
 
     - name: Build and publish
       run: |
+        git config --global user.email "vincent.emonet@maastrichtuniversity.nl"
+        git config --global user.name "Vincent Emonet"
         cd website
         yarn install
         yarn build
