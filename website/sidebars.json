@@ -1,8 +1,8 @@
 {
   "docs": {
-    "Get started": ["doc1"],
-    "Build Docker": ["doc2"],
-    "Set GitHub Actions": ["doc3"],
-    "Set GitLab CI": ["doc3"]
+    "Get started": ["getstarted-introduction"],
+    "Build Docker": ["docker-introduction"],
+    "Set GitHub Actions": ["github-introduction"],
+    "Set GitLab CI": ["gitlab-introduction"]
   }
 }
