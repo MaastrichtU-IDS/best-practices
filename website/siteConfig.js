@@ -21,20 +21,20 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'IDS Workshops', // Title for your website.
-  tagline: 'Workshops and documentation at the Institute of Data Science at Maastricht University',
+  title: 'IDS Best Practices', // Title for your website.
+  tagline: 'Best practices and documentation at the Institute of Data Science at Maastricht University',
   url: 'https://maastrichtu-ids.github.io/', // Your website URL
-  baseUrl: '/workshops/', // Base URL for your project */
+  baseUrl: '/best-practices/', // Base URL for your project */
 
-  projectName: 'workshops', // GitHub project name
+  projectName: 'best-practices', // GitHub project name
   organizationName: 'MaastrichtU-IDS',
-  repoUrl: 'https://github.com/MaastrichtU-IDS/workshops',
+  repoUrl: 'https://github.com/MaastrichtU-IDS/best-practices',
   // URL for editing docs
-  editUrl: 'https://github.com/MaastrichtU-IDS/workshops/edit/master/docs/',
+  editUrl: 'https://github.com/MaastrichtU-IDS/best-practices/edit/master/docs/',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'getstarted-introduction', label: 'Workshops'},
+    {doc: 'getstarted-introduction', label: 'Best practices'},
     {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
   ],

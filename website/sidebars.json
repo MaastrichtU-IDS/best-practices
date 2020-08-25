@@ -1,8 +1,8 @@
 {
   "docs": {
-    "Get started": ["getstarted-introduction"],
-    "Build Docker": ["docker-introduction"],
-    "Set GitHub Actions": ["github-introduction"],
-    "Set GitLab CI": ["gitlab-introduction"]
+    "Get started": ["introduction"],
+    "Development": ["code-distribution", "software-distribution", "documentation", "project-management", "continuous-integration"],
+    "FAIR data": ["fairdata-intro"],
+    "Education": ["education-workshops"]
   }
 }
