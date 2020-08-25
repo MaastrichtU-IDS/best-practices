@@ -16,12 +16,11 @@ Browse all documentation pages [here](https://github.com/MaastrichtU-IDS/best-pr
 
 ### Files locations
 
-* Add new `docs` pages to [website/sidebars.json](https://github.com/MaastrichtU-IDS/best-practices/blob/master/website/sidebars.json).
-
+* Add new `docs` pages:
+  * Markdown in [docs/](https://github.com/MaastrichtU-IDS/best-practices/tree/master/docs)
+  * Sidebar link in [website/sidebars.json](https://github.com/MaastrichtU-IDS/best-practices/blob/master/website/sidebars.json).
 * Main parameters of the website can be found in [website/siteConfig.js](https://github.com/MaastrichtU-IDS/best-practices/blob/master/website/siteConfig.js).
-
 * Static content (any resource to download, images, css, js) can be provided in [website/static](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/static)
-
 * HTML pages (other than docs markdown) are in [website/pages/en](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/pages/en)
 
 ## Run for development
