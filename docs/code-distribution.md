@@ -5,7 +5,7 @@ title: Code distribution
 
 ## Use git
 
-Versioning your code using git is mandatory.
+Versioning your code using git is mandatory. Use git to commit even the smallest changes with a comment. Learn how to use branches and pull requests for bug fixes and the development of new features.
 
 If you are developing code related to the Institute of Data Science we recommend you to create the repository in the MaastrichtU-IDS organization on GitHub: [https://github.com/MaastrichtU-IDS](https://github.com/MaastrichtU-IDS)
 
