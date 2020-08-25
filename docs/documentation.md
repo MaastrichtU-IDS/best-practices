@@ -1,6 +1,6 @@
 ---
 id: documentation
-title: documentation
+title: Documentation
 ---
 
 ## Fill the README

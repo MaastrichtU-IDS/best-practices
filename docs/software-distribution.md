@@ -16,6 +16,7 @@ The best to distribute a reusable software is to make it a package.
 
 * Use [pypi.org](https://pypi.org/) for Python
 * [NPM](https://www.npmjs.com/) for JavaScript
+* [Maven](https://mvnrepository.com) for Java
 
 
 ## Docker containers
