@@ -94,8 +94,11 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>Documentation to build Data Science projects</h2>
+        <p>Share your code<br/>
+        Distribute your program<br/>
+        Package your software<br/>
+        Template to start projects in Python</p>
       </div>
     );
 
@@ -104,12 +107,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              'Use package managers and Docker containers to efficiently distribute your softwares or services.',
+            image: `${baseUrl}img/undraw_collecting.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Build reusable software',
           },
         ]}
       </Block>
@@ -120,10 +121,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+              'Educational content about Data Science applicable for various scientific fields.',
+            image: `${baseUrl}img/undraw_creative_experiment.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'Learn Data Science for your domain',
           },
         ]}
       </Block>
@@ -134,10 +135,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+              'Concrete tools and methods to improve your data FAIRness',
+            image: `${baseUrl}img/undraw_data.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'Publish FAIR data',
           },
         ]}
       </Block>
@@ -147,16 +148,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'Contribute to Open Source',
+            image: `${baseUrl}img/undraw_open_source_purple.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Share your code',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Make your code reusable',
+            image: `${baseUrl}img/undraw_Container_ship.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Distribute your program',
           },
         ]}
       </Block>
