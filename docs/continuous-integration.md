@@ -5,10 +5,13 @@ title: Continuous integration
 
 Usually depends on the platform you are using to store your code
 * GitHub Actions
+  * Recommended if your code is hosted on [GitHub](https://github.com)
 * GitLab CI
-* Drone.io (now [Harness](https://harness.io/))
-* Travis CI
-* Circle CI
-* Jenkins
+  * Recommended if your code is hosted on [GitLab](https://gitlab.com/).
+  * We recommend to use [GitLab hosted at UM](https://gitlab.maastrichtuniversity.nl) if possible.
+* [Drone.io](https://drone.io/) (now [Harness](https://harness.io/))
+* [Travis CI](https://travis-ci.org/)
+* [Circle CI](https://circleci.com/)
+* [Jenkins](https://www.jenkins.io/)
 
-See [CI/CD workshop](https://maastrichtu-ids.github.io/workshop-ci/)
+See [IDS CI/CD workshop](https://maastrichtu-ids.github.io/workshop-ci/)

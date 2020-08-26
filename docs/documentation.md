@@ -10,14 +10,19 @@ Minimal requirements for the documentation is to fill the README.md at the root 
 * Short description of the tool (2 to 3 lines will not kill anyone)
 * How to install locally
   * e.g. `pip install my_package`
-* Provide a few working examples to run
-  * I should copy paste the provided example (almost)
-  * If necessary, use sample files stored in the git repository (so everything is in the repo)
-  * How many features do your program have? It should not be hard to cover most of them in 3 to 4 examples + generic mechanism
+* Provide a few working examples to run the program
+  * Users should copy paste the provided example (almost)
+  * If necessary, store sample files in the git repository (so everything is accessible with a `git clone`)
+  * Try to cover a few features and mechanisms of your program
   * Try to keep those examples up-to-date
 * How to build/run/stop/update with Docker
-  * Should be only `docker-compose up -d`
-  * But think to add details on running the code with Docker
+  * Should be only a `docker-compose up -d`
+  * Add details about Docker deployment if necessary (shared volume, initialization...)
 
->  Add **Wiki pages** on GitHub for additional documentation
+## Additional documentation
 
+Add **Wiki pages** on GitHub or GitLab for additional documentation.
+
+* How to contribute
+* Additional deployments (for production, Docker, Kubernetes)
+* Initialization and ETL tasks
