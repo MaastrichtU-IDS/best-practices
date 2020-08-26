@@ -25,6 +25,8 @@ Browse all documentation markdown pages in [/docs](https://github.com/Maastricht
 * Static content (any resource to download, images, css, js) can be provided in [website/static](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/static)
 * JS pages (index, help, users) are in [website/pages/en](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/pages/en)
 
+> See our [contributor code of conduct](https://github.com/MaastrichtU-IDS/best-practices/blob/master/CODE_OF_CONDUCT.md).
+
 ## Run for development
 
 If you want to test it locally: to run from the `/website` folder.
