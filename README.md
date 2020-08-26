@@ -2,30 +2,32 @@
 
 # IDS best practices documentation
 
+Best practices documentation website for the [Institute of Data Science](https://maastrichtuniversity.nl/ids) at Maastricht University.
+
+The documentation website at https://maastrichtu-ids.github.io/best-practices is **automatically updated** by a [GitHub Action](https://github.com/MaastrichtU-IDS/best-practices/actions) when a change is pushed to the `master` branch.
+
 ## Edit documentation pages
 
-Editing a documentation file is as easy as going to https://github.com/MaastrichtU-IDS/best-practices/edit/master/docs/introduction.md.
+Editing a documentation file is as easy as going to https://github.com/MaastrichtU-IDS/best-practices/edit/master/docs/introduction.md if your account has edit permissions.
 
-- Edit a page by login with an account that has edit permissions.
+Otherwise **fork the repository** and modify the files you want. Pull requests are welcome!
 
-- Otherwise fork the repository and modify the files you want. Pull requests are welcome!
-
-Browse all documentation pages [here](https://github.com/MaastrichtU-IDS/best-practices/tree/master/docs).
+Browse all documentation markdown pages in [/docs](https://github.com/MaastrichtU-IDS/best-practices/tree/master/docs).
 
 > We recommend using [Typora](https://typora.io/) to edit [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) files on your computer.
 
 ### Files locations
 
 * Add new `docs` pages:
-  * Markdown in [docs/](https://github.com/MaastrichtU-IDS/best-practices/tree/master/docs)
-  * Sidebar link in [website/sidebars.json](https://github.com/MaastrichtU-IDS/best-practices/blob/master/website/sidebars.json).
+  * **Markdown file** in [docs/](https://github.com/MaastrichtU-IDS/best-practices/tree/master/docs)
+  * Add the **link in the sidebar** in the [website/sidebars.json](https://github.com/MaastrichtU-IDS/best-practices/blob/master/website/sidebars.json) file.
 * Main parameters of the website can be found in [website/siteConfig.js](https://github.com/MaastrichtU-IDS/best-practices/blob/master/website/siteConfig.js).
 * Static content (any resource to download, images, css, js) can be provided in [website/static](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/static)
-* HTML pages (other than docs markdown) are in [website/pages/en](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/pages/en)
+* JS pages (index, help, users) are in [website/pages/en](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/pages/en)
 
 ## Run for development
 
-To run locally in the `/website` directory.
+If you want to test it locally: to run from the `/website` folder.
 
 ```shell
 cd website
