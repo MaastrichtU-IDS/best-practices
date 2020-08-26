@@ -21,18 +21,17 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      content: `<a href="https://github.com/MaastrichtU-IDS/best-practices/issues"
+      target="_blank" aria-label="Issues best-practices on GitHub">
+      <img alt="GitHub best-practices" src="https://img.shields.io/github/issues/MaastrichtU-IDS/best-practices?label=best-practices"/>
+    </a><br/>
+    <p>Browse and submit [issues](https://github.com/MaastrichtU-IDS/best-practices/issues) or [pull requests](https://github.com/MaastrichtU-IDS/best-practices/pulls) 
+    for bugs you find or any new features you would like to see implemented 🔧</p>`,
+      title: 'Submit issues',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
-    },
-    {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: `Feel free to [contact the main maintainers](mailto:vincent.emonet@maastrichtuniversity.nl) if you have any questions 📬`,
+      title: 'Contact us',
     },
   ];
 

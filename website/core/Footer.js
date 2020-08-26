@@ -39,11 +39,11 @@ class Footer extends React.Component {
             <a href={this.docUrl('introduction')}>
               Get started
             </a>
-            <a href={this.docUrl('workflows-introduction')}>
-              Docker workshop
+            <a href={this.docUrl('code-distribution')}>
+              Development
             </a>
-            <a href={this.docUrl('openshift-install')}>
-              GitHub workshop
+            <a href={this.docUrl('fairdata-intro')}>
+              FAIR data
             </a>
           </div>
 
@@ -69,14 +69,14 @@ class Footer extends React.Component {
 
           <div>
             <h5>Community</h5>
-            <a href="https://twitter.com/MaastrichtU"
+            <a href="https://twitter.com/um_ids"
               target="_blank" rel="noreferrer noopener" aria-label="Follow on Twitter">
               <img alt="Follow on Twitter"
-              src="https://img.shields.io/twitter/follow/MaastrichtU?style=social"/>
+              src="https://img.shields.io/twitter/follow/um_ids?style=social"/>
             </a>
-            <a href="https://www.facebook.com/maastricht.university/"
+            <a href="https://www.facebook.com/IDSatUM/"
               target="_blank" rel="noreferrer noopener">
-              Facebook
+              IDSatUM Facebook page
             </a>
             {/* <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
@@ -124,7 +124,7 @@ class Footer extends React.Component {
         <section className="copyright">
           <div>
             <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license" target="_blank">
-              <img src="/workshops/img/cc-by.svg" alt="cc by license"/> 
+              <img src="/best-practices/img/cc-by.svg" alt="cc by license"/> 
             </a>
           </div>
           {this.props.config.copyright}
