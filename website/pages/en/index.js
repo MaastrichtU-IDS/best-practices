@@ -121,10 +121,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Educational content about Data Science applicable for various scientific fields.',
-            image: `${baseUrl}img/undraw_creative_experiment.svg`,
+              'Learn and discuss about new methods and technologies to help with doing better Data Science.',
+            image: `${baseUrl}img/undraw_data_points.svg`,
             imageAlign: 'right',
-            title: 'Learn Data Science for your domain',
+            title: 'Share tips and good practices',
           },
         ]}
       </Block>
