@@ -5,11 +5,11 @@ title: Software distribution
 
 ## Notebooks
 
-Data scientists like notebooks to show how they obtained their results.
+Notebooks are popular among Data Scientists to show how they obtained their results, especially for Python or R programs.
 
 Notebooks are good to publish a piece of code you want other people to see, but it is not the best solution to publish code you want other people to reuse.
 
-Nevertheless, when you publish notebooks we ask you to also provide a `requirements.txt` at the root of the git repository with all the package to install to use your program.
+Nevertheless, when you publish notebooks we ask you to also provide a `requirements.txt` at the root of the git repository with all the Python packages to install to use your program.
 
 ## Packages
 
