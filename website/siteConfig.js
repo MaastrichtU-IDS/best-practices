@@ -50,9 +50,11 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#3f51b5',    // Mat Indigo
+    // primaryColor: '#3f51b5',    // Mat Indigo
+    primaryColor: '#039be5',  // Light blue
     // primaryColor: '#001f3e',  // Maastricht University Blue
-    secondaryColor: '#ef4c22',  // Maastricht University Orange 
+    secondaryColor: '#ff6f00',  // Mat Orange 
+    // secondaryColor: '#ef4c22',  // Maastricht University Orange 
   },
 
   /* Custom fonts for website */

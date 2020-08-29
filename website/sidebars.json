@@ -1,7 +1,7 @@
 {
   "docs": {
     "Get started": ["introduction"],
-    "Development": ["code-distribution", "software-distribution", "documentation", "project-management", "continuous-integration", "application-security"],
+    "Development": ["project-management", "code-distribution", "software-distribution", "documentation", "continuous-integration"],
     "FAIR data": ["fairdata-intro"],
     "Education": ["education-workshops"]
   }
