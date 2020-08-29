@@ -7,6 +7,15 @@
  
 /* your custom css */
 
+body {
+    font-family: "Open Sans", "Roboto", "Serif"
+}
+
+/* Change weight of Documentation and Help, nav right */
+.navigationSlider .slidingNav ul li a {
+    font-weight: 400;
+}
+
 .homeContainer .homeWrapper .projectLogo  {
     position: inherit;
     justify-content: center;

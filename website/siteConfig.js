@@ -79,6 +79,11 @@ const siteConfig = {
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
+  stylesheets: [
+    'https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700'
+    // '/css/code-blocks-buttons.css'
+  ],
+
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
