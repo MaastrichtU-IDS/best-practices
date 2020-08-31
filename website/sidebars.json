@@ -3,6 +3,6 @@
     "Get started": ["introduction"],
     "Development": ["project-management", "code-distribution", "software-distribution", "documentation", "continuous-integration"],
     "FAIR data": ["fairdata-intro"],
-    "Education": ["education-workshops"]
+    "Education": ["education-workshops", "create-workshops"]
   }
 }
