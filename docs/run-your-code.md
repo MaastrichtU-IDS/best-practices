@@ -19,7 +19,7 @@ The [Data Science Research Infrastructure](https://maastrichtu-ids.github.io/dsr
 
 ## On Google Collab
 
-Run [Jupyter Notebooks on Google](https://colab.research.google.com/) servers for research.
+Run Jupyter Notebooks on [Google servers](https://colab.research.google.com) for research.
 
 ## On Kaggle
 
