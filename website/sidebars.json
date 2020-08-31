@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Get started": ["introduction"],
+    "Get started": ["introduction", ["run-your-code"]],
     "Development": ["project-management", "code-distribution", "software-distribution", "documentation", "continuous-integration"],
     "FAIR data": ["fairdata-intro"],
     "Education": ["education-workshops", "create-workshops"]
