@@ -7,11 +7,11 @@ title: Where to run your code?
 
 ### Installed locally
 
-Better for development, to use development and debug environments.
+Better **for development**, to use development and debug environments.
 
 ### Using Docker
 
-Better when just running an application without doing development, or when running in production on a server.
+Better **when running an application** without doing development, or when running in production on a server.
 
 ## On the DSRI
 
@@ -29,8 +29,6 @@ To run Jupyter Notebooks when participating to a [Kaggle](https://www.kaggle.com
 
 ## Using CI/CD solutions
 
-[GitHub Actions](https://github.com/features/actions) or [GitLab CI](https://docs.gitlab.com/ee/ci/) to run workflows on their servers triggered by event such as `git push`, new release, new pull request...
+[GitHub Actions](https://github.com/features/actions) or [GitLab CI](https://docs.gitlab.com/ee/ci/) to run workflows on their servers triggered by event such as `git push`, new release, new pull request... Usually used to run tests.
 
-Usually used to run tests.
-
-> Free for Open Source
+> Free for Open Source repositories.
