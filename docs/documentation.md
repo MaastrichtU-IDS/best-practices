@@ -23,6 +23,7 @@ Minimal requirements for the documentation is to fill the README.md at the root 
 
 Add **Wiki pages** on GitHub or GitLab for additional documentation.
 
-* How to contribute
+* How to contribute (pull request etiquette, how to run tests)
+* Diagrams to explain your code
 * Additional deployments (for production, Docker, Kubernetes)
 * Initialization and ETL tasks
