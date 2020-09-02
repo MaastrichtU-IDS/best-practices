@@ -1,11 +1,9 @@
 ---
-id: fairdata-intro
-title: FAIR data
+id: fair-principals
+title: FAIR principals
 ---
 
-## What are the FAIR principles?
-
-### Findable 🔎
+## Findable 🔎
 
 The first step in (re)using data is to find them. Metadata and data  should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the [FAIRification process](https://www.go-fair.org/fair-principles/fairification-process/).
 
@@ -17,7 +15,7 @@ The first step in (re)using data is to find them. Metadata and data  should be e
 
 * [**F4**. (Meta)data are registered or indexed in a searchable resource](https://www.go-fair.org/fair-principles/f4-metadata-registered-indexed-searchable-resource/)
 
-### Accessible 📂
+## Accessible 📂
 
 Once the user finds the required data, she/he needs to know how can  they be accessed, possibly including authentication and authorisation.
 
@@ -27,7 +25,7 @@ Once the user finds the required data, she/he needs to know how can  they be acc
 
 * [**A2**. Metadata are accessible, even when the data are no longer available](https://www.go-fair.org/fair-principles/a2-metadata-accessible-even-data-no-longer-available/)
 
-### Interoperable ⚙️
+## Interoperable ⚙️
 
 The data usually need to be integrated with other data. In addition,  the data need to interoperate with applications or workflows for  analysis, storage, and processing.
 
@@ -37,7 +35,7 @@ The data usually need to be integrated with other data. In addition,  the data n
 
 * [**I3**. (Meta)data include qualified references to other (meta)data](https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/)
 
-### Reusable ♻️
+## Reusable ♻️
 
 The ultimate goal of FAIR is to optimise the reuse of data. To achieve  this, metadata and data should be well-described so that they can be  replicated and/or combined in different settings.
 
@@ -49,28 +47,3 @@ The ultimate goal of FAIR is to optimise the reuse of data. To achieve  this, me
 > The principles refer to three types of entities: data (or any digital  object), metadata (information about that digital object), and  infrastructure. For instance, principle F4 defines that both metadata  and data are registered or indexed in a searchable resource (the  infrastructure component).
 
 From the [GO-FAIR website](https://www.go-fair.org/fair-principles/).
-
-## How to publish FAIR data?
-
-* **Data persistence**: Data repositories, such as [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/), [DataDryad](https://datadryad.org/), [Kaggle Datasets](https://www.kaggle.com/datasets) and many others, are a good way to ensure dataset persistence. Many of these repositories have [agreements with libraries](https://knowledge.figshare.com/articles/item/preservation-and-continuity-of-access-policy) to preserve data in perpetuity.
-* **Provenance**: with datasets often published in multiple repositories, it would be useful for repositories to describe the provenance information more explicitly in the metadata. 
-  * The provenance information helps users  understand who collected the data, where the primary source of the  dataset is, or how it might have changed. 
-  * The prov ontology can be used. 
-* **Licensing**: datasets should include licensing information, ideally in a  machine-readable format. 
-
-* **Assigning persistent identifiers**, such as DOIs ([Digital Object Identifier](https://www.doi.org/)), is critical for long-term tracking and useability.
-  * Easier citation of datasets and version tracking
-  * Dereferenceable: if a dataset moves, the  identifier can point to a different location.
-
-Recommendations adapted from [this article](https://ai.googleblog.com/2020/08/an-analysis-of-online-datasets-using.html).
-
-## Tools and frameworks
-
-Pointer to tools and framework to build FAIR data systems (depend on the use-case)
-
-* Use the [Smart API](https://smart-api.info) specifications to document your API (extension of OpenAPI).
-  * Take advantage of the [Swagger UI](https://swagger.io/tools/swagger-ui/) to try your API.
-* Use the [JSON-LD](https://json-ld.org/) format to add a `@context` to your JSON objects, and obtain Linked Data.
-* Use the [Health Care and Life Science (HCLS) descriptive metadata profile](https://www.w3.org/TR/hcls-dataset/) to generate and store relevant metadata for Biomedical datasets (in RDF).
-* Use the [FAIR evaluator](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/) to assess the FAIRness of your services.
-

@@ -15,8 +15,12 @@ Some projects in collaboration with other entities can be hosted on GitLab depen
 
 ## Add a license
 
-Adding a license file is mandatory as no one is allowed to legally use your code if no license is included. 
+Adding a license file is mandatory as no one is allowed to legally use your code if no license is included. The default choice for software should be [the MIT license](https://choosealicense.com/licenses/mit/)
 
 ## Add a DOAP project description
 
 Optional: add a  DOAP (https://github.com/ewilderj/doap/wiki https://projects.apache.org/doap.html) file to the root of the repository.
+
+## Add a code of conduct
+
+Optional: add the following [code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct/code_of_conduct.md) to the root of the repository.

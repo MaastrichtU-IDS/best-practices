@@ -2,7 +2,7 @@
   "docs": {
     "Get started": ["introduction", "run-your-code"],
     "Development": ["project-management", "code-distribution", "software-distribution", "documentation", "continuous-integration"],
-    "FAIR data": ["fairdata-intro"],
+    "FAIR": ["fair-principals","fair-data","fair-workflows"],
     "Education": ["education-workshops", "create-workshops"]
   }
 }

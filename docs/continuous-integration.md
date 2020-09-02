@@ -14,7 +14,5 @@ The choice of CI/CD technology depends on the platform you are using to store yo
 * GitLab CI
   * Recommended if your code is hosted on [GitLab](https://gitlab.com/).
   * We recommend to use [GitLab hosted at UM](https://gitlab.maastrichtuniversity.nl) if possible.
-* [Drone.io](https://drone.io/) (now [Harness](https://harness.io/))
-* [Travis CI](https://travis-ci.org/)
-* [Circle CI](https://circleci.com/)
 * [Jenkins](https://www.jenkins.io/)
+  * Recommended if your build is privacy sensitive.
