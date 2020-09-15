@@ -1,7 +1,9 @@
 ---
-id: fair-principals
-title: FAIR principals
+id: fair-principles
+title: FAIR principles
 ---
+
+The FAIR (Findable, Accessible, Interoperable, Reusable) Guiding Principles are intended to facilitate the discovery and reuse of data, not only for people, but for machines. Read the full paper [here](https://www.nature.com/articles/sdata201618).
 
 ## Findable 🔎
 
