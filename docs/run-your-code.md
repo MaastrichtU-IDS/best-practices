@@ -7,19 +7,23 @@ title: Where to run your code?
 
 ### Installed locally
 
-Better **for development**, to use development and debug environments.
+Better **for development**, to use development and debug environments. We recommend to use [Conda environments](https://docs.conda.io/en/latest/)
 
 ### Using Docker
 
 Better **when running an application** without doing development, or when running in production on a server.
 
-## On the DSRI
+## On the Data Science Research Infrastructure
 
-The [Data Science Research Infrastructure](https://maastrichtu-ids.github.io/dsri-documentation) at Maastricht University provides CPU and GPUs nodes for Data Science computing, requires a [VPN connection to the UM network](https://vpn.maastrichtuniversity.nl/).
+The Data Science Research Infrastructure (DSRI) at Maastricht University provides CPU and GPUs nodes for Data Science computing, requires a [VPN connection to the UM network](https://vpn.maastrichtuniversity.nl/). Services can be easily deployed as Docker containers.
+
+> See the [DSRI documentation](https://maastrichtu-ids.github.io/dsri-documentation)
 
 ## On Google Collab
 
-Run Jupyter Notebooks on [Google servers](https://colab.research.google.com) for research.
+Run Jupyter Notebooks on [Google servers](https://colab.research.google.com) for research. 
+
+> Requires a Google account.
 
 ## On Kaggle
 
