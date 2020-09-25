@@ -8,6 +8,7 @@ title: Documentation
 The README.MD at the root of the git repository should be used for all iformation targeted at other developers. The README.md [here](https://github.com/MaastrichtU-IDS/python-template) can be used as an outline or example. At the minimum should contain the following information:
 
 * Provide a short description of the tool (2 to 3 lines will not kill anyone).
+* Provide which language versions are supported, e.g. `Python 3.6<`  
 * Provide a list of prerequisites required to run the application.
 * Provide instuctions on how to install the program locally, e.g. `pip install my_package`  if applicable.
 * Provide a few working examples that illustrate how to run the program.
