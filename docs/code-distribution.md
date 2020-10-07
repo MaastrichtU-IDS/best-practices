@@ -17,10 +17,28 @@ Some projects in collaboration with other entities can be hosted on GitLab depen
 
 Adding a license file is mandatory as no one is allowed to legally use your code if no license is included. The default choice for software should be [the MIT license](https://choosealicense.com/licenses/mit/)
 
-## Add a DOAP project description
+## Optional
 
-Optional: add a  DOAP (https://github.com/ewilderj/doap/wiki https://projects.apache.org/doap.html) file to the root of the repository.
+Depending on your project you might want to perform the actions below.
 
-## Add a code of conduct
+### Add a DOAP project description
 
-Optional: add the following [code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct/code_of_conduct.md) to the root of the repository.
+If you want your project listed on the IDS projects website, add a  DOAP file to the root of the repository.
+
+See https://projects.apache.org/doap.html to create a RDF DOAP file.
+
+### Create releases
+
+When your project reach milestones feel free to create releases on GitHub.
+
+The standard for version number is:
+
+* From `v0.0.1` to `v0.1.0` : alpha releases, your project is in a early development stage
+* From `v0.1.0` to `v1.0.0` : beta releases, your project is in a stable stage, already serve most of its core functions and can be accessed.
+* From `v1.0.0` onwards: production releases, your project is published in production, your service is expected
+
+> Use the [semantic versioning](https://semver.org/) logic to increment the version number.
+
+### Add a code of conduct
+
+If you are trying to build a community you might want to define a code of conduct. The [Contributor Covenant code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct/code_of_conduct.md) is popular among open source communities.
