@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Create a Web application · IDS Best Practices</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="This web page will help you quickly create a [ReactJS](https://reactjs.org) web application using TypeScript in a few minute."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Create a Web application · IDS Best Practices"/><meta property="og:type" content="website"/><meta property="og:url" content="https://maastrichtu-ids.github.io//best-practices/"/><meta property="og:description" content="This web page will help you quickly create a [ReactJS](https://reactjs.org) web application using TypeScript in a few minute."/><meta property="og:image" content="https://maastrichtu-ids.github.io//best-practices/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/best-practices/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/best-practices/js/scrollSpy.js"></script><link rel="stylesheet" href="/best-practices/css/main.css"/><script src="/best-practices/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/best-practices/"><img class="logo" src="/best-practices/img/favicon.ico" alt="IDS Best Practices"/><h2 class="headerTitleWithLogo">IDS Best Practices</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/best-practices/docs/introduction" target="_self">Best practices</a></li><li class=""><a href="/best-practices/help" target="_self">Help</a></li><li class=""><a href="https://github.com/MaastrichtU-IDS/best-practices/issues" target="_self">Issues</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/MaastrichtU-IDS/best-practices/edit/master/docs/create-webapp.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Create a Web application</h1></header><article><div><span><p>This web page will help you quickly create a <a href="https://reactjs.org" target="_blank" rel="nofollow noreferrer noopener">ReactJS</a> web application using TypeScript in a few minute.</p>
+<p>Duration: 5min 🕐</p>
+<h2><a class="anchor" aria-hidden="true" id="create-your-website"></a><a href="#create-your-website" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create your website</h2>
+<p>Requirements: npm and Yarn installed</p>
+<p>Install command line packages globally:</p>
+<pre><code class="hljs css language-bash">yarn global install expo-cli create-react-native-app
+</code></pre>
+<p>Create your project from the default TypeScript template:</p>
+<pre><code class="hljs css language-bash">expo init -t expo-template-blank-typescript
+</code></pre>
+<p>Or create your project in the current directory using one of the available template:</p>
+<pre><code class="hljs css language-bash">create-react-native-app my-project
+</code></pre>
+<p>Once your projects has been generated, go in its folder:</p>
+<pre><code class="hljs css language-bash"><span class="hljs-built_in">cd</span> my-project
+</code></pre>
+<p>Start the application on <a href="http://localhost:19006" target="_blank" rel="nofollow noreferrer noopener">http://localhost:19006</a></p>
+<pre><code class="hljs css language-bash">yarn web
+</code></pre>
+<blockquote>
+<p>If it worked, you can now make changes to <code>App.tsx</code> to start your application!</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="improve-your-website"></a><a href="#improve-your-website" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Improve your website</h2>
+<h3><a class="anchor" aria-hidden="true" id="recommended-ui-libraries"></a><a href="#recommended-ui-libraries" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recommended UI libraries</h3>
+<p>Various libraries are available to design your UI, if you don't know which one to pick we recommend the following:</p>
+<ul>
+<li>Material UI for web applications: <a href="https://material-ui.com" target="_blank" rel="nofollow noreferrer noopener">https://material-ui.com</a></li>
+<li>React Native Paper for native applications: <a href="https://callstack.github.io/react-native-paper" target="_blank" rel="nofollow noreferrer noopener">https://callstack.github.io/react-native-paper</a></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="add-a-css-file"></a><a href="#add-a-css-file" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add a CSS file</h3>
+<p>It can be useful to define global CSS styles:</p>
+<ol>
+<li><p>Create a <code>App.css</code> file. Here to import a font and define default body text alignment to the center:</p>
+<pre><code class="hljs css language-css"><span class="hljs-keyword">@import</span> url(<span class="hljs-string">"https://fonts.googleapis.com/css?family=Open+Sans"</span>);
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">text-align</span>: center; 
+} 
+</code></pre></li>
+<li><p>Import the CSS file in <code>App.tsx</code>:</p>
+<pre><code class="hljs css language-typescript"><span class="hljs-keyword">import</span> <span class="hljs-string">'./App.css'</span>;
+</code></pre></li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="add-multiple-page"></a><a href="#add-multiple-page" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add multiple page</h3>
+<p>Add a router to be able to have more than one page.</p>
+<h3><a class="anchor" aria-hidden="true" id="add-navigation-bar"></a><a href="#add-navigation-bar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add navigation bar</h3>
+<h2><a class="anchor" aria-hidden="true" id="deploy-your-website"></a><a href="#deploy-your-website" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deploy your website</h2>
+<h3><a class="anchor" aria-hidden="true" id="on-ids-servers-with-docker"></a><a href="#on-ids-servers-with-docker" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>On IDS servers with Docker</h3>
+<p>Define the scripts to build and serve for production in <code>package.json</code></p>
+<pre><code class="hljs css language-json">"scripts": {
+    "build": "expo build:web",
+    "serve": "serve -s web-build"
+}
+</code></pre>
+<p>Define a simple <code>Dockerfile</code> to install your application, and serve it in production mode:</p>
+<pre><code class="hljs css language-dockerfile"><span class="hljs-keyword">FROM</span> node:<span class="hljs-number">12</span>-alpine
+<span class="hljs-keyword">WORKDIR</span><span class="bash"> /webapp</span>
+
+<span class="hljs-comment"># Only install NPM packages if package.json or yarn.lock change</span>
+<span class="hljs-keyword">COPY</span><span class="bash"> package.json package.json</span>
+<span class="hljs-keyword">COPY</span><span class="bash"> yarn.lock yarn.lock</span>
+<span class="hljs-keyword">RUN</span><span class="bash"> yarn install</span>
+
+<span class="hljs-keyword">COPY</span><span class="bash"> . .</span>
+<span class="hljs-comment"># Build in /web-build folder</span>
+<span class="hljs-keyword">RUN</span><span class="bash"> yarn build</span>
+
+<span class="hljs-keyword">EXPOSE</span> <span class="hljs-number">5000</span>
+<span class="hljs-keyword">ENTRYPOINT</span><span class="bash"> [ <span class="hljs-string">"yarn"</span>, <span class="hljs-string">"serve"</span> ]</span>
+</code></pre>
+<p>Copy your <code>.gitignore</code> and rename the copy to <code>.dockerignore</code> to avoid conflict with Docker and your local environment:</p>
+<pre><code class="hljs css language-bash">cp .gitignore .dockerignore
+</code></pre>
+<p>Once the Docker configuration has be done, you can build it:</p>
+<pre><code class="hljs css language-bash">docker build -t my-project .
+</code></pre>
+<p>And try starting the application on <a href="http://localhost:5000" target="_blank" rel="nofollow noreferrer noopener">http://localhost:5000</a></p>
+<pre><code class="hljs css language-bash">docker run -it --rm -p 5000:5000 my-project
+</code></pre>
+<blockquote>
+<p>When this has be done, contact us to run your Docker image on IDS servers.</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="on-firebase"></a><a href="#on-firebase" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>On Firebase</h3>
+<blockquote>
+<p>TBD</p>
+</blockquote>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#create-your-website">Create your website</a></li><li><a href="#improve-your-website">Improve your website</a><ul class="toc-headings"><li><a href="#recommended-ui-libraries">Recommended UI libraries</a></li><li><a href="#add-a-css-file">Add a CSS file</a></li><li><a href="#add-multiple-page">Add multiple page</a></li><li><a href="#add-navigation-bar">Add navigation bar</a></li></ul></li><li><a href="#deploy-your-website">Deploy your website</a><ul class="toc-headings"><li><a href="#on-ids-servers-with-docker">On IDS servers with Docker</a></li><li><a href="#on-firebase">On Firebase</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/best-practices/" class="nav-home"><img src="/best-practices/img/favicon.ico" alt="IDS Best Practices" width="66" height="58"/></a><div><h5>Docs</h5><a href="/best-practices/docs/introduction">Get started</a><a href="/best-practices/docs/project-management">Project management</a><a href="/best-practices/docs/fair-data">FAIR data</a></div><div><h5>Source</h5><a href="https://github.com/MaastrichtU-IDS/best-practices" target="_blank" aria-label="Star this project on GitHub"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MaastrichtU-IDS/best-practices?label=best-practices&amp;style=social"/></a></div><div><h5>Community</h5><a href="https://twitter.com/um_ids" target="_blank" rel="noreferrer noopener" aria-label="Follow on Twitter"><img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/um_ids?style=social"/></a><a href="https://www.facebook.com/IDSatUM/" target="_blank" rel="noreferrer noopener">IDSatUM Facebook page</a></div></section><section class="copyright"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license" target="_blank"><img src="/best-practices/img/cc-by.svg" alt="cc by license"/></a></div>Copyright © 2020 Institute of Data Science at Maastricht University</section></footer></div></body></html>
