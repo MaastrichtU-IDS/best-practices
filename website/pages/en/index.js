@@ -108,7 +108,7 @@ class Index extends React.Component {
           {
             content:
               'Use package managers and Docker containers to efficiently distribute your softwares or services.',
-            image: `${baseUrl}img/undraw_collecting.svg`,
+            image: `${baseUrl}img/undraw_deliveries.svg`,
             imageAlign: 'left',
             title: 'Build reusable software',
           },
@@ -122,7 +122,7 @@ class Index extends React.Component {
           {
             content:
               'Learn and discuss about new methods and technologies to help with doing better Data Science.',
-            image: `${baseUrl}img/undraw_data_points.svg`,
+            image: `${baseUrl}img/undraw_shared_workspace.svg`,
             imageAlign: 'right',
             title: 'Share tips and good practices',
           },
@@ -149,7 +149,7 @@ class Index extends React.Component {
         {[
           {
             content: 'Contribute to Open Source',
-            image: `${baseUrl}img/undraw_open_source_purple.svg`,
+            image: `${baseUrl}img/undraw_open_source.svg`,
             imageAlign: 'top',
             title: 'Share your code',
           },

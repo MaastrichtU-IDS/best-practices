@@ -75,17 +75,13 @@ It can be useful to define global CSS styles:
 
 Add a router to be able to have more than one page.
 
-### Add navigation bar
-
-
-
 ## Deploy your website
 
 ### On IDS servers with Docker
 
 Define the scripts to build and serve for production in `package.json`
 
-```json
+```javascript
 "scripts": {
     "build": "expo build:web",
     "serve": "serve -s web-build"
