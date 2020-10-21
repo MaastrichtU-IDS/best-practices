@@ -14,7 +14,7 @@ Requirements: npm and Yarn installed
 Install command line packages globally:
 
 ```bash
-yarn global install expo-cli create-react-native-app
+yarn global add expo-cli create-react-native-app
 ```
 
 Create your project from the default TypeScript template:
