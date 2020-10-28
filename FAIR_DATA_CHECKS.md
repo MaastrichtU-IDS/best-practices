@@ -22,7 +22,7 @@ The first step in (re)using data is to find them. Metadata and data should be ea
 
 ## Accessible 📂
 
-Once the user finds the required data, she/he needs to know how can  they be accessed, possibly including authentication and authorisation.
+Once the user finds the required data, the user  needs to know how can  they be accessed, possibly including authentication and authorisation.
 
 - [ ] [**A1**. (Meta)data are retrievable by their identifier using a standardised communications protocol](https://www.go-fair.org/fair-principles/542-2/)
   - [**A1.1** The protocol is open, free, and universally implementable](https://www.go-fair.org/fair-principles/a1-1-protocol-open-free-universally-implementable/)
@@ -41,7 +41,7 @@ The data usually need to be integrated with other data. In addition, the data ne
 
 - [ ] [**I1**. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.](https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/)
 
-> In which format is your data? RDF, JSON, CSV, SPSS, XLXS?
+> In which format is your data available? RDF, JSON, CSV, SPSS, XLXS?
 
 - [ ] [**I2**. (Meta)data use vocabularies that follow FAIR principles](https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/)
 

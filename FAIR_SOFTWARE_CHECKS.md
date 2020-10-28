@@ -1,4 +1,4 @@
-# Checklist for Application Class 1 (markdown)
+# Checklist for FAIR software
 
 ## Usage Hints
 This checklist provides recommendations for software development. It is primarily intended for software developers for the self-assessment of developed software and as a source of ideas for further development. The checklist does not provide any new, revolutionary approaches to software development. However, it helps to not forget necessary, essential steps of software development. In addition, the recommendations can serve as an argumentation aid. 
@@ -10,12 +10,10 @@ The recommendations are created with a focus on know-how maintenance and good so
 * Is the recommendation not yet relevant but could be helpful in a later development phase? Status: **future** 
 * Is the recommendation not meaningfully implementable within the development context? Status: **n.a.** (not applicable) explain the reason 
 
-> Please note the status between "[]" and list remarks below a recommendation.
-
 ## Summary of Results
-The software [name] implements [number of implemented recommendations] recommendations of application class [1, 2 or 3]. 
+The software [name] implements [number of implemented recommendations] recommendations of FAIR software. 
 
-The focus of future improvements is on:
+The focus of future improvements is on: [future improvements]
 
 ## Table of Contents
 [[Qualification](#qualifizierung)] [[Requirements Management](#anforderungsmanagement)] [[Software Architecture](#software-architektur)] [[Change Management](#aenderungsmanagement)] [[Design and Implementation](#design-implementierung)] [[Software Test](#software-test)] [[Release Management](#release-management)] [[Automation and Dependency Management](#automatisierung-abhaengigkeiten)] 
