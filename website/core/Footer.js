@@ -49,21 +49,15 @@ class Footer extends React.Component {
 
           <div>
             <h5>Source</h5>
-            {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
-            {/* <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              // data-icon="octicon-star"
-              data-count-href={`${this.props.config.repoUrl}/stargazers`}
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              DSRI-documentation
-            </a> */}
             <a href={this.props.config.repoUrl}
               target="_blank"
               aria-label="Star this project on GitHub">
               <img alt="GitHub stars" src="https://img.shields.io/github/stars/MaastrichtU-IDS/best-practices?label=best-practices&style=social"/>
+            </a>
+            <h5>Issues</h5>
+            <a href="https://github.com/MaastrichtU-IDS/best-practices/issues"
+              target="_blank" aria-label="GitHub issues">
+              <img alt="GitHub issues" src="https://img.shields.io/github/issues/MaastrichtU-IDS/best-practices?label=best-practices"/>
             </a>
           </div>
 

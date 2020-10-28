@@ -23,9 +23,9 @@ Depending on your project you might want to perform the actions below.
 
 ### Add a DOAP project description
 
-If you want your project listed on the IDS projects website, add a  DOAP file to the root of the repository.
+If you want your **project listed on the [IDS projects website](https://ids-projects.137.120.31.102.nip.io)**, add a  DOAP file to the root of the git repository.
 
-See https://projects.apache.org/doap.html to create a RDF DOAP file.
+See https://ids-projects.137.120.31.102.nip.io/create-doap to create a RDF DOAP file.
 
 
 

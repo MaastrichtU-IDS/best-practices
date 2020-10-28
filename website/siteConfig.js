@@ -36,7 +36,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'introduction', label: 'Best practices'},
     {page: 'help', label: 'Help'},
-    {href: 'https://github.com/MaastrichtU-IDS/best-practices/issues', label: 'Issues'},
+    // {href: 'https://github.com/MaastrichtU-IDS/best-practices/issues', label: 'Issues'},
     // {blog: true, label: 'Blog'},
   ],
 
