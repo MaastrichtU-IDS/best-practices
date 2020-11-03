@@ -22,7 +22,7 @@ Follow the [official instructions to install WSL 2](https://docs.microsoft.com/e
 
 If you installed Windows Subsystem for Linux (WSL), then you have now 2 OS (Operating System) available: Windows and Ubuntu Linux.
 
-Be careful, if you install an application using the Ubuntu terminal, then this application will only be available through the Ubuntu terminal.
+Be aware, if you install an application using the Ubuntu terminal, then this application will only be available through the Ubuntu terminal.
 
 ## Learn the basic to use the terminal
 
@@ -58,7 +58,7 @@ Here is a quote from a senior project manager working on developing terminals at
 
 ### Navigate the terminal
 
-Using the terminal is not as complicated, all you need to do is to go to the right directory (aka. folder) and tell your computer what he should do (aka. run a command).
+Using the terminal is not as complicated as muggles think, all you need to do is to go to the right directory (aka. folder) and tell your computer what he should do (aka. run a command).
 
 List files and directories in the current directory:
 
