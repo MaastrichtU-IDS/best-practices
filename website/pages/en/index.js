@@ -98,7 +98,7 @@ class Index extends React.Component {
         <p>Share your code<br/>
         Distribute your program<br/>
         Package your software<br/>
-        Template to start projects in Python</p>
+        Template to start projects in Python and TypeScript</p>
       </div>
     );
 
@@ -135,7 +135,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Concrete tools and methods to improve your data FAIRness',
+              'Concrete tools and methods to improve your software and data FAIRness',
             image: `${baseUrl}img/undraw_data.svg`,
             imageAlign: 'right',
             title: 'Publish FAIR data',
