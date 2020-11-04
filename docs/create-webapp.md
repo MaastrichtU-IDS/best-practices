@@ -77,9 +77,13 @@ Add a router to be able to have more than one page.
 
 ## Deploy your website
 
-## On GitHub Pages
+We recommend to deploy for free on GitHub Pages. If your application need to run NodeJS on the server then contact us to deploy on IDS servers.
 
-You can deploy your React application as a static website for free on GitHub Pages
+### On GitHub Pages
+
+We recommend you to deploy your React applications as a static websites for free on GitHub Pages. 
+
+> You can also use a custom URL with GitHub Pages if you don't want to use the default github.io URL. This can be easily defined in your GitHub repository settings.
 
 Install `gh-pages`:
 
@@ -120,7 +124,6 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -135,7 +138,6 @@ jobs:
         git config --global user.name "FirstName LastName"
         yarn install
         yarn build
-
     - name: Deploy on GitHub
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
@@ -195,6 +197,21 @@ docker run -it --rm -p 5000:5000 my-project
 
 > When this has be done, contact us to run your Docker image on IDS servers.
 
-### On Firebase
+### On AWS Amplify
 
-> TBD
+[AWS Amplify](https://aws.amazon.com/amplify/)  is a set of products and tools that enables mobile and front-end web  developers to build and deploy secure, scalable full stack applications, powered by Amazon. With Amplify, you can configure app backends in  minutes, connect them to your app in just a few lines of code, and  deploy static web apps in three steps
+
+[Always free](https://aws.amazon.com/free/):
+
+* Amazon DynamoDB 25 GB of storage
+* AWS Lambda 1 Million free requests per month
+
+
+Free for the 12 first months:
+
+* Hosting: 5 GB stored and 15 GB served per month
+* 1000 build minutes per month 
+* AWS AppSync 250 k query or data modifications per month (Develop, secure and run GraphQL APIs at any scale)
+
+
+> See the [pricing page](https://aws.amazon.com/amplify/pricing) for more details on prices outside of the free tier.
