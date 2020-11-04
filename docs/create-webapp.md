@@ -77,6 +77,74 @@ Add a router to be able to have more than one page.
 
 ## Deploy your website
 
+## On GitHub Pages
+
+You can deploy your React application as a static website for free on GitHub Pages
+
+Install `gh-pages`:
+
+```bash
+yarn add gh-pages --dev
+```
+
+Add GitHub Pages scripts to deploy to GitHub Pages in `package.json` and provide the URL of the website on GitHub Page in `homepage`:
+
+```json
+"scripts": {
+    "build": "expo build:web",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d web-build"
+},
+"homepage": "https://maastrichtu-ids.github.io/my-github-repository",
+```
+
+Make sure the base path is properly set in your application if the GitHub Page is deployed on a specific path (e.g. https://maastrichtu-ids.github.io/my-github-repository/):
+
+```typescript
+<Router basename="/my-github-repository/">
+```
+
+> Then use `<Link to="/">` to link within the app (instead of `<a href>`).
+
+Deploy to GitHub Pages from your terminal:
+
+```bash
+yarn deploy
+```
+
+You can automate this process at each push to the `main` branch by creating the file `.github/workflows/deploy-github.yml` with this content:
+
+```yaml
+name: Deploy to GitHub Pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: Install dependencies and build
+      run: |
+        git config --global user.email "MY.EMAIL@maastrichtuniversity.nl"
+        git config --global user.name "FirstName LastName"
+        yarn install
+        yarn build
+
+    - name: Deploy on GitHub
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: web-build
+        CLEAN: true
+```
+
 ### On IDS servers with Docker
 
 Define the scripts to build and serve for production in `package.json`
