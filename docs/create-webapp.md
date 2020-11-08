@@ -5,7 +5,7 @@ title: Create a Web application
 
 This web page will help you quickly create a [ReactJS](https://reactjs.org) web application using TypeScript in a few minute.
 
-Duration: 5min 🕐
+Duration: 10min 🕐
 
 ## Create your website
 
@@ -49,8 +49,8 @@ yarn web
 
 Various libraries are available to design your UI, if you don't know which one to pick we recommend the following:
 
+* UI Kitten for native applications: https://akveo.github.io/react-native-ui-kitten
 * Material UI for web applications: https://material-ui.com
-* React Native Paper for native applications: https://callstack.github.io/react-native-paper
 
 ### Add a CSS file
 
@@ -93,7 +93,7 @@ yarn add gh-pages --dev
 
 Add GitHub Pages scripts to deploy to GitHub Pages in `package.json` and provide the URL of the website on GitHub Page in `homepage`:
 
-```json
+```javascript
 "scripts": {
     "build": "expo build:web",
     "predeploy": "npm run build",
