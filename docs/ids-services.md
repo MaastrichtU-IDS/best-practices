@@ -5,6 +5,8 @@ title: Services available at IDS
 
 Here are the services hosted at the Institute of Data Science. Feel free to contact us if you want to make use of any of those services.
 
+And let us know if you are interested in deploying new services on IDS servers.
+
 ## Data Science Research Infrastructure
 
 The [Data Science Research Infrastructure (DSRI)](https://maastrichtu-ids.github.io/dsri-documentation) is a distributed and scalable infrastructure to run Data Science experiments. It enables you to run any workflow and service using Docker containers on servers with 512 GB and 128 cores per server. 
@@ -73,3 +75,9 @@ Here are some interesting resources for Nanopublications:
 * [Nanobench](https://github.com/vemonet/nanobench) web UI to publish nanopublication using templated web forms.
 * [Nanopub Python](https://github.com/fair-workflows/Nanopub): Python client for searching, publishing and modifying nanopublications (require Java installed, it makes use of nanopub-java under the hood)
 * [Nanopub-java](https://github.com/Nanopublication/nanopub-java) application to publish nanopublication using Java.
+
+## FAIR Data Point
+
+A [FAIR Data Point](https://www.research-software.nl/software/fairdatapoint) server is deployed at http://fairdatapoint.semanticscience.org
+
+It enables enables data owners to expose their data sets using rich machine-readable metadata through a RESTful web service.
