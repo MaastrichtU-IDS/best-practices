@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Services available at IDS · IDS Best Practices</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Here are the services hosted at the Institute of Data Science. Feel free to contact us if you want to make use of any of those services."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Services available at IDS · IDS Best Practices"/><meta property="og:type" content="website"/><meta property="og:url" content="https://maastrichtu-ids.github.io//best-practices/"/><meta property="og:description" content="Here are the services hosted at the Institute of Data Science. Feel free to contact us if you want to make use of any of those services."/><meta property="og:image" content="https://maastrichtu-ids.github.io//best-practices/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/best-practices/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/best-practices/js/scrollSpy.js"></script><link rel="stylesheet" href="/best-practices/css/main.css"/><script src="/best-practices/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/best-practices/"><img class="logo" src="/best-practices/img/favicon.ico" alt="IDS Best Practices"/><h2 class="headerTitleWithLogo">IDS Best Practices</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/best-practices/docs/introduction" target="_self">Best practices</a></li><li class=""><a href="/best-practices/help" target="_self">Help</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Get started</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Get started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/best-practices/docs/introduction">Introduction</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/run-your-code">Where to run your code?</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/service-providers">Choose a service provider</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/best-practices/docs/ids-services">Services available at IDS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Development</h3><ul class=""><li class="navListItem"><a class="navItem" href="/best-practices/docs/project-management">Project management</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/code-distribution">Code distribution</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/software-distribution">Software distribution</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/documentation">Documentation</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/continuous-integration">Continuous integration</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/create-doap">DOAP Files</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/dev-on-windows">Develop on Windows</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">FAIR</h3><ul class=""><li class="navListItem"><a class="navItem" href="/best-practices/docs/fair-data">FAIR data</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/fair-workflows">FAIR workflows</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Education</h3><ul class=""><li class="navListItem"><a class="navItem" href="/best-practices/docs/education-workshops">Try IDS workshops</a></li><li class="navListItem"><a class="navItem" href="/best-practices/docs/create-workshops">Create a workshop</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Templates</h3><ul class=""><li class="navListItem"><a class="navItem" href="/best-practices/docs/create-webapp">Create a Web application</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/MaastrichtU-IDS/best-practices/edit/master/docs/ids-services.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Services available at IDS</h1></header><article><div><span><p>Here are the services hosted at the Institute of Data Science. Feel free to contact us if you want to make use of any of those services.</p>
+<p>And let us know if you are interested in deploying new services on IDS servers.</p>
+<h2><a class="anchor" aria-hidden="true" id="data-science-research-infrastructure"></a><a href="#data-science-research-infrastructure" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Science Research Infrastructure</h2>
+<p>The <a href="https://maastrichtu-ids.github.io/dsri-documentation" target="_blank" rel="nofollow noreferrer noopener">Data Science Research Infrastructure (DSRI)</a> is a distributed and scalable infrastructure to run Data Science experiments. It enables you to run any workflow and service using Docker containers on servers with 512 GB and 128 cores per server.</p>
+<p>Additionally the DSRI also enables you to deploy various popular Data Science applications in a few clicks, to develop resource consuming experiments:</p>
+<ul>
+<li>Multiple flavors of <a href="https://github.com/jupyter/docker-stacks" target="_blank" rel="nofollow noreferrer noopener">JupyterLab</a> (scipy, tensorflow, all-spark, java kernel and more), and JupyterHub with GitHub authentication</li>
+<li>RStudio, with a complementary Shiny server</li>
+<li>VisualStudio <a href="https://github.com/cdr/code-server" target="_blank" rel="nofollow noreferrer noopener">Code server</a></li>
+<li>Tensorflow or PyTorch on Nvidia GPU (with JupyterLab or VisualStudio Code)</li>
+<li>SQL databases (MariaDB, MySQL, PostgreSQL)</li>
+<li>NoSQL databases (MongoDB, Redis)</li>
+<li>Graph databases (GraphDB, Blazegraph, Virtuoso)</li>
+</ul>
+<p>Distributed computing can also be run using our Apache Spark or Apache Flink clusters.</p>
+<blockquote>
+<p>You can learn more about how to request an account on the DSRI on its documentation website: <a href="https://maastrichtu-ids.github.io/dsri-documentation" target="_blank" rel="nofollow noreferrer noopener">https://maastrichtu-ids.github.io/dsri-documentation</a></p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="graphdb-triplestore-database"></a><a href="#graphdb-triplestore-database" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GraphDB triplestore database</h2>
+<blockquote>
+<p><a href="https://graphdb.ontotext.com" target="_blank" rel="nofollow noreferrer noopener">Ontotext GraphDB</a> is deployed at <a href="https://graphdb.dumontierlab.com" target="_blank" rel="nofollow noreferrer noopener">https://graphdb.dumontierlab.com</a></p>
+</blockquote>
+<p>You can create an account, and request us to be granted permissions to create new repositories.</p>
+<p>Each repository acts like an isolated triplestore database coming with various features:</p>
+<ul>
+<li>Public or private SPARQL endpoints publicly accessible from anywhere on the web (CORS has been enabled, so you can easily query the SPARQL endpoint using JavaScript)</li>
+<li>Easy login to update data using a username/password combination</li>
+<li>Multiple inference rulesets available, such as RDFS and OWL. You can also upload any custom ruleset.</li>
+<li>Automated SHACL Shapes validation (GraphDB will validate all triples uploaded against the provided SHACL shapes)</li>
+<li>User friendly web UI to manage your repository: import RDF files, delete graphs, define new prefix/namespaces</li>
+<li>The repository deployed is a RDF4J repository, enabling all features from the RDF4J stack (such as the RDF4J API to manage the triplestore).</li>
+<li>Search index can be easily enabled to make text search queries much faster.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="web-protégé-server"></a><a href="#web-protégé-server" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Protégé server</h2>
+<blockquote>
+<p>We host our own instance of web Protégé at <a href="https://protege.semanticscience.org" target="_blank" rel="nofollow noreferrer noopener">https://protege.semanticscience.org</a></p>
+</blockquote>
+<p>We enabled some features not enabled in Stanford's web Protégé, such as defining axiom using the OWL Manchester syntax.</p>
+<ol>
+<li><p>Create an account in a minute by providing a username, email and password.</p></li>
+<li><p>Create a new Ontology project</p></li>
+<li><p>Start building OWL ontologies! You can also import existing ontologies.</p></li>
+<li><p>Invite other users to collaborate on your ontology, or make your ontology accessible/editable by anyone with an account on IDS web Protégé by going to the <strong>Share</strong> tab.</p></li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="solid-server"></a><a href="#solid-server" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SOLID server</h2>
+<p>We host a <a href="https://github.com/solid/node-solid-server" target="_blank" rel="nofollow noreferrer noopener">node SOLID server</a> on IDS servers at <a href="https://solid.semanticscience.org" target="_blank" rel="nofollow noreferrer noopener">https://solid.semanticscience.org</a></p>
+<p>This server enables you to create SOLID pods safely hosted on our servers.</p>
+<ol>
+<li>Create your account at <a href="https://solid.semanticscience.org" target="_blank" rel="nofollow noreferrer noopener">https://solid.semanticscience.org</a></li>
+<li>Contact us to get your SOLID account enabled.</li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="nanopublications-server"></a><a href="#nanopublications-server" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nanopublications server</h2>
+<p>A <a href="http://nanopub.org/wordpress/" target="_blank" rel="nofollow noreferrer noopener">Nanopublications</a> server is deployed on IDS servers, and part of the Nanopublications network (which replicates published Nanopublications on multiple nodes). Feel free to use the Nanopublication network to publish small piece of data.</p>
+<ul>
+<li>The Nanopublications server can be accessed at <a href="http://server.np.dumontierlab.com" target="_blank" rel="nofollow noreferrer noopener">http://server.np.dumontierlab.com</a></li>
+<li>The GRLC API to query the Nanopublications server can be accessed at <a href="http://grlc.np.dumontierlab.com/api/local/local" target="_blank" rel="nofollow noreferrer noopener">http://grlc.np.dumontierlab.com/api/local/local</a></li>
+<li>The Linked Data Fragment interface to access the Nanopublications stored as <a href="https://www.rdfhdt.org/" target="_blank" rel="nofollow noreferrer noopener">HDT</a> (compressed RDF) can be accessed at <a href="http://ldf.np.dumontierlab.com" target="_blank" rel="nofollow noreferrer noopener">http://ldf.np.dumontierlab.com</a></li>
+</ul>
+<p>Here are some interesting resources for Nanopublications:</p>
+<ul>
+<li><a href="https://github.com/vemonet/nanobench" target="_blank" rel="nofollow noreferrer noopener">Nanobench</a> web UI to publish nanopublication using templated web forms.</li>
+<li><a href="https://github.com/fair-workflows/Nanopub" target="_blank" rel="nofollow noreferrer noopener">Nanopub Python</a>: Python client for searching, publishing and modifying nanopublications (require Java installed, it makes use of nanopub-java under the hood)</li>
+<li><a href="https://github.com/Nanopublication/nanopub-java" target="_blank" rel="nofollow noreferrer noopener">Nanopub-java</a> application to publish nanopublication using Java.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="fair-data-point"></a><a href="#fair-data-point" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FAIR Data Point</h2>
+<p>A <a href="https://www.research-software.nl/software/fairdatapoint" target="_blank" rel="nofollow noreferrer noopener">FAIR Data Point</a> server is deployed at <a href="http://fairdatapoint.semanticscience.org" target="_blank" rel="nofollow noreferrer noopener">http://fairdatapoint.semanticscience.org</a></p>
+<p>It enables enables data owners to expose their data sets using rich machine-readable metadata through a RESTful web service.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/best-practices/docs/service-providers"><span class="arrow-prev">← </span><span>Choose a service provider</span></a><a class="docs-next button" href="/best-practices/docs/project-management"><span>Project management</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#data-science-research-infrastructure">Data Science Research Infrastructure</a></li><li><a href="#graphdb-triplestore-database">GraphDB triplestore database</a></li><li><a href="#web-protégé-server">Web Protégé server</a></li><li><a href="#solid-server">SOLID server</a></li><li><a href="#nanopublications-server">Nanopublications server</a></li><li><a href="#fair-data-point">FAIR Data Point</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/best-practices/" class="nav-home"><img src="/best-practices/img/favicon.ico" alt="IDS Best Practices" width="66" height="58"/></a><div><h5>Docs</h5><a href="/best-practices/docs/introduction">Get started</a><a href="/best-practices/docs/project-management">Project management</a><a href="/best-practices/docs/fair-data">FAIR data</a></div><div><h5>Source</h5><a href="https://github.com/MaastrichtU-IDS/best-practices" target="_blank" aria-label="Star this project on GitHub"><img alt="GitHub stars" src="https://img.shields.io/github/stars/MaastrichtU-IDS/best-practices?label=best-practices&amp;style=social"/></a><h5>Issues</h5><a href="https://github.com/MaastrichtU-IDS/best-practices/issues" target="_blank" aria-label="GitHub issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/MaastrichtU-IDS/best-practices?label=best-practices"/></a></div><div><h5>Community</h5><a href="https://twitter.com/um_ids" target="_blank" rel="noreferrer noopener" aria-label="Follow on Twitter"><img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/um_ids?style=social"/></a><a href="https://www.facebook.com/IDSatUM/" target="_blank" rel="noreferrer noopener">IDSatUM Facebook page</a></div></section><section class="copyright"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license" target="_blank"><img src="/best-practices/img/cc-by.svg" alt="cc by license"/></a></div>Copyright © 2020 Institute of Data Science at Maastricht University</section></footer></div></body></html>
