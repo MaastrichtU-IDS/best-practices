@@ -55,7 +55,7 @@
               }
             });
         </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/MaastrichtU-IDS/best-practices/edit/master/docs/create-webapp.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Create a Web application</h1></header><article><div><span><p>This web page will help you quickly create a <a href="https://reactjs.org" target="_blank" rel="nofollow noreferrer noopener">ReactJS</a> web application using TypeScript in a few minute.</p>
-<p>Duration: 5min 🕐</p>
+<p>Duration: 10min 🕐</p>
 <h2><a class="anchor" aria-hidden="true" id="create-your-website"></a><a href="#create-your-website" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create your website</h2>
 <p>Requirements: npm and Yarn installed</p>
 <p>Install command line packages globally:</p>
@@ -80,8 +80,8 @@
 <h3><a class="anchor" aria-hidden="true" id="recommended-ui-libraries"></a><a href="#recommended-ui-libraries" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recommended UI libraries</h3>
 <p>Various libraries are available to design your UI, if you don't know which one to pick we recommend the following:</p>
 <ul>
+<li>UI Kitten for native applications: <a href="https://akveo.github.io/react-native-ui-kitten" target="_blank" rel="nofollow noreferrer noopener">https://akveo.github.io/react-native-ui-kitten</a></li>
 <li>Material UI for web applications: <a href="https://material-ui.com" target="_blank" rel="nofollow noreferrer noopener">https://material-ui.com</a></li>
-<li>React Native Paper for native applications: <a href="https://callstack.github.io/react-native-paper" target="_blank" rel="nofollow noreferrer noopener">https://callstack.github.io/react-native-paper</a></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="add-a-css-file"></a><a href="#add-a-css-file" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Add a CSS file</h3>
 <p>It can be useful to define global CSS styles:</p>
@@ -109,12 +109,12 @@
 <pre><code class="hljs css language-bash">yarn add gh-pages --dev
 </code></pre>
 <p>Add GitHub Pages scripts to deploy to GitHub Pages in <code>package.json</code> and provide the URL of the website on GitHub Page in <code>homepage</code>:</p>
-<pre><code class="hljs css language-json">"scripts": {
-    "build": "expo build:web",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d web-build"
+<pre><code class="hljs css language-javascript"><span class="hljs-string">"scripts"</span>: {
+    <span class="hljs-string">"build"</span>: <span class="hljs-string">"expo build:web"</span>,
+    <span class="hljs-string">"predeploy"</span>: <span class="hljs-string">"npm run build"</span>,
+    <span class="hljs-string">"deploy"</span>: <span class="hljs-string">"gh-pages -d web-build"</span>
 },
-"homepage": "https://maastrichtu-ids.github.io/my-github-repository",
+<span class="hljs-string">"homepage"</span>: <span class="hljs-string">"https://maastrichtu-ids.github.io/my-github-repository"</span>,
 </code></pre>
 <p>Make sure the base path is properly set in your application if the GitHub Page is deployed on a specific path (e.g. <a href="https://maastrichtu-ids.github.io/my-github-repository/" target="_blank" rel="nofollow noreferrer noopener">https://maastrichtu-ids.github.io/my-github-repository/</a>):</p>
 <pre><code class="hljs css language-typescript">&lt;Router basename=<span class="hljs-string">"/my-github-repository/"</span>&gt;
