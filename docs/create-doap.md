@@ -70,7 +70,7 @@ A project is considered IDS if:
   e.g. Research, Development, Education
   ```
 
-  A full list of programming languages we accept is available in the [form](https://ids-projects.137.120.31.102.nip.io/create-doap).
+  A full list of programming languages we accept is available in the [form](https://maastrichtu-ids.github.io/projects/create-doap).
 
 - programming languages should be given as capitals unless their well known name is mixed case.
 
@@ -78,7 +78,7 @@ A project is considered IDS if:
   e.g. Java, R, Python, Ruby etc
   ```
 
-  A full list of programming languages we accept is available in the [form](https://ids-projects.137.120.31.102.nip.io/create-doap).
+  A full list of programming languages we accept is available in the [form](https://maastrichtu-ids.github.io/projects/create-doap).
 
 - all releases should have a "product" name (added using a doap:name element) included in the doap:Version element.
 
@@ -103,11 +103,11 @@ A project is considered IDS if:
 
 ### Create an IDS DOAP
 
-To be listed on this [site](https://ids-projects.137.120.31.102.nip.io/), your IDS project must create a DOAP file. The DOAP format is RDF based, so while it is human readable, it's primarily meant to be machine read. Creating the file from scratch can be a little intimidating, so this page will allow you to generate an initial file that can then be edited to suit. Alternatively, you can browse the existing projects for one with similar resources and use its DOAP file as a starting point.
+To be listed on this [site](https://maastrichtu-ids.github.io/projects/), your IDS project must create a DOAP file. The DOAP format is RDF based, so while it is human readable, it's primarily meant to be machine read. Creating the file from scratch can be a little intimidating, so this page will allow you to generate an initial file that can then be edited to suit. Alternatively, you can browse the existing projects for one with similar resources and use its DOAP file as a starting point.
 
 #### Step 1: Complete the form
 
-Complete and download this [form](https://ids-projects.137.120.31.102.nip.io/create-doap)
+Complete and download this [form](https://maastrichtu-ids.github.io/projects/create-doap)
 
 **Note**: Please remember that the data contained in the DOAP file is used directly on the website, so please take care when adding content.
 
@@ -135,7 +135,7 @@ It is a good idea to check if your DOAP file is at least valid RDF. This can be 
 
 Your DOAP file should be stored somewhere that is publicly accessible. For most projects this will be in their source code repository, but there is no requirement for it to be stored there. It is suggested that the DOAP file is stored somewhere in GitHub such that it is copied to the top level of the website.
 
-Once you have decided where the file will be stored, you can directly view your project listed in the [website](https://ids-projects.137.120.31.102.nip.io/).
+Once you have decided where the file will be stored, you can directly view your project listed in the [website](https://maastrichtu-ids.github.io/projects/).
 
 
 

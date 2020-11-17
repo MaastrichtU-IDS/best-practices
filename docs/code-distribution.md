@@ -23,9 +23,9 @@ Depending on your project you might want to perform the actions below.
 
 ### Add a DOAP project description
 
-If you want your **project listed on the [IDS projects website](https://ids-projects.137.120.31.102.nip.io)**, add a  DOAP file to the root of the git repository.
+If you want your **project listed on the [IDS projects website](https://maastrichtu-ids.github.io/projects)**, add a  DOAP file to the root of the git repository.
 
-See https://ids-projects.137.120.31.102.nip.io/create-doap to create a RDF DOAP file.
+See https://maastrichtu-ids.github.io/projects/create-doap to create a RDF DOAP file.
 
 
 
@@ -50,7 +50,7 @@ A project is considered IDS if:
 
 #### Step 1
 
-Go this [website](https://ids-projects.137.120.31.102.nip.io/create-doap)
+Go this [website](https://maastrichtu-ids.github.io/projects/create-doap)
 
 #### Step 2
 
