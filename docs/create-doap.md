@@ -5,13 +5,14 @@ title: DOAP Files
 
 
 
-## DOAP Files
+###  What is an IDS project?
 
-This section of the website contains advice and guidelines for projects when creating or maintaining their DOAP files. While much of the information contained is general to all DOAP files, some is specific to the files maintained by IDS projects.
+A project is considered IDS if:
 
-### What to know before you create DOAP
+* A IDS project is a publicly available code concerning IDS grants(portfolio?) in varying state of usability, development and support.
 
-**[DOAP](https://github.com/ewilderj/doap/wiki)** (Description of a Project) is an RDF Schema and XML vocabulary that describe software projects, in particular free and open source software.
+* It is registered in [Maastricht University IDS organization](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=)
+* It is on your personal [GitHub](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=)
 
 ### Why DOAP is important?
 
@@ -23,14 +24,15 @@ The result of the discussion was a consensus to use [DOAP](https://github.com/ed
 - it is becoming more commonly used and therefore has a growing base of support
 - being designed to be extensible it can be easily adjusted to our needs
 
-###  What is IDS project? [TODO]
-
-A project is considered IDS if:
-
-* It is registered in [Maastricht University IDS organization](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=)
-* It is on your personal [GitHub](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=)
-
 ### General DOAP Guidelines
+
+## DOAP Files
+
+This section of the website contains advice and guidelines for projects when creating or maintaining their DOAP files. While much of the information contained is general to all DOAP files, some is specific to the files maintained by IDS projects.
+
+### What to know before you create DOAP
+
+**[DOAP](https://github.com/ewilderj/doap/wiki)** (Description of a Project) is an RDF Schema and XML vocabulary that describe software projects, in particular free and open source software.
 
 #### Formatting
 
@@ -54,14 +56,6 @@ A project is considered IDS if:
   i.e. https://foo.bar.com/file.html
   ```
 
-### Naming
-
-- projects should include the 'IDS' prefix when listing their project name.
-
-  ```turtle
-  i.e. 'IDS HTTPD' instead of 'HTTPD'.
-  ```
-
 ### Categorization
 
 - Project type is used for classifying type of project within IDS.
@@ -70,6 +64,14 @@ A project is considered IDS if:
   e.g. Research, Development, Education
   ```
 
+### Project Statuses
+
+- Active: The project is being actively developed since the first commit. <img src="https://www.repostatus.org/badges/latest/active.svg" alt="Project Status: Active - A IDS project is a publicly available code concerning IDS grants in varying state of usability, development and support..">
+- Inactive: The project is no longer being actively developed, support/maintenance. <img src="https://www.repostatus.org/badges/latest/inactive.svg" alt="Project Status: Inactive- A IDS project is a publicly available code concerning IDS grants in varying state of usability, development and support..">
+- WIP: Initial development is in progress, but there has not yet been a stable, usable release suitable for the public. <img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP- Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.">
+
+
+### Programming languages
   A full list of programming languages we accept is available in the [form](https://maastrichtu-ids.github.io/projects/create-doap).
 
 - programming languages should be given as capitals unless their well known name is mixed case.
@@ -90,56 +92,11 @@ A project is considered IDS if:
 
 - The project links should include index pages of resources
 
-### PMC descriptors [TODO]
-
-- PMC descriptor files must always have the extension '.rdf', and must be listed in the file
-  `https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees.xml`
-- PMCs can be referenced as an rdf:resource that points at https://<pmc>.apache.org/. e.g.
-  `<asfext:pmc rdf:resource="https://httpd.apache.org/" />`.
-  In this case, the PMC descriptor file must be called `<pmc>.rdf` and must be stored in the directory:
-  `https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/committees/`
-- PMCs descriptors can also be stored anywhere else (e.g. on the TLP website or in SVN), in which case they must be referenced using the full URL, for example
-  `<asfext:pmc rdf:resource="https://tlp.apache.org/pmc/tlp.rdf" />`
-
-### Create an IDS DOAP
-
-To be listed on this [site](https://maastrichtu-ids.github.io/projects/), your IDS project must create a DOAP file. The DOAP format is RDF based, so while it is human readable, it's primarily meant to be machine read. Creating the file from scratch can be a little intimidating, so this page will allow you to generate an initial file that can then be edited to suit. Alternatively, you can browse the existing projects for one with similar resources and use its DOAP file as a starting point.
-
-#### Step 1: Complete the form
-
-Complete and download this [form](https://maastrichtu-ids.github.io/projects/create-doap)
-
-**Note**: Please remember that the data contained in the DOAP file is used directly on the website, so please take care when adding content.
-
-#### Step 2: Customize your file (Optional)
-
-The file that is created when you submit your data is only a starting point. You'll likely need to modify some aspects of it, especially adding data that the form doesn't allow you to enter. You should be able to simply copy/paste/edit the sections you need to duplicate.
-
-You may have more than one of the following sections:
-
-- bug database
-- category
-- download page
-- programming language
-- release
-- repository
-- standard
-
-For example, if there are multiple release versions, each must be in its own "release" section. Each "Version" entry needs to be in its own "release" section.
-
-#### Step 3: Validate your file
-
-It is a good idea to check if your DOAP file is at least valid RDF. This can be accomplished using the [W3C RDF Validator service](https://www.w3.org/RDF/Validator/). While this won't tell you if your file meets DOAP or IDS guidelines, it is at least a good basic sanity check.
-
-#### Step 4: Submitting your file
-
-Your DOAP file should be stored somewhere that is publicly accessible. For most projects this will be in their source code repository, but there is no requirement for it to be stored there. It is suggested that the DOAP file is stored somewhere in GitHub such that it is copied to the top level of the website.
-
-Once you have decided where the file will be stored, you can directly view your project listed in the [website](https://maastrichtu-ids.github.io/projects/).
+### Create a DOAP description for your project
+Cli
 
 
-
-### IDS DOAP File FAQ [TODO]
+### IDS DOAP File FAQ
 
 - I want to list my project is more than one category but the form to create the DOAP file only lets me select one. Can I add the others? How?
 - Where should the DOAP file be stored?
