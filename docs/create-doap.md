@@ -93,7 +93,7 @@ This section of the website contains advice and guidelines for projects when cre
 - The project links should include index pages of resources
 
 ### Create a DOAP description for your project
-Cli
+You can easily generate the DOAP description for your project on this [website](https://maastrichtu-ids.github.io/projects/create-doap)
 
 
 ### IDS DOAP File FAQ
