@@ -29,13 +29,13 @@ Human and machine visitors will like our IDS Dashboard since we presents relevan
 
 ### What is an IDS project?
 
-An IDS project is a  publicly available code repository concerning IDS in varying state of usability, development and support. A IDS can typically be classified in the following table:
+An IDS project is a  publicly available code repository concerning IDS in varying state of usability, development and support. A IDS project can typically be classified as following:
 
 | 🗂️ Type of IDS project |                                                              |
 | --------------------- | ------------------------------------------------------------ |
-| 🧪 Research            | A folder that contains all your "Research" related project's file |
-| 👨‍💻 Development        | A folder that contains all your "Development" related project's file |
-| 🎓  Education          | A folder that contains all your "Education" related project's file |
+| 🧪 Research            | A folder that contains all your "*Research*" related project's file |
+| 👨‍💻 Development        | A folder that contains all your "*Development*" related project's file |
+| 🎓  Education          | A folder that contains all your "*Education*" related project's file |
 
 
 ### What IDS Project should be added in IDS Dashboard?
