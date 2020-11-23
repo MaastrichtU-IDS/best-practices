@@ -17,7 +17,7 @@ A website for projects at the [Institute of Data Science](http://maastrichtunive
 
 ### IDS Dashboard Architecture
 
-A web UI in React with TypeScript which retrieves projects information from the SPARQL endpoint and releases info from the JSON file on GitHub. You will find specific information [here]( https://github.com/MaastrichtU-IDS/projects#get-data-from-github-graphql-api):
+A web UI in React with TypeScript which retrieves projects information from the SPARQL endpoint and releases info from the JSON file on GitHub. You will find specific information [here]( https://github.com/MaastrichtU-IDS/projects#get-data-from-github-graphql-api).
 
 ---
 
