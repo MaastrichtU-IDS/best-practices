@@ -1,7 +1,12 @@
 ---
 id: create-doap
 title: IDS Dashboard
+
 ---
+
+### Motivation: lack of semantic interoperability
+
+The lack of well-defined indexing practices is a common problem in most institutional repositories. Researchers will typically assign keywords to their projects, however, these terms are not extracted from a controlled vocabulary or thesaurus. This leads to ambiguity and lack of standardization in terms which are used to describe the content of their projects.
 
 We have realized the importance of applying FAIR principles to software.  At the IDS we have created the IDS Dashboard to improve findability and reproducibility of the software that we create in IDS projects.
 
@@ -14,6 +19,17 @@ The idea of IDS Dashboard is to provide a user-friendly interface, easily access
 A website for projects at the [Institute of Data Science](http://maastrichtuniversity.nl/ids/) at Maastricht University. It is designed to help you find specific projects that meet your interests and to gain a broader understanding of the wide variety of work currently underway in the IDS.
 
 ---
+
+### IDS Dashboard objectives
+
+1. Integrate and preserve the intellectual production of IDS.
+2. Increment the visibility and input of our scientific output.
+
+---
+
+### What is the IDS Dashboard?
+
+A website for projects at the [Institute of Data Science](http://maastrichtuniversity.nl/ids/) at Maastricht University. It is designed to help you find specific projects that meet your interests and to gain a broader understanding of the wide variety of work currently underway in the IDS.
 
 ### IDS Dashboard Architecture
 
