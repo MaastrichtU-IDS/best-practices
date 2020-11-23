@@ -80,6 +80,8 @@ Your project to the IDS Dashboard do not show up immediately. The length of dela
 
 ### Other research project registries
 
+Here is the list of repository of software used in organizations:
+
 * [Apache Projects Directory](https://projects.apache.org/)
 * [SourceForge](https://sourceforge.net/)
 * [Google Open Source Projects](https://opensource.google/projects/explore/featured)
