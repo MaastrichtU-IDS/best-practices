@@ -1,109 +1,93 @@
 ---
 id: create-doap
-title: DOAP Files
+title: IDS Dashboard
 ---
 
+We have realized the importance of applying FAIR principles to software.  At the IDS we have created the IDS Dashboard to improve findability and reproducibility of the software that we create in IDS projects.
+
+The idea of IDS Dashboard is to provide a user-friendly interface, easily accessible to find and browse IDS projects, using a machine-readable ontology. 
+
+---
+
+### What is the IDS Dashboard?
+
+A website for projects at the [Institute of Data Science](http://maastrichtuniversity.nl/ids/) at Maastricht University. It is designed to help you find specific projects that meet your interests and to gain a broader understanding of the wide variety of work currently underway in the IDS.
+
+---
+
+### IDS Dashboard Architecture
+
+A web UI in React with TypeScript which retrieves projects information from the SPARQL endpoint and releases info from the JSON file on GitHub. You will find specific information [here]( https://github.com/MaastrichtU-IDS/projects#get-data-from-github-graphql-api):
+
+---
+
+### Improving the findability of IDS's Project
+
+Human and machine visitors will like our IDS Dashboard since we presents relevant information in a incisive manner. Visitors will be able to quickly find a IDS project that is interesting them while providing machines with the relevant information about the project.  Consequently, we have made use of an ontology called Description of a project (DOAP) to help describe the metadata of a project in a way that machine can understand it. This is accomplished by including a simple file inside your Github repository project. The file is easily findable to humans, and machine can determine the project's status by searching for a string matching a specific pattern in a set of possible files.
+
+---
+
+### What is an IDS project?
+
+An IDS project is a  publicly available code repository concerning IDS in varying state of usability, development and support. A IDS can typically be classified in the following table:
+
+| 🗂️ Type of IDS project |                                                              |
+| --------------------- | ------------------------------------------------------------ |
+| 🧪 Research            | A folder that contains all your "Research" related project's file |
+| 👨‍💻 Development        | A folder that contains all your "Development" related project's file |
+| 🎓  Education          | A folder that contains all your "Education" related project's file |
 
 
-###  What is an IDS project?
+### What IDS Project should be added in IDS Dashboard?
 
-A project is considered IDS if:
+As a rule of thumb, a project should be added to the IDS Dashboard if:
 
-* A IDS project is a publicly available code concerning IDS grants(portfolio?) in varying state of usability, development and support.
+1. the project is no private,
+2. we can realistically claim (co-)ownership of the project AND
+3. the project could be useful to somebody else.
 
-* It is registered in [Maastricht University IDS organization](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=)
-* It is on your personal [GitHub](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=)
+Under this definition, the following is not recorded in the IDS Dashboard:
 
-### Why DOAP is important?
+- A script that was just meant to wrangle some data unique to a problem we were having (violates 3).
+- A package that is very useful but that IDS wasn't involved with (violates 2).
 
-Back in 2005 a wide ranging discussion was held on the site-dev mailing list aimed at arriving at an architecture and tools that would allow us to create a project directory web site. A key part of the plans, and one of the biggest stumbling blocks, was the selection of a suitable format of information file that would be the key part.
-
-The result of the discussion was a consensus to use [DOAP](https://github.com/edumbill/doap/wiki) - "Description Of A Project" which is an RDF based format. The decision was taken for the following reasons:
-
-- use of an existing format was felt to be important
-- it is becoming more commonly used and therefore has a growing base of support
-- being designed to be extensible it can be easily adjusted to our needs
-
-### General DOAP Guidelines
-
-## DOAP Files
-
-This section of the website contains advice and guidelines for projects when creating or maintaining their DOAP files. While much of the information contained is general to all DOAP files, some is specific to the files maintained by IDS projects.
-
-### What to know before you create DOAP
-
-**[DOAP](https://github.com/ewilderj/doap/wiki)** (Description of a Project) is an RDF Schema and XML vocabulary that describe software projects, in particular free and open source software.
-
-#### Formatting
-
-- rdf:resource should be used when listing URLs.
-
-  ```turtle
-  i.e. <doap:homepage rdf:resource="https://foo.MaastrichtU-IDS.org/" />
-  ```
-
-  
-
-- Dates should be formatted as 'YYYY-MM-DD'. Numbers should be padded with '0' to match the formatting.
-
-  ```turtle
-  e.g. Jan 1st 2001 should be written as '2001-01-01'
-  ```
-
-- all URLs should be fully qualified, including the protocol.
-
-  ```turtle
-  i.e. https://foo.bar.com/file.html
-  ```
-
-### Categorization
-
-- Project type is used for classifying type of project within IDS.
-
-  ```
-  e.g. Research, Development, Education
-  ```
-
-### Project Statuses
-
-- Active: The project is being actively developed since the first commit. <img src="https://www.repostatus.org/badges/latest/active.svg" alt="Project Status: Active - A IDS project is a publicly available code concerning IDS grants in varying state of usability, development and support..">
-- Inactive: The project is no longer being actively developed, support/maintenance. <img src="https://www.repostatus.org/badges/latest/inactive.svg" alt="Project Status: Inactive- A IDS project is a publicly available code concerning IDS grants in varying state of usability, development and support..">
-- WIP: Initial development is in progress, but there has not yet been a stable, usable release suitable for the public. <img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP- Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.">
+The project can be stored either at MaastrichtU-IDS organization or your personal [GitHub](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=) repository.
 
 
-### Programming languages
-  A full list of programming languages we accept is available in the [form](https://maastrichtu-ids.github.io/projects/create-doap).
+### How do I add a new IDS Project?
 
-- programming languages should be given as capitals unless their well known name is mixed case.
+1. Go to the [IDS Project Dashboard website](https://maastrichtu-ids.github.io/projects/).
+2. In the left pane,  click on [Create a DOAP description for your project](https://maastrichtu-ids.github.io/projects/create-doap).
+3. You should now see a form. Each field has a brief explanation of what you should fill in.
+4. Complete the form. Don't worry about mistakes, you can always come back later and fix it!
+5. Don't forget to click ``Download DOAP description file`` when you 're done.
 
-  ```
-  e.g. Java, R, Python, Ruby etc
-  ```
+### Add a IDS project from your personal Github repository
 
-  A full list of programming languages we accept is available in the [form](https://maastrichtu-ids.github.io/projects/create-doap).
+IDS projects that are stored at your personal Github can be also added to IDS Dashboard. To do so, we request the following information to add into our [External Repository database](https://github.com/MaastrichtU-IDS/projects/blob/main/EXTERNAL_REPOSITORIES.txt):
 
-- all releases should have a "product" name (added using a doap:name element) included in the doap:Version element.
+1. user name.
+2. repository name.
 
-  ```
-    i.e.
-      "<doap:Version>
-        <doap:name>Blah</doap:name>..."
-  ```
-
-- The project links should include index pages of resources
-
-### Create a DOAP description for your project
-You can easily generate the DOAP description for your project on this [website](https://maastrichtu-ids.github.io/projects/create-doap)
+[Create an issue](https://github.com/MaastrichtU-IDS/projects/issues) if it is hosted under a different name, we will add it to the list of external repositories.
 
 
-### IDS DOAP File FAQ
+### How/When do I get to see my IDS Project?
 
-- I want to list my project is more than one category but the form to create the DOAP file only lets me select one. Can I add the others? How?
-- Where should the DOAP file be stored?
-- How do I know my project is considered IDS?
-- Where should the repository link point to?
-- I need to add more than 'XXX'. How do I do that?
-- What does the release information mean?
-- How do we get an RSS feed?
-- What happens if we commit an error to the DOAP file?
-- What date should I use in the 'created' field of a version?
+Your project to the IDS Dashboard do not show up immediately. The length of delay depends on the frequency at which data is harvested from the GitHub GraphQL API.
+
+---
+
+### Other research project registries
+
+* [Apache Projects Directory](https://projects.apache.org/)
+* [SourceForge](https://sourceforge.net/)
+* [Google Open Source Projects](https://opensource.google/projects/explore/featured)
+* [Python Packages](https://pypi.org/search/?q=&o=)
+* [R Open Science](https://ropensci.org/packages/)
+* [Research-Software.nl](https://www.research-software.nl/)
+* [Machine learning open source software](https://mloss.org/software/)
+* [Code Ocean](https://mloss.org/software/)
+* [Fintech Open Source Foundation](https://finos.github.io/?sort=hotness-down)
+* [Others](https://github.com/NLeSC/awesome-research-software-registries)
+
