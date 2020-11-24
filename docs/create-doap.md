@@ -6,11 +6,7 @@ title: IDS Dashboard
 
 ### Motivation: lack of semantic interoperability
 
-The lack of well-defined indexing practices is a common problem in most institutional repositories. Researchers will typically assign keywords to their projects, however, these terms are not extracted from a controlled vocabulary or thesaurus. This leads to ambiguity and lack of standardization in terms which are used to describe the content of their projects.
-
-We have realized the importance of applying FAIR principles to software.  At the IDS we have created the IDS Dashboard to improve findability and reproducibility of the software that we create in IDS projects.
-
-The idea of IDS Dashboard is to provide a user-friendly interface, easily accessible to find and browse IDS projects, using a machine-readable ontology. 
+The lack of well-defined indexing practices is a common problem in most institutional repositories. Researchers will typically assign keywords to their projects, however, these terms are not extracted from a controlled vocabulary or thesaurus. This leads to ambiguity and lack of standardization in terms which are used to describe the content of their projects. As solution to the problem, IDS has undertaken the effort to design a search engine that provides a single entry to our research projects. The result is the [IDS Dashboard](https://maastrichtu-ids.github.io/projects/), particularly aimed in making our software findable, accessible, interoperable and reusable ([FAIR](https://maastrichtu-ids.github.io/best-practices/docs/fair-data)), an essential component to reducing barriers for access. In addition to facilitating access to projects, IDS Dashboard reconciles and indexes projects using metadata descriptors that come directly from the Github repository using a machine-readable ontology.
 
 ---
 
@@ -25,6 +21,8 @@ A website for projects at the [Institute of Data Science](http://maastrichtunive
 1. Integrate and preserve the intellectual production of IDS.
 2. Increment the visibility and input of our scientific output.
 
+We hope that having IDS projects more discoverable through tools such as IDS Dashboard will encourage scientists to share their data more broadly and do it in a way that makes data truly [FAIR](https://fairsharing.org/).
+
 ---
 
 ### What is the IDS Dashboard?
@@ -38,6 +36,8 @@ A web UI in React with TypeScript which retrieves projects information from the 
 ---
 
 ### Improving the findability of IDS's Project
+
+There is a growing research interests in making the software FAIR and many funding agencies and academic publishers requires proper citation and reproduction of the project. Users can specify access requirements.
 
 Human and machine visitors will like our IDS Dashboard since we presents relevant information in a incisive manner. Visitors will be able to quickly find a IDS project that is interesting them while providing machines with the relevant information about the project.  Consequently, we have made use of an ontology called Description of a project (DOAP) to help describe the metadata of a project in a way that machine can understand it. This is accomplished by including a simple file inside your Github repository project. The file is easily findable to humans, and machine can determine the project's status by searching for a string matching a specific pattern in a set of possible files.
 
