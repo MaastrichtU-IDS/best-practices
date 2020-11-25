@@ -92,6 +92,6 @@ To make this example easier to reproduce for you we will use an existing grlc.io
 
 3. That's it 🤯 you can go to your API Swagger UI automatically generated and hosted by [grlc.io](http://grlc.io/) based on the GitHub repository URL: http://grlc.io/api-git/MaastrichtU-IDS/food-claims-kg
 
-Bonus: combine them with the GraphDB search index query and you have a Search API for your knowledge graph.
+Bonus: grlc.io with the GraphDB search index query and you have a Search API for your knowledge graph.
 
 > The project is still active and reactive, feel free to [post an issue](https://github.com/CLARIAH/grlc/issues) if you face any problem.
