@@ -76,7 +76,9 @@ SELECT ?foundUri ?foundLabel {
 
 # Deploy a serverless API
 
-The quickest way to deploy an API to access and explore your SPARQL endpoint is to use [grlc.io](http://grlc.io/). It will give over people a convenient way to quickly explore and understand the structure of your knowledge, and enables you to store important SPARQL queries in a findable place (and you can use the API calls instead of copy/pasting this query everytime you want to check it)
+The quickest way to deploy an API to access and explore your SPARQL endpoint is to use [grlc.io](http://grlc.io/). 
+
+> It will give over people a convenient way to quickly explore and understand the structure of your knowledge, and enables you to store important SPARQL queries in a findable place (and you can use the API calls instead of copy/pasting this query everytime you want to check it)
 
 You just need to host the files with your SPARQL queries on GitHub and it will handle everything else. 
 
