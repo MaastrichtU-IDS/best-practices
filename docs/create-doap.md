@@ -19,7 +19,7 @@ A website for projects at the [Institute of Data Science](http://maastrichtunive
 ### IDS Dashboard objectives
 
 1. Integrate and preserve the intellectual production of IDS.
-2. Increment the visibility and input of our scientific output.
+2. Increment the visibility and impact of our scientific output.
 
 We hope that having IDS projects more discoverable through tools such as IDS Dashboard will encourage scientists to share their project more broadly and do it in a way that makes their project truly [FAIR](https://fairsharing.org/).
 
