@@ -1,7 +1,6 @@
 ---
 id: create-doap
 title: IDS Dashboard
-
 ---
 
 ### Motivation: lack of semantic interoperability
