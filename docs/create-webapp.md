@@ -77,7 +77,9 @@ Add a router to be able to have more than one page.
 
 ## Build a SOLID app
 
-Build a SOLID app with React
+Build a SOLID app with React using [SOLID React Components](https://solid.github.io/react-components).
+
+> You can also [query SOLID data with Tripledoc](https://medium.com/javascript-in-plain-english/building-a-solid-app-in-react-with-tripledoc-27fd47d8bdda).
 
 ### Add SOLID login
 
