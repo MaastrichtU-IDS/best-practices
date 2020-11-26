@@ -75,6 +75,45 @@ It can be useful to define global CSS styles:
 
 Add a router to be able to have more than one page.
 
+## Build a SOLID app
+
+Build a SOLID app with React
+
+### Add SOLID login
+
+1. Add SOLID for React npm package to your project:
+
+```bash
+yarn add @solid/react
+```
+
+2. Add the login/logout button to your navigation bar:
+
+```typescript
+import { AuthButton } from '@solid/react';
+
+<AuthButton popup="https://inrupt.net/common/popup.html"/>
+```
+
+### Use SOLID user data
+
+Show the user name if logged in with SOLID:
+
+```typescript
+import { LoggedIn, LoggedOut, Value } from '@solid/react';
+
+<LoggedIn>
+  <p>
+    Welcome <Value src="user.name"/>!
+  </p>
+</LoggedIn>
+<LoggedOut>
+  <p>
+    Please login with SOLID
+  </p>
+</LoggedOut>
+```
+
 ## Deploy your website
 
 We recommend to deploy for free on GitHub Pages. If your application need to run NodeJS on the server then contact us to deploy on IDS servers.

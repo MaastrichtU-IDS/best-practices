@@ -126,7 +126,7 @@ See [this workflow](https://github.com/MaastrichtU-IDS/food-claims-kg/blob/maste
 
 Deploying an API to access and explore your SPARQL endpoint is really easy to do with [grlc.io](http://grlc.io/). You just need to define a few SPARQL queries in a GitHub repository, and grlc.io will handle everything else to expose a Swagger API (aka. Open API) to access your knowledge graph. 
 
-> This API will be the entrypoint for people who want to discover your data: they can quickly explore and understand the structure of your knowledge graph through the query you exposed.
+> ℹ️ This API will be the entrypoint for people who want to discover your data: they can quickly explore and understand the structure of your knowledge graph through the query you exposed.
 
 To make this example easier to reproduce, we will use the existing [grlc.io](http://grlc.io/) API deployment defined for the [food-claims-kg](https://github.com/MaastrichtU-IDS/food-claims-kg) as example
 
