@@ -74,7 +74,7 @@ SELECT ?foundUri ?foundLabel {
 
 > Note we are using a `*` wildcard at the end to match all strings starting with the `TEXT_TO_SEARCH`
 
-### Automate data loading
+### Automate data processing and loading
 
 RDF data can be automatically generated and loaded using GitHub Actions workflows.
 
@@ -124,13 +124,11 @@ See [this workflow](https://github.com/MaastrichtU-IDS/food-claims-kg/blob/maste
 
 # Deploy a serverless API
 
-The quickest way to deploy an API to access and explore your SPARQL endpoint is to use [grlc.io](http://grlc.io/). 
+Deploying an API to access and explore your SPARQL endpoint is really easy to do with [grlc.io](http://grlc.io/). You just need to define a few SPARQL queries in a GitHub repository, and grlc.io will handle everything else to expose a Swagger API (aka. Open API) to access your knowledge graph. 
 
-> It will give over people a convenient way to quickly explore and understand the structure of your knowledge, and enables you to store important SPARQL queries in a findable place (and you can use the API calls instead of copy/pasting this query everytime you want to check it)
+> This API will be the entrypoint for people who want to discover your data: they can quickly explore and understand the structure of your knowledge graph through the query you exposed.
 
-You just need to host the files with your SPARQL queries on GitHub and it will handle everything else. 
-
-To make this example easier to reproduce for you we will use the existing grlc.io API deployment defined at https://github.com/MaastrichtU-IDS/food-claims-kg as example
+To make this example easier to reproduce, we will use the existing [grlc.io](http://grlc.io/) API deployment defined for the [food-claims-kg](https://github.com/MaastrichtU-IDS/food-claims-kg) as example
 
 1. 👩‍💻 Provide the URL of SPARQL endpoint to query in the [`endpoint.txt` file](https://github.com/MaastrichtU-IDS/food-claims-kg/blob/master/endpoint.txt)
 
@@ -140,6 +138,6 @@ To make this example easier to reproduce for you we will use the existing grlc.i
 
 3. That's it 🤯 you can go to your API Swagger UI automatically generated and hosted by [grlc.io](http://grlc.io/) based on the GitHub repository URL: http://grlc.io/api-git/MaastrichtU-IDS/food-claims-kg
 
-Bonus: grlc.io with the GraphDB search index query and you have a Search API for your knowledge graph.
+Bonus: combine [grlc.io](https://github.com/MaastrichtU-IDS/food-claims-kg) with the GraphDB search index query, and you have a Search API for your knowledge graph! 🔎
 
 > The project is still active and reactive, feel free to [post an issue](https://github.com/CLARIAH/grlc/issues) if you face any problem.
