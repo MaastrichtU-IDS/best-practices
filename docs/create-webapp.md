@@ -9,7 +9,9 @@ Duration: 10min 🕐
 
 ## Create your website
 
-Requirements: npm and Yarn installed
+Requirements: `npm` and `Yarn` installed
+
+Checkout the [Expo documentation](https://docs.expo.io/guides/typescript/) for the complete up-to-date documentation.
 
 Install command line packages globally:
 
@@ -23,11 +25,11 @@ Create your project from the default TypeScript template:
 expo init -t expo-template-blank-typescript
 ```
 
-Or create your project in the current directory using one of the available template:
-
-```bash
-create-react-native-app my-project
-```
+> You can also create your project using one of the available [create-react-native-app](https://github.com/expo/create-react-native-app) template:
+>
+> ```bash
+> create-react-native-app my-project
+> ```
 
 Once your projects has been generated, go in its folder:
 
