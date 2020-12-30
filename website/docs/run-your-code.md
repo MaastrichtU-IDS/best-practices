@@ -37,7 +37,7 @@ To run Jupyter Notebooks when participating to a [Kaggle](https://www.kaggle.com
 
 > Free for Open Source repositories.
 
-## Store the data
+## Store data
 
 ### Research data
 

@@ -1,6 +1,7 @@
 ---
-id: create-webapp
-title: Create a Web application
+title: Create a web application
+author: Vincent Emonet
+authorURL: "https://github.com/vemonet/"
 ---
 
 This web page will help you quickly create a [ReactJS](https://reactjs.org) web application using TypeScript in a few minute.
