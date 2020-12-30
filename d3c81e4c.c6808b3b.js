@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{100:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Improving code security","permalink":"/best-practices/blog/2020/12/20/code-security"},{"title":"Create a web app","permalink":"/best-practices/blog/2020/11/13/create-webapp"}]}')}}]);
