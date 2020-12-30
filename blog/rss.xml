@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>IDS Best Practices Blog</title>
+        <link>https://maastrichtu-ids.github.io/blog</link>
+        <description>IDS Best Practices Blog</description>
+        <lastBuildDate>Sun, 20 Dec 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Improving code security]]></title>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2020/12/20/code-security</link>
+            <guid>Improving code security</guid>
+            <pubDate>Sun, 20 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Work in progress]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Create a web application]]></title>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2020/11/13/create-webapp</link>
+            <guid>Create a web application</guid>
+            <pubDate>Fri, 13 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[This web page will help you quickly create a ReactJS web application using TypeScript in a few minute.]]></description>
+        </item>
+    </channel>
+</rss>
