@@ -9,19 +9,19 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700">
 <script src="https://buttons.github.io/buttons.js"></script><title data-react-helmet="true">Create a web app | IDS Best Practices</title><meta data-react-helmet="true" property="og:title" content="Create a web app | IDS Best Practices"><meta data-react-helmet="true" name="description" content="Create a web application with React and TypeScript"><meta data-react-helmet="true" property="og:description" content="Create a web application with React and TypeScript"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_tag" content="default"><link data-react-helmet="true" rel="shortcut icon" href="/best-practices/img/favicon.ico"><link rel="stylesheet" href="/best-practices/styles.2fea69d8.css">
 <link rel="preload" href="/best-practices/styles.43e20baa.js" as="script">
-<link rel="preload" href="/best-practices/runtime~main.ae8c2d75.js" as="script">
+<link rel="preload" href="/best-practices/runtime~main.f52b1ac1.js" as="script">
 <link rel="preload" href="/best-practices/main.c76d90fc.js" as="script">
 <link rel="preload" href="/best-practices/1.6f681cd5.js" as="script">
 <link rel="preload" href="/best-practices/2.813ec0d8.js" as="script">
 <link rel="preload" href="/best-practices/3.fdef5705.js" as="script">
-<link rel="preload" href="/best-practices/01a85c17.c86174a0.js" as="script">
-<link rel="preload" href="/best-practices/1a4e3797.cee6a25f.js" as="script">
-<link rel="preload" href="/best-practices/1be78505.88dce0b5.js" as="script">
-<link rel="preload" href="/best-practices/6875c492.32624ef1.js" as="script">
-<link rel="preload" href="/best-practices/a6aa9e1f.9faddba8.js" as="script">
-<link rel="preload" href="/best-practices/c4f5d8e4.13205d20.js" as="script">
-<link rel="preload" href="/best-practices/ccc49370.7072616a.js" as="script">
-<link rel="preload" href="/best-practices/45.95b48dfe.js" as="script">
+<link rel="preload" href="/best-practices/01a85c17.5e76811e.js" as="script">
+<link rel="preload" href="/best-practices/1a4e3797.cd0d4b75.js" as="script">
+<link rel="preload" href="/best-practices/1be78505.7f36f8d1.js" as="script">
+<link rel="preload" href="/best-practices/6875c492.c06afd8b.js" as="script">
+<link rel="preload" href="/best-practices/a6aa9e1f.92de97e3.js" as="script">
+<link rel="preload" href="/best-practices/c4f5d8e4.92b90080.js" as="script">
+<link rel="preload" href="/best-practices/ccc49370.4bc57b90.js" as="script">
+<link rel="preload" href="/best-practices/45.22071327.js" as="script">
 <link rel="preload" href="/best-practices/d3c81e4c.779e72d6.js" as="script">
 <link rel="preload" href="/best-practices/dd72b0d5.a2d05ee4.js" as="script">
 </head>
@@ -34,19 +34,19 @@
 </span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">COPY . .</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"># Build in /web-build folder</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">RUN yarn build</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block">
 </span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">EXPOSE 5000</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">ENTRYPOINT [ &quot;yarn&quot;, &quot;serve&quot; ]</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p>Copy your <code>.gitignore</code> and rename the copy to <code>.dockerignore</code> to avoid conflict with Docker and your local environment:</p><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-bash codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token function" style="color:rgb(130, 170, 255)">cp</span><span class="token plain"> .gitignore .dockerignore</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p>Once the Docker configuration has be done, you can build it:</p><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-bash codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">docker build -t my-project </span><span class="token builtin class-name" style="color:rgb(255, 203, 107)">.</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p>And try starting the application on http://localhost:5000</p><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-bash codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token plain">docker run -it --rm -p </span><span class="token number" style="color:rgb(247, 140, 108)">5000</span><span class="token plain">:5000 my-project</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><blockquote><p>When this has be done, contact us to run your Docker image on IDS servers.</p></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="on-aws-amplify"></a>On AWS Amplify<a class="hash-link" href="#on-aws-amplify" title="Direct link to heading">#</a></h3><p><a href="https://aws.amazon.com/amplify/" target="_blank" rel="noopener noreferrer">AWS Amplify</a>  is a set of products and tools that enables mobile and front-end web  developers to build and deploy secure, scalable full stack applications, powered by Amazon. With Amplify, you can configure app backends in  minutes, connect them to your app in just a few lines of code, and  deploy static web apps in three steps</p><p><a href="https://aws.amazon.com/free/" target="_blank" rel="noopener noreferrer">Always free</a>:</p><ul><li>Amazon DynamoDB 25 GB of storage</li><li>AWS Lambda 1 Million free requests per month</li></ul><p>Free for the 12 first months:</p><ul><li>Hosting: 5 GB stored and 15 GB served per month</li><li>1000 build minutes per month </li><li>AWS AppSync 250 k query or data modifications per month (Develop, secure and run GraphQL APIs at any scale)</li></ul><blockquote><p>See the <a href="https://aws.amazon.com/amplify/pricing" target="_blank" rel="noopener noreferrer">pricing page</a> for more details on prices outside of the free tier.</p></blockquote></section><footer class="row margin-vert--lg"><div class="col"><strong>Tags:</strong><a class="margin-horiz--sm" href="/best-practices/blog/tags/security">security</a><a class="margin-horiz--sm" href="/best-practices/blog/tags/development">development</a></div></footer></article><div></div><div class="margin-vert--xl"><nav class="pagination-nav" aria-label="Blog post page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/best-practices/blog/2020/12/20/code-security"><div class="pagination-nav__sublabel">Newer Post</div><div class="pagination-nav__label">« Improve code security</div></a></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></main><div class="col col--2"><div class="tableOfContents_2xL- thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#create-your-website" class="table-of-contents__link">Create your website</a></li><li><a href="#improve-your-website" class="table-of-contents__link">Improve your website</a><ul><li><a href="#recommended-ui-libraries" class="table-of-contents__link">Recommended UI libraries</a></li><li><a href="#add-a-css-file" class="table-of-contents__link">Add a CSS file</a></li><li><a href="#add-multiple-page" class="table-of-contents__link">Add multiple page</a></li></ul></li><li><a href="#build-a-solid-app" class="table-of-contents__link">Build a SOLID app</a><ul><li><a href="#add-solid-login" class="table-of-contents__link">Add SOLID login</a></li><li><a href="#use-solid-user-data" class="table-of-contents__link">Use SOLID user data</a></li></ul></li><li><a href="#deploy-your-website" class="table-of-contents__link">Deploy your website</a><ul><li><a href="#on-github-pages" class="table-of-contents__link">On GitHub Pages</a></li><li><a href="#on-ids-servers-with-docker" class="table-of-contents__link">On IDS servers with Docker</a></li><li><a href="#on-aws-amplify" class="table-of-contents__link">On AWS Amplify</a></li></ul></li></ul></div></div></div></div></div><footer class="footer"><div class="container"><div class="text--center"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license" target="_blank"><img src="/best-practices/img/cc-by.svg" alt="cc by license"></a></div><div style="margin-bottom:10px">Copyright © 2020 <a href="https://maastrichtuniversity.nl/ids" target="_blank" rel="noopener noreferrer">Institute of Data Science</a> at Maastricht University</div></div></div></footer></div>
 <script src="/best-practices/styles.43e20baa.js"></script>
-<script src="/best-practices/runtime~main.ae8c2d75.js"></script>
+<script src="/best-practices/runtime~main.f52b1ac1.js"></script>
 <script src="/best-practices/main.c76d90fc.js"></script>
 <script src="/best-practices/1.6f681cd5.js"></script>
 <script src="/best-practices/2.813ec0d8.js"></script>
 <script src="/best-practices/3.fdef5705.js"></script>
-<script src="/best-practices/01a85c17.c86174a0.js"></script>
-<script src="/best-practices/1a4e3797.cee6a25f.js"></script>
-<script src="/best-practices/1be78505.88dce0b5.js"></script>
-<script src="/best-practices/6875c492.32624ef1.js"></script>
-<script src="/best-practices/a6aa9e1f.9faddba8.js"></script>
-<script src="/best-practices/c4f5d8e4.13205d20.js"></script>
-<script src="/best-practices/ccc49370.7072616a.js"></script>
-<script src="/best-practices/45.95b48dfe.js"></script>
+<script src="/best-practices/01a85c17.5e76811e.js"></script>
+<script src="/best-practices/1a4e3797.cd0d4b75.js"></script>
+<script src="/best-practices/1be78505.7f36f8d1.js"></script>
+<script src="/best-practices/6875c492.c06afd8b.js"></script>
+<script src="/best-practices/a6aa9e1f.92de97e3.js"></script>
+<script src="/best-practices/c4f5d8e4.92b90080.js"></script>
+<script src="/best-practices/ccc49370.4bc57b90.js"></script>
+<script src="/best-practices/45.22071327.js"></script>
 <script src="/best-practices/d3c81e4c.779e72d6.js"></script>
 <script src="/best-practices/dd72b0d5.a2d05ee4.js"></script>
 </body>
