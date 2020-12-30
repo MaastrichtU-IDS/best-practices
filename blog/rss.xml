@@ -8,18 +8,18 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Improving code security]]></title>
+            <title><![CDATA[Improve code security]]></title>
             <link>https://maastrichtu-ids.github.io/best-practices/blog/2020/12/20/code-security</link>
-            <guid>Improving code security</guid>
+            <guid>Improve code security</guid>
             <pubDate>Sun, 20 Dec 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Work in progress]]></description>
+            <description><![CDATA[Improve the security of your code, web app and containers]]></description>
         </item>
         <item>
             <title><![CDATA[Create a web app]]></title>
             <link>https://maastrichtu-ids.github.io/best-practices/blog/2020/11/13/create-webapp</link>
             <guid>Create a web app</guid>
             <pubDate>Fri, 13 Nov 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[This web page will help you quickly create a ReactJS web application using TypeScript in a few minute.]]></description>
+            <description><![CDATA[Create a web application with React and TypeScript]]></description>
         </item>
     </channel>
 </rss>
