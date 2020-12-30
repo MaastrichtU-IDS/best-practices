@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Get started": ["introduction", "run-your-code", "service-providers", "ids-services"],
+    "Development": ["project-management", "code-distribution", "software-distribution", 
+      "documentation", "continuous-integration", "create-doap", "dev-on-windows"],
+    "FAIR": ["fair-principles","fair-data","fair-workflows", "publish-rdf-data"],
+    "Education": ["education-workshops", "create-workshops"],
+    "Templates": ["create-webapp"]
+  }
+}
