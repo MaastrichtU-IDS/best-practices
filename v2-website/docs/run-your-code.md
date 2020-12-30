@@ -36,3 +36,13 @@ To run Jupyter Notebooks when participating to a [Kaggle](https://www.kaggle.com
 [GitHub Actions](https://github.com/features/actions) or [GitLab CI](https://docs.gitlab.com/ee/ci/) to run workflows on their servers triggered by event such as `git push`, new release, new pull request... Usually used to run tests.
 
 > Free for Open Source repositories.
+
+## Store the data
+
+### Research data
+
+If you have data to publish related to a research project: use **SURF**
+
+### Sensible research data
+
+If you have sensible research data: use **DataHub**

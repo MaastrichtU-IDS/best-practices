@@ -38,7 +38,7 @@ module.exports={
           // "homePageId": "introduction",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,
-          "editUrl": "https://github.com/MaastrichtU-IDS/best-practices/edit/master/docs/",
+          "editUrl": "https://github.com/MaastrichtU-IDS/best-practices/edit/master/website/",
           "path": "./docs",
           "sidebarPath": "./sidebars.json"
           // "sidebarPath": require.resolve('./sidebars.json')
@@ -61,6 +61,7 @@ module.exports={
         '⭐️ If you like the DSRI, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/MaastrichtU-IDS/dsri-documentation">GitHub</a>! ⭐️',
     },
     "navbar": {
+      "hideOnScroll": false,
       "title": "Institute of Data Science",
       "logo": {
         "src": "img/favicon.ico"
@@ -73,9 +74,20 @@ module.exports={
           "position": "left"
         },
         {
+          "to": "blog/",
+          "label": "Blog",
+          "position": "left"
+        },
+        {
           "to": "/help",
           "label": "Help",
           "position": "left"
+        },
+        {
+          "href": "https://github.com/MaastrichtU-IDS/best-practices",
+          // "label": "GitHub",
+          "position": "right",
+          "className": 'header-github-link'
         }
       ]
     },
