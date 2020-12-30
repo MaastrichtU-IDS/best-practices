@@ -68,7 +68,7 @@ module.exports={
     "announcementBar": {
       "id": 'supportus',
       "content":
-        '⭐️ If you like the DSRI, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/MaastrichtU-IDS/dsri-documentation">GitHub</a>! ⭐️',
+        '⭐️ If you like IDS best practices, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/MaastrichtU-IDS/best-practices">GitHub</a>! ⭐️',
     },
     "navbar": {
       "hideOnScroll": false,
@@ -104,7 +104,7 @@ module.exports={
     // "image": "img/undraw_online.svg",
     "footer": {
       "links": [],
-      "copyright": "Copyright © 2020 <a href='https://maastrichtuniversity.nl/ids' target='_blank'>Institute of Data Science</a> at Maastricht University",
+      "copyright": "Copyright © 2020 <a href='https://maastrichtuniversity.nl/ids' target='_blank' rel='noopener noreferrer'>Institute of Data Science</a> at Maastricht University",
       // "logo": {
       //   "src": "img/favicon.ico"
       // }

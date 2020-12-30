@@ -11,7 +11,7 @@ If you need help or have questions about the Institute of Data Science best prac
 
 ## Submit issues 📝
 
-<a href="https://github.com/MaastrichtU-IDS/best-practices/issues" target="_blank" aria-label="GitHub issues">
+<a href="https://github.com/MaastrichtU-IDS/best-practices/issues" target="_blank" rel="noopener noreferrer" aria-label="GitHub issues">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/MaastrichtU-IDS/best-practices?label=best-practices"/>
 </a>
 
