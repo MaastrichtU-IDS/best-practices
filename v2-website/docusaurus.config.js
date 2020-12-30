@@ -64,6 +64,7 @@ module.exports={
       "title": "Institute of Data Science",
       "logo": {
         "src": "img/favicon.ico"
+        // "src": "img/ids_logo.png"
       },
       "items": [
         {
@@ -78,13 +79,13 @@ module.exports={
         }
       ]
     },
-    "image": "img/undraw_online.svg",
+    // "image": "img/undraw_online.svg",
     "footer": {
       "links": [],
       "copyright": "Copyright © 2020 <a href='https://maastrichtuniversity.nl/ids' target='_blank'>Institute of Data Science</a> at Maastricht University",
-      "logo": {
-        "src": "img/favicon.ico"
-      }
+      // "logo": {
+      //   "src": "img/favicon.ico"
+      // }
     }
   }
 }
