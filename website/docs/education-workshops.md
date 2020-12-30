@@ -16,7 +16,11 @@ You will learn:
 * Run automated tests at each push to the GitHub repository
 * Automatically publish the package at each new release created on GitHub if the tests pass
 
-> Estimated time: 2 hours
+:::note Estimated time
+
+2 hours
+
+:::
 
 ## Foundation Skills for Data Analysis with R
 
@@ -33,10 +37,16 @@ The curriculum for these students will be:
 * Loop functions in R
 * Inferential Statistics
 
-> Estimated time: 8 hours
+:::note Estimated time
+
+8 hours
+
+:::
 
 Course is currently offered in Venlo Campus for Applied Research Course: https://carlosug.github.io/AppliedRR/
 
-## TODO
+:::caution TODO
 
-> Python self-placed tutorials: https://github.com/carlosug/IDS-RDM-202004-Python-Basics
+Python self-placed tutorials: https://github.com/carlosug/IDS-RDM-202004-Python-Basics
+
+:::

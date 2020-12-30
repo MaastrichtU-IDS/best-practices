@@ -3,7 +3,11 @@ id: fair-principles
 title: FAIR principles
 ---
 
-The FAIR (Findable, Accessible, Interoperable, Reusable) Guiding Principles are intended to facilitate the discovery and reuse of data, not only for people, but for machines. Read the full paper [here](https://www.nature.com/articles/sdata201618).
+:::info 4 guiding principles
+
+The FAIR (**Findable**, **Accessible**, **Interoperable**, **Reusable**) Guiding Principles are intended to facilitate the discovery and reuse of data, not only for people, but for machines. Read the full paper [here](https://www.nature.com/articles/sdata201618).
+
+:::
 
 ## Findable 🔎
 
@@ -46,6 +50,16 @@ The ultimate goal of FAIR is to optimise the reuse of data. To achieve  this, me
   * [**R1.2**. (Meta)data are associated with detailed provenance](https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/)
   * [**R1.3**. (Meta)data meet domain-relevant community standards](https://www.go-fair.org/fair-principles/r1-3-metadata-meet-domain-relevant-community-standards/)
 
-> The principles refer to three types of entities: data (or any digital  object), metadata (information about that digital object), and  infrastructure. For instance, principle F4 defines that both metadata  and data are registered or indexed in a searchable resource (the  infrastructure component).
+:::info 3 FAIR entities
+
+The principles refer to three types of entities: **data** (or any digital  object), **metadata** (information about that digital object), and  **infrastructure**.
+
+For instance, principle F4 defines that both metadata  and data are registered or indexed in a searchable resource (the  infrastructure component).
+
+:::
+
+:::note Source
 
 From the [GO-FAIR website](https://www.go-fair.org/fair-principles/).
+
+:::

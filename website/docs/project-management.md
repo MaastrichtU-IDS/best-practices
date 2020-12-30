@@ -7,11 +7,19 @@ title: Project management
 
 When starting a Data Science project you need to create a repository on a platform to host your project's code. 
 
-> Today a lot of solutions exist, most of them are based on [git](https://guides.github.com/introduction/git-handbook/), and they provide various features beside code hosting, such as reporting issues, running automated workflows, publishing documentation, and websites.
+Today a lot of solutions exist, most of them are based on [git](https://guides.github.com/introduction/git-handbook/), and they provide various features beside code hosting, such as reporting issues, running automated workflows, publishing documentation, and websites.
+
+:::tip GitHub for open source
 
 The Institute of Data Science mainly uses its [MaastrichtU-IDS GitHub organization](https://github.com/MaastrichtU-IDS), hence we recommend to use GitHub for projects related to IDS.
 
+:::
+
+:::caution GitLab for private
+
 Some projects in collaboration with other organizations can be hosted on GitLab depending on the project requirements. You can use the [UM-hosted GitLab](https://gitlab.maastrichtuniversity.nl/) for private projects.
+
+:::
 
 ### Issues and boards
 
@@ -27,12 +35,15 @@ You can order issues in issues boards, either for a single repository or across 
 
 Code-hosting platforms enable to define different user access to your code repository.
 
-On GitHub, go to your repository `Settings`, then `User management`. You can then add the users with the access you want (read, edit, admin)
+On GitHub, go to your repository **Settings**, then **User management**. You can then add the users with the access you want (`read`, `edit`, `admin`)
 
-> For repositories in the [MaastrichtU-IDS organization](https://github.com/MaastrichtU-IDS) you can give access to groups of users in the organization, such as `ids` for all members of IDS, or `developers` for the IDS developer team. 
->
-> You can also create new group of users for specific projects.
+:::info Manage IDS GitHub users
 
+For repositories in the [MaastrichtU-IDS organization](https://github.com/MaastrichtU-IDS) you can give access to groups of users in the organization, such as `ids` for all members of IDS, or `developers` for the IDS developer team. 
+
+You can also create new group of users for specific projects.
+
+:::
 
 ## Create a Gitter chat room
 
@@ -40,4 +51,8 @@ Additionally, for some projects you might need a public chat channel.
 
 [Gitter](https://gitter.im/) is a service from GitLab which allows to easily create and use public and private chatrooms linked to GitHub repositories. 
 
-> Users can easily connect using their GitHub or GitLab account.
+:::tip Connect with GitHub
+
+Users can easily connect using their [GitHub](https://github.com/) or [GitLab](https://gitlab.com) account.
+
+:::

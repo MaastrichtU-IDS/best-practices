@@ -15,7 +15,11 @@ title: FAIR data
   * Easier citation of datasets and version tracking
   * Dereferenceable: if a dataset moves, the  identifier can point to a different location.
 
+:::note Source
+
 Recommendations adapted from [this article](https://ai.googleblog.com/2020/08/an-analysis-of-online-datasets-using.html).
+
+:::
 
 # Tools and frameworks
 

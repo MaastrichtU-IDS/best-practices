@@ -1,19 +1,32 @@
 ---
-title: Improving code security
+title: Improve code security
 author: Vincent Emonet
-authorURL: "https://github.com/vemonet/"
-# authorFBID: 100002976521003
+author_title: Data Science engineer at IDS
+author_url: https://github.com/vemonet
+tags: [security, development]
+description: Improve the security of your code, web app and containers
+hide_table_of_contents: false
+# author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
+# image: https://i.imgur.com/mErPwqL.png
 ---
+
+Securing softwares is a complex task, especially for research softwares.
+
+But some actions can be easily taken to improve your code security.
+
+:::note Estimated time
+
+5min 🕐
+
+:::
+
+<!--truncate-->
 
 :::warning
 
 Work in progress :building_construction:
 
 :::
-
-Securing softwares is a complex task, especially for research softwares.
-
-But some actions can be easily taken to improve your code security.
 
 1. Example of GitHub dependabot warning triggered when doing `git push`
 

@@ -13,14 +13,17 @@ It is recommended to constantly update your Windows OS to the latest available v
 
 Follow the [official instructions to install WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) on your machine.
 
-> A simpler solution is available only if you signed up for Windows 10 insider to access development builds of Windows:
->
-> ```powershell
-> wsl --install --distribution Ubuntu
-> ```
->
+:::info Install with the command line
 
-If you installed Windows Subsystem for Linux (WSL), then you have now 2 OS (Operating System) available: Windows and Ubuntu Linux.
+A simpler solution is available only if you signed up for Windows 10 insider to access development builds of Windows:
+
+```powershell
+wsl --install --distribution Ubuntu
+```
+
+:::
+
+If you installed Windows Subsystem for Linux (WSL), then you have now 2 OS (Operating Systems) available: Windows and Ubuntu Linux.
 
 Be aware, if you install an application using the Ubuntu terminal, then this application will only be available through the Ubuntu terminal.
 
@@ -36,17 +39,21 @@ Thankfully Microsoft has been developing a **new open source and modern terminal
 
 See the [instructions to install the new Microsoft Terminal](https://github.com/microsoft/terminal)
 
-You can easily install it using Winget:
+:::note Install with Winget
 
-```powershell
+```bash
 winget install --id=Microsoft.WindowsTerminal -e
 ```
 
-Or Chocolatey:
+:::
 
-```powershell
+:::info Install with Chocolatey
+
+```bash
 choco install microsoft-windows-terminal
 ```
+
+:::
 
 But if you still want to use the already installed terminal:
 
@@ -87,7 +94,11 @@ To open and edit a file in the terminal the easiest is to use `nano`:
 nano my_file.txt
 ```
 
-> `vim` and `emacs` are also available.
+:::info For purists
+
+`vim` and `emacs` are also available.
+
+:::
 
 ## Install packages
 
@@ -101,10 +112,24 @@ We highly recommend you to install [zsh and oh-my-zsh](https://ohmyz.sh/), it wi
 
 ### On Windows
 
-It took several decades for Microsoft to properly understand interaction with computer, but the official Windows package manager is now available! [Install winget](https://github.com/microsoft/winget-cli)
+It took several decades for Microsoft to properly understand interaction with computer, but the official Windows package manager is now available!
 
-> Still in beta at the moment. So the list of available packages is limited
+:::caution Use Winget
+
+[Install winget](https://github.com/microsoft/winget-cli), the official Windows package manager. Still in beta at the moment. So the list of available packages is limited.
+
+:::
+
+:::info Use Chocolatey
 
 For package not available in `winget` we recommend to use [Chocolatey](https://chocolatey.org/), the most popular tool to install packages on Windows. 
 
-> Congratulation! If you installed those software you have now a cutting edge installation of Windows suited for any kind of development! 
+:::
+
+---
+
+:::tip Congratulation
+
+Congratulation! If you installed those software you have now a cutting edge installation of Windows suited for any kind of development! 
+
+:::

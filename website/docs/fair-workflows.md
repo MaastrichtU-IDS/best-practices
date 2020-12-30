@@ -5,4 +5,8 @@ title: FAIR workflows
 
 ## Publishing FAIR workflows
 
-> TODO: add FAIR workflow specific practices.
+:::note TODO
+
+Add FAIR workflow specific practices.
+
+:::

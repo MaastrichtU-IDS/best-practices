@@ -26,4 +26,8 @@ Docker containers can be seen as extremely lightweight virtual environments in w
 
 Additionally, containers can be persisted and shared as *images* so that others can expand on your code. For example, when creating a container for a Python application it is possible to *pull* a Python Docker Image and start your work from there. Since images exist for most usecases, such applications and databases, Docker can be used to quickly use some prerequisites without installing them on your machine. 
 
-> [Click here to install Docker on your machine 🐳](https://docs.docker.com/get-docker/)
+:::info Install Docker
+
+[Click here to install Docker on your machine 🐳](https://docs.docker.com/get-docker/)
+
+:::

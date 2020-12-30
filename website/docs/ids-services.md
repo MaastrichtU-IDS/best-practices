@@ -23,11 +23,19 @@ Additionally the DSRI also enables you to deploy various popular Data Science ap
 
 Distributed computing can also be run using our Apache Spark or Apache Flink clusters.
 
-> You can learn more about how to request an account on the DSRI on its website: https://maastrichtu-ids.github.io/dsri-documentation
+:::tip Request an account
+
+You can learn more about how to request an account on the DSRI on its website: https://maastrichtu-ids.github.io/dsri-documentation
+
+:::
 
 ## GraphDB triplestore database
 
-> [Ontotext GraphDB](https://graphdb.ontotext.com) is deployed at https://graphdb.dumontierlab.com
+:::info Access GraphDB
+
+[Ontotext GraphDB](https://graphdb.ontotext.com) is deployed at https://graphdb.dumontierlab.com
+
+:::
 
 You can create an account, and request us to be granted permissions to create new repositories.
 
@@ -43,7 +51,11 @@ Each repository acts like an isolated triplestore database coming with various f
 
 ## Web Protégé server
 
-> We host our own instance of web Protégé at https://protege.semanticscience.org
+:::info Access Protégé
+
+We host our own instance of web Protégé at https://protege.semanticscience.org
+
+:::
 
 We enabled some features not enabled in [Stanford's web Protégé](https://webprotege.stanford.edu/), such as defining axiom using the OWL Manchester syntax.
 
@@ -55,7 +67,11 @@ We enabled some features not enabled in [Stanford's web Protégé](https://webpr
 
 ## SOLID server
 
+:::info Access SOLID server
+
 We host a [node SOLID server](https://github.com/solid/node-solid-server) on IDS servers at https://solid.semanticscience.org
+
+:::
 
 This server enables you to create SOLID pods hosted on our servers.
 
@@ -66,9 +82,23 @@ This server enables you to create SOLID pods hosted on our servers.
 
 A [Nanopublications](http://nanopub.org/wordpress/) server is deployed on IDS servers, and part of the Nanopublications network (which replicates published Nanopublications on multiple nodes). Feel free to use the Nanopublication network to publish small piece of RDF data.
 
-* The Nanopublications server can be accessed at http://server.np.dumontierlab.com
-* The GRLC API to query the Nanopublications server can be accessed at http://grlc.np.dumontierlab.com/api/local/local
-* The Linked Data Fragment interface to access the Nanopublications stored as [HDT](https://www.rdfhdt.org/) (compressed RDF) can be accessed at http://ldf.np.dumontierlab.com
+:::info Access Nanopublications server
+
+The Nanopublications server can be accessed at http://server.np.dumontierlab.com
+
+:::
+
+:::tip Access Nanopublications grlc API
+
+The GRLC API to query the Nanopublications server can be accessed at http://grlc.np.dumontierlab.com/api/local/local
+
+:::
+
+:::caution Access Nanopublications HDT 
+
+The Linked Data Fragment interface to access the Nanopublications stored as [HDT](https://www.rdfhdt.org/) (compressed RDF) can be accessed at http://ldf.np.dumontierlab.com
+
+:::
 
 Here are some interesting resources for Nanopublications:
 
@@ -78,6 +108,10 @@ Here are some interesting resources for Nanopublications:
 
 ## FAIR Data Point server
 
+:::info Access FAIR Data Point
+
 A [FAIR Data Point](https://www.research-software.nl/software/fairdatapoint) server is deployed at http://fairdatapoint.semanticscience.org
+
+:::
 
 It enables enables data owners to expose their data sets using rich machine-readable metadata through a RESTful web service.

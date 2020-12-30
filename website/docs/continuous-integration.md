@@ -3,9 +3,11 @@ id: continuous-integration
 title: Continuous integration
 ---
 
-> TODO: rebrand "tests"? To focus on running tests automatically
+:::tip Checkout the workshop
 
 See our [IDS CI/CD workshop](https://maastrichtu-ids.github.io/workshop-ci/) to package and define Continuous Integration workflow for Python with GitHub Actions.
+
+:::
 
 The choice of CI/CD technology depends on the platform you are using to store your code
 

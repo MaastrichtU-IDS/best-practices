@@ -1,12 +1,24 @@
 ---
 title: Create a web app
 author: Vincent Emonet
-authorURL: "https://github.com/vemonet/"
+author_title: Data Science engineer at IDS
+author_url: https://github.com/vemonet
+tags: [security, development]
+description: Create a web application with React and TypeScript
+hide_table_of_contents: false
+# author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
+# image: https://i.imgur.com/mErPwqL.png
 ---
 
 This web page will help you quickly create a [ReactJS](https://reactjs.org) web application using TypeScript in a few minute.
 
-Duration: 10min 🕐
+:::note Estimated time
+
+10min 🕐
+
+:::
+
+<!--truncate-->
 
 ## Create your website
 

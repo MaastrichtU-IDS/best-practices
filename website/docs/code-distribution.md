@@ -7,11 +7,23 @@ title: Code distribution
 
 Versioning your code using [git](https://git-scm.com/) is mandatory. Use `git` to commit even the smallest changes with a comment. Learn how to use branches and pull requests for bug fixes and the development of new features.
 
+:::tip GitHub at IDS
+
 If you are developing code related to the Institute of Data Science, we recommend you to create the repository in the MaastrichtU-IDS organization on GitHub: [https://github.com/MaastrichtU-IDS](https://github.com/MaastrichtU-IDS)
 
-> See [how to define user access](/docs/project-management) to your repository when created in the [MaastrichtU-IDS GitHub organization](https://github.com/MaastrichtU-IDS).
+:::
+
+:::info Set your repository user access
+
+See [how to define user access](/docs/project-management) to your repository when created in the [MaastrichtU-IDS GitHub organization](https://github.com/MaastrichtU-IDS).
+
+:::
+
+:::caution GitLab for specific private projects
 
 Some projects in collaboration with other entities can be hosted on GitLab depending on the requirements and project stack. You can use the [UM-hosted GitLab](https://gitlab.maastrichtuniversity.nl/) for private projects.
+
+:::
 
 ## Add a license
 
@@ -92,7 +104,11 @@ The standard for version number is:
 * From `v0.1.0` to `v1.0.0` : beta releases, your project is in a stable stage, already serve most of its core functions and can be accessed.
 * From `v1.0.0` onwards: production releases, your project is published in production, your service is expected
 
-> Use the [semantic versioning](https://semver.org/) logic to increment the version number.
+:::note Semantic Versioning
+
+Use the [semantic versioning](https://semver.org/) logic to increment the version number.
+
+:::
 
 ### Add a code of conduct
 

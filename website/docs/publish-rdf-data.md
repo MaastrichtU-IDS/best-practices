@@ -7,7 +7,11 @@ title: Publish RDF data
 
 Create a new repository on our GraphDB triplestore at https://graphdb.dumontierlab.com/
 
-> Ask us to get the permissions to create new repositories after creating an account.
+:::info Ask for permissions
+
+Ask us to get the permissions to create new repositories after creating an account.
+
+:::
 
 ### Create the GraphDB repository
 
@@ -72,7 +76,11 @@ SELECT ?foundUri ?foundLabel {
 } ORDER BY ?score LIMIT 200
 ```
 
-> Note we are using a `*` wildcard at the end to match all strings starting with the `TEXT_TO_SEARCH`
+:::note Wildcard
+
+We are using a `*` wildcard at the end to match all strings starting with the string `TEXT_TO_SEARCH`
+
+:::
 
 ### Automate data processing and loading
 
@@ -120,13 +128,21 @@ See [this workflow](https://github.com/MaastrichtU-IDS/food-claims-kg/blob/maste
         graph: "https://w3id.org/foodkg/graph"
 ```
 
-> You will need to define those 2 secrets in your GitHub repository workflows secrets: `GRAPHDB_USER` and `GRAPHDB_PASSWORD`
+:::caution Secrets
+
+You will need to define those 2 secrets in your GitHub repository workflows secrets: `GRAPHDB_USER` and `GRAPHDB_PASSWORD`
+
+:::
 
 # Deploy a serverless API
 
 Deploying an API to access and explore your SPARQL endpoint is really easy to do with [grlc.io](http://grlc.io/). You just need to define a few SPARQL queries in a GitHub repository, and grlc.io will handle everything else to expose a Swagger API (aka. Open API) to access your knowledge graph. 
 
-> ℹ️ This API will be the entrypoint for people who want to discover your data: they can quickly explore and understand the structure of your knowledge graph through the query you exposed.
+:::info Enable easy data exploration
+
+🧭 This API will be the entrypoint for people who want to discover your data: they can quickly explore and understand the structure of your knowledge graph through the query you exposed.
+
+:::
 
 To make this example easier to reproduce, we will use the existing [grlc.io](http://grlc.io/) API deployment defined for the [food-claims-kg](https://github.com/MaastrichtU-IDS/food-claims-kg) as example
 
@@ -134,10 +150,18 @@ To make this example easier to reproduce, we will use the existing [grlc.io](htt
 
 2. 👨‍💻 Define the SPARQL queries in `.rq` files at the base of the git repo.
 
-   > See [this example of a `.rq` file](https://github.com/MaastrichtU-IDS/food-claims-kg/blob/master/get-claims-for-food.rq) to define a SPARQL query with a parameter (used to filter using `regex()`).
+   :::note Example
+
+   See [this example of a `.rq` file](https://github.com/MaastrichtU-IDS/food-claims-kg/blob/master/get-claims-for-food.rq) to define a SPARQL query with a parameter (used to filter using `regex()`).
+
+   :::
 
 3. That's it 🤯 you can go to your API Swagger UI automatically generated and hosted by [grlc.io](http://grlc.io/) based on the GitHub repository URL: http://grlc.io/api-git/MaastrichtU-IDS/food-claims-kg
 
 Bonus: combine [grlc.io](https://github.com/MaastrichtU-IDS/food-claims-kg) with the GraphDB search index query, and you have a Search API for your knowledge graph! 🔎
 
-> The project is still active and reactive, feel free to [post an issue](https://github.com/CLARIAH/grlc/issues) if you face any problem.
+:::tip An active project
+
+The project is still active and reactive, feel free to [post an issue](https://github.com/CLARIAH/grlc/issues) if you face any problem.
+
+:::
