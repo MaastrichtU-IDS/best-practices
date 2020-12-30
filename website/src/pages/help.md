@@ -20,4 +20,6 @@ Submit [issues](https://github.com/MaastrichtU-IDS/best-practices/issues) or [pu
 
 ## Contact us 📬
 
-Feel free to [contact the main maintainers](mailto:vincent.emonet@maastrichtuniversity.nl) if you have any question.
+<img alt="Chat on Slack" src="https://img.shields.io/badge/Chat%20on-Slack-blueviolet"/>
+
+Contact **Vincent Emonet** on the IDS Slack if you have any question.

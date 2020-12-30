@@ -8,24 +8,48 @@ The documentation website at https://maastrichtu-ids.github.io/best-practices is
 
 ## Edit documentation pages
 
-Editing a documentation file is as easy as going to https://github.com/MaastrichtU-IDS/best-practices/edit/master/docs/introduction.md if your account has edit permissions.
+Editing a documentation file is as easy as going to https://github.com/MaastrichtU-IDS/best-practices/edit/master/website/docs/introduction.md if your account has edit permissions.
 
 Otherwise **fork the repository** and modify the files you want. Pull requests are welcome!
 
-Browse all documentation markdown pages in [/docs](https://github.com/MaastrichtU-IDS/best-practices/tree/master/docs).
+Browse all documentation markdown pages in [/docs](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/docs).
 
 > We recommend using [Typora](https://typora.io/) to edit [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) files on your computer.
 
 ### Files locations
 
 * Add new `docs` pages:
-  * **Markdown file** in [docs/](https://github.com/MaastrichtU-IDS/best-practices/tree/master/docs)
+  * **Markdown file** in [website/docs/](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/docs)
   * Add the **link in the sidebar** in the [website/sidebars.json](https://github.com/MaastrichtU-IDS/best-practices/blob/master/website/sidebars.json) file.
 * Main parameters of the website can be found in [website/siteConfig.js](https://github.com/MaastrichtU-IDS/best-practices/blob/master/website/siteConfig.js).
 * Static content (any resource to download, images, css, js) can be provided in [website/static](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/static)
 * JS pages (index, help, users) are in [website/pages/en](https://github.com/MaastrichtU-IDS/best-practices/tree/master/website/pages/en)
 
 > See our [contributor code of conduct](https://github.com/MaastrichtU-IDS/best-practices/blob/master/CODE_OF_CONDUCT.md).
+
+## Markdown tips
+
+```markdown
+:::note
+The content and title *can* include markdown.
+:::
+
+:::tip You can specify an optional title
+Heads up! Here's a pro-tip.
+:::
+
+:::info
+Useful information.
+:::
+
+:::caution
+Warning! You better pay attention!
+:::
+
+:::danger
+Danger danger, mayday!
+:::
+```
 
 ## Run for development
 
@@ -51,8 +75,7 @@ To run in `website/` directory. Make sure the `website/build` directory has been
 
 ```shell
 yarn install
-yarn build
-GIT_USER=MaastrichtU-IDS CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages
+GIT_USER=MaastrichtU-IDS CURRENT_BRANCH=master USE_SSH=true yarn deploy
 ```
 
 ## Install Docusaurus boostrap tool

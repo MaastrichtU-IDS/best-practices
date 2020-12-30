@@ -1,5 +1,5 @@
 ---
-title: Create a web application
+title: Create a web app
 author: Vincent Emonet
 authorURL: "https://github.com/vemonet/"
 ---
