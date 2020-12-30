@@ -1,6 +1,7 @@
 name: Publish to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
 
@@ -21,10 +22,12 @@ jobs:
         private-key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
 
     - name: Build and publish
+      env:
+        USE_SSH: true
+        GIT_USER: MaastrichtU-IDS
       run: |
         git config --global user.email "vincent.emonet@maastrichtuniversity.nl"
         git config --global user.name "Vincent Emonet"
         cd website
         yarn install
-        yarn build
-        GIT_USER=MaastrichtU-IDS CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages
+        yarn deploy
