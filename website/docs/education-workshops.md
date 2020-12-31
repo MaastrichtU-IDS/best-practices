@@ -3,7 +3,7 @@ id: education-workshops
 title: Try IDS workshops
 ---
 
-## Publish a Python package with automated tests
+## Publish a Python package
 
 Follow the workshop at https://maastrichtu-ids.github.io/workshop-ci
 
@@ -16,7 +16,7 @@ You will learn:
 * Run automated tests at each push to the GitHub repository
 * Automatically publish the package at each new release created on GitHub if the tests pass
 
-:::note Estimated time
+:::note Estimated time 🕐
 
 2 hours
 
@@ -37,7 +37,7 @@ The curriculum for these students will be:
 * Loop functions in R
 * Inferential Statistics
 
-:::note Estimated time
+:::note Estimated time 🕐
 
 8 hours
 
@@ -48,5 +48,29 @@ Course is currently offered in Venlo Campus for Applied Research Course: https:/
 :::caution TODO
 
 Python self-placed tutorials: https://github.com/carlosug/IDS-RDM-202004-Python-Basics
+
+:::
+
+## Start Data Science app on the DSRI
+
+A short workshop to start Data Science applications on the Data Science Research Infrastructure at Maastricht University.
+
+https://maastrichtu-ids.github.io/dsri-workshop-start-app
+
+:::note Estimated time 🕐
+
+1 hour
+
+:::
+
+## Get started with Docker
+
+A straightforward workshop to get started with Docker in an hour.
+
+https://github.com/MaastrichtU-IDS/get-started-with-docker
+
+:::note Estimated time 🕐
+
+1 hour
 
 :::

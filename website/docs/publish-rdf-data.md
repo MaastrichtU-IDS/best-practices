@@ -3,7 +3,7 @@ id: publish-rdf-data
 title: Publish RDF data
 ---
 
-# Publish to our public GraphDB triplestore
+## Publish to our public GraphDB triplestore
 
 Create a new repository on our GraphDB triplestore at https://graphdb.dumontierlab.com/
 
@@ -134,7 +134,7 @@ You will need to define those 2 secrets in your GitHub repository workflows secr
 
 :::
 
-# Deploy a serverless API
+## Deploy a serverless API for triplestore
 
 Deploying an API to access and explore your SPARQL endpoint is really easy to do with [grlc.io](http://grlc.io/). You just need to define a few SPARQL queries in a GitHub repository, and grlc.io will handle everything else to expose a Swagger API (aka. Open API) to access your knowledge graph. 
 

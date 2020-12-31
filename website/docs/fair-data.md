@@ -3,7 +3,7 @@ id: fair-data
 title: FAIR data
 ---
 
-# Publishing FAIR data
+## Publishing FAIR data
 
 * **Data persistence**: Data repositories, such as [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org/), [DataDryad](https://datadryad.org/), [Kaggle Datasets](https://www.kaggle.com/datasets) and many others, are a good way to ensure dataset persistence. Many of these repositories have [agreements with libraries](https://knowledge.figshare.com/articles/item/preservation-and-continuity-of-access-policy) to preserve data in perpetuity.
 * **Provenance**: with datasets often published in multiple repositories, it would be useful for repositories to describe the provenance information more explicitly in the metadata. 
@@ -21,7 +21,7 @@ Recommendations adapted from [this article](https://ai.googleblog.com/2020/08/an
 
 :::
 
-# Tools and frameworks
+## Tools and frameworks
 
 Pointer to tools and framework to build FAIR data systems (depend on the use-case)
 

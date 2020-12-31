@@ -1,10 +1,10 @@
 ---
 title: Contribute
-description: Contribute to IDS best practices
+description: Contribute to IDS best practices documentation
 hide_table_of_contents: true
 ---
 
-:::info Contributions welcome
+:::info Contributions are welcome
 
 Contributions to this documentation website are encouraged!
 
@@ -28,7 +28,7 @@ If you are part of the [MaastrichtU-IDS organization on GitHub](https://github.c
 
 :::
 
-:::warning Otherwise fork the repository
+:::caution Otherwise fork the repository
 
 Otherwise you will need to first [fork this repository](https://github.com/MaastrichtU-IDS/best-practices/fork).
 

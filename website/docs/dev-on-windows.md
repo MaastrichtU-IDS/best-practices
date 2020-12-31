@@ -63,6 +63,14 @@ Here is a quote from a senior project manager working on developing terminals at
 
 ![Do not use CMD please](/img/do_not_use_cmd_please.png)
 
+:::caution Bash is the future
+
+Actually his last sentence is wrong. PowerShell was a ridiculous attempt to replicate the popular `Bash` (and `Zsh`), when Microsoft was still against open source. 
+
+**Bash is the future**, no one in his right mind runs Windows server anymore.
+
+:::
+
 ### Navigate the terminal
 
 Using the terminal is not as complicated as muggles think, all you need to do is to go to the right directory (aka. folder) and tell your computer what he should do (aka. run a command).

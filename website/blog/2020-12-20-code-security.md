@@ -12,30 +12,13 @@ hide_table_of_contents: false
 
 Securing softwares is a complex task, especially for research softwares.
 
-But some actions can be easily taken to improve your code security.
-
-:::note Estimated time
-
-5min 🕐
-
-:::
+But some easy actions can be taken to quickly improve your code security.
 
 <!--truncate-->
 
 ## Update dependencies
 
-GitHub proposes a tool, the "dependabot", to spot deprecated dependencies that needs to be upgraded to fix a known vulnerability.
-
-Example of GitHub dependabot warning triggered when doing `git push`:
-
-```
-remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
-remote: 
-remote: GitHub found 2 vulnerabilities on MaastrichtU-IDS/dsri-documentation's default branch (1 moderate, 1 low). To find out more, visit:
-remote:      https://github.com/MaastrichtU-IDS/dsri-documentation/security/dependabot
-remote: 
-To github.com:MaastrichtU-IDS/dsri-documentation.git
-```
+GitHub proposes a tool, the **[Dependabot](https://github.com/features/security)**, to spot and warn you about deprecated dependencies that needs to be upgraded to fix known vulnerabilities.
 
 :::caution Dependabot example
 
@@ -48,6 +31,21 @@ Check the DSRI documentation [GitHub Dependabot alerts](https://github.com/Maast
 You can enable Dependabot to **automatically update problematic dependencies**
 
 See this [DSRI documentation automatic pull request](https://github.com/MaastrichtU-IDS/dsri-documentation/pull/24).
+
+:::
+
+:::note Integrates with git
+
+Dependabot warning will be displayed when doing `git push`:
+
+```
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote: 
+remote: GitHub found 2 vulnerabilities on MaastrichtU-IDS/dsri-documentation's default branch (1 moderate, 1 low). To find out more, visit:
+remote:      https://github.com/MaastrichtU-IDS/dsri-documentation/security/dependabot
+remote: 
+To github.com:MaastrichtU-IDS/dsri-documentation.git
+```
 
 :::
 

@@ -15,7 +15,7 @@ A website for projects at the [Institute of Data Science](http://maastrichtunive
 
 ---
 
-### IDS Dashboard objectives
+### Objectives
 
 1. Integrate and preserve the intellectual production of IDS.
 2. Increment the visibility and impact of our scientific output.
@@ -24,13 +24,11 @@ We hope that having IDS projects more discoverable through tools such as IDS Das
 
 ---
 
-### What is the IDS Dashboard?
+### Architecture
 
-A website for projects at the [Institute of Data Science](http://maastrichtuniversity.nl/ids/) at Maastricht University. It is designed to help you find specific projects that meet your interests and to gain a broader understanding of the wide variety of work currently underway in the IDS.
+1. A Python script running regularly using a GitHub Actions workflow to retrieve informations about IDS projects on GitHub. Data about projects stored in a triplestore, and releases data stored in a JSON file on GitHub.
 
-### IDS Dashboard Architecture
-
-A web UI in React with TypeScript which retrieves projects information from the SPARQL endpoint and releases info from the JSON file on GitHub. You will find specific information [here]( https://github.com/MaastrichtU-IDS/projects#get-data-from-github-graphql-api).
+2. A React web UI in TypeScript which retrieves projects information from the SPARQL endpoint, and releases info from the JSON file on GitHub. You will find specific information [here]( https://github.com/MaastrichtU-IDS/projects#get-data-from-github-graphql-api).
 
 ---
 
@@ -51,7 +49,7 @@ An IDS project is a  publicly available code repository concerning IDS in varyin
 | 🎓  Education          | A folder that contains all your "*Education*" related project's file |
 
 
-### What IDS Project should be added in IDS Dashboard?
+### Which projects should be added?
 
 As a rule of thumb, a project should be added to the IDS Dashboard if:
 

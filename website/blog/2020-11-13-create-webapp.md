@@ -3,36 +3,36 @@ title: Create a web app
 author: Vincent Emonet
 author_title: Data Science engineer at IDS
 author_url: https://github.com/vemonet
-tags: [security, development]
+tags: [web, application, development]
 description: Create a web application with React and TypeScript
 hide_table_of_contents: false
+draft: True
 # author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
 # image: https://i.imgur.com/mErPwqL.png
 ---
 
-This web page will help you quickly create a [ReactJS](https://reactjs.org) web application using TypeScript in a few minute.
+This web page will help you quickly create a [ReactJS](https://reactjs.org) web application using [TypeScript](https://www.typescriptlang.org/) in a [Jamstack](https://jamstack.org/) fashion in a few minutes.
 
-:::note Estimated time
-
-10min 🕐
-
-:::
+* Bootstrap a React TypeScript application
+* Recommended libraries for the web UI
+* Integrate [SOLID](https://solidproject.org/) for user authentication and user data
+* Deploy for free on [GitHub Pages](https://pages.github.com/)
 
 <!--truncate-->
 
 ## Create your website
 
-Requirements: `npm` and `Yarn` installed
+Requirements: [`npm`](https://www.npmjs.com) and [`yarn`](https://yarnpkg.com) installed
 
 Checkout the [Expo documentation](https://docs.expo.io/guides/typescript/) for the complete up-to-date documentation.
 
-Install command line packages globally:
+1. Install the command line packages in your terminal:
 
 ```bash
 yarn global add expo-cli create-react-native-app
 ```
 
-Create your project from the default `expo init` TypeScript template:
+2. Create your project from the default `expo init` TypeScript template:
 
 ```bash
 expo init -t expo-template-blank-typescript
@@ -48,13 +48,13 @@ create-react-native-app my-project
 
 :::
 
-Once your projects has been generated, go in its folder:
+3. Once your projects has been generated, go in its folder:
 
 ```bash
 cd my-project
 ```
 
-Start the application on http://localhost:19006
+4. Start the application on http://localhost:19006
 
 ```bash
 yarn web
@@ -62,7 +62,7 @@ yarn web
 
 :::tip Start editing
 
-If it worked, you can now make changes to `App.tsx` to start your application!
+You can now make changes to `App.tsx` to develop your application!
 
 :::
 
@@ -97,6 +97,16 @@ It can be useful to define global CSS styles:
 ### Add multiple page
 
 Add a router to be able to have more than one page.
+
+:::info Use Next.js
+
+[Next.js](https://nextjs.org/) is a framework to easily build complete React applications, it includes:
+
+* A routing system
+* Built-in CSS and Sass support
+* API routes to build API endpoints with Serverless Functions
+
+:::
 
 ## Build a SOLID app
 
