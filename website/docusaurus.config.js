@@ -89,8 +89,8 @@ module.exports={
           "position": "left"
         },
         {
-          "to": "/help",
-          "label": "Help",
+          "to": "/contributing",
+          "label": "Contribute",
           "position": "left"
         },
         {

@@ -1,12 +1,14 @@
 [![Publish to GitHub Pages](https://github.com/MaastrichtU-IDS/best-practices/workflows/Publish%20to%20GitHub%20Pages/badge.svg)](https://github.com/MaastrichtU-IDS/best-practices/actions?query=workflow%3A%22Publish+to+GitHub+Pages%22)
 
-# IDS best practices documentation
-
 Best practices documentation website for the [Institute of Data Science](https://maastrichtuniversity.nl/ids) at Maastricht University.
 
 The documentation website at https://maastrichtu-ids.github.io/best-practices is **automatically updated** by a [GitHub Action](https://github.com/MaastrichtU-IDS/best-practices/actions) when a change is pushed to the `master` branch.
 
-## Edit documentation pages
+## Contribute 👨‍💻
+
+Contributions are welcome! See the [guidelines to contribute](https://maastrichtu-ids.github.io/best-practices/contributing).
+
+## Edit documentation pages 📝
 
 Editing a documentation file is as easy as going to https://github.com/MaastrichtU-IDS/best-practices/edit/master/website/docs/introduction.md if your account has edit permissions.
 
@@ -27,7 +29,7 @@ Browse all documentation markdown pages in [/docs](https://github.com/Maastricht
 
 > See our [contributor code of conduct](https://github.com/MaastrichtU-IDS/best-practices/blob/master/CODE_OF_CONDUCT.md).
 
-## Markdown tips
+### Markdown tips
 
 ```markdown
 :::note
@@ -86,10 +88,6 @@ sudo npm install --global docusaurus-init
 
 npx docusaurus-init
 ```
-
-# Contribute
-
-Contributions are welcome! See the [guidelines to contribute 👨‍💻](/CONTRIBUTING.md).
 
 # Acknowledgments
 
