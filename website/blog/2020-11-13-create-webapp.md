@@ -32,17 +32,21 @@ Install command line packages globally:
 yarn global add expo-cli create-react-native-app
 ```
 
-Create your project from the default TypeScript template:
+Create your project from the default `expo init` TypeScript template:
 
 ```bash
 expo init -t expo-template-blank-typescript
 ```
 
-> You can also create your project using one of the available [create-react-native-app](https://github.com/expo/create-react-native-app) template:
->
-> ```bash
-> create-react-native-app my-project
-> ```
+:::note Alternative
+
+You can also create your project using one of the available [`create-react-native-app`](https://github.com/expo/create-react-native-app) template:
+
+```bash
+create-react-native-app my-project
+```
+
+:::
 
 Once your projects has been generated, go in its folder:
 
@@ -56,7 +60,11 @@ Start the application on http://localhost:19006
 yarn web
 ```
 
-> If it worked, you can now make changes to `App.tsx` to start your application!
+:::tip Start editing
+
+If it worked, you can now make changes to `App.tsx` to start your application!
+
+:::
 
 ## Improve your website
 
@@ -94,7 +102,11 @@ Add a router to be able to have more than one page.
 
 Build a SOLID app with React using [SOLID React Components](https://solid.github.io/react-components).
 
-> You can also [query SOLID data with Tripledoc](https://medium.com/javascript-in-plain-english/building-a-solid-app-in-react-with-tripledoc-27fd47d8bdda).
+:::note Alternative
+
+You can also [query SOLID data with Tripledoc](https://medium.com/javascript-in-plain-english/building-a-solid-app-in-react-with-tripledoc-27fd47d8bdda).
+
+:::
 
 ### Add SOLID login
 
@@ -137,17 +149,25 @@ We recommend to deploy for free on GitHub Pages. If your application need to run
 
 ### On GitHub Pages
 
+:::tip Free website hosting
+
 We recommend you to deploy your React applications as a static websites for free on GitHub Pages. 
 
-> You can also use a custom URL with GitHub Pages if you don't want to use the default github.io URL. This can be easily defined in your GitHub repository settings.
+:::
 
-Install `gh-pages`:
+:::note Use a custom URL
+
+You can also use a custom URL with GitHub Pages if you don't want to use the default github.io URL. This can be easily defined in your GitHub repository settings.
+
+:::
+
+1. Install `gh-pages`:
 
 ```bash
 yarn add gh-pages --dev
 ```
 
-Add GitHub Pages scripts to deploy to GitHub Pages in `package.json` and provide the URL of the website on GitHub Page in `homepage`:
+2. Add GitHub Pages scripts to deploy to GitHub Pages in `package.json` and provide the URL of the website on GitHub Page in `homepage`:
 
 ```javascript
 "scripts": {
@@ -158,21 +178,29 @@ Add GitHub Pages scripts to deploy to GitHub Pages in `package.json` and provide
 "homepage": "https://maastrichtu-ids.github.io/my-github-repository",
 ```
 
-Make sure the base path is properly set in your application if the GitHub Page is deployed on a specific path (e.g. https://maastrichtu-ids.github.io/my-github-repository/):
+3. Make sure the base path is properly set in your application if the GitHub Page is deployed on a specific path (e.g. https://maastrichtu-ids.github.io/my-github-repository/):
 
 ```typescript
 <Router basename="/my-github-repository/">
 ```
 
-> Then use `<Link to="/">` to link within the app (instead of `<a href>`).
+:::note Link within the app
 
-Deploy to GitHub Pages from your terminal:
+Then use `<Link to="/">` to link within the app (instead of `<a href>`).
+
+:::
+
+4. Deploy to GitHub Pages from your terminal:
 
 ```bash
 yarn deploy
 ```
 
-You can automate this process at each push to the `main` branch by creating the file `.github/workflows/deploy-github.yml` with this content:
+:::tip Automate deployment
+
+You can automate this process at each push to the `main` branch by creating the file `.github/workflows/deploy-github.yml`
+
+:::
 
 ```yaml
 name: Deploy to GitHub Pages
@@ -205,7 +233,7 @@ jobs:
 
 ### On IDS servers with Docker
 
-Define the scripts to build and serve for production in `package.json`
+1. Define the scripts to build and serve for production in `package.json`
 
 ```javascript
 "scripts": {
@@ -214,7 +242,7 @@ Define the scripts to build and serve for production in `package.json`
 }
 ```
 
-Define a simple `Dockerfile` to install your application, and serve it in production mode:
+2. Define a simple `Dockerfile` to install your application, and serve it in production mode:
 
 ```dockerfile
 FROM node:12-alpine
@@ -233,35 +261,44 @@ EXPOSE 5000
 ENTRYPOINT [ "yarn", "serve" ]
 ```
 
-Copy your `.gitignore` and rename the copy to `.dockerignore` to avoid conflict with Docker and your local environment:
+3. Copy your `.gitignore` and rename the copy to `.dockerignore` to avoid conflict with Docker and your local environment:
 
 ```bash
 cp .gitignore .dockerignore
 ```
 
-Once the Docker configuration has be done, you can build it:
+4. Once the Docker configuration has be done, you can build it:
 
 ```bash
 docker build -t my-project .
 ```
 
-And try starting the application on http://localhost:5000
+5. And try starting the application on http://localhost:5000
 
 ```bash
 docker run -it --rm -p 5000:5000 my-project
 ```
 
-> When this has be done, contact us to run your Docker image on IDS servers.
+:::note Deploy publicly
+
+When this has be done, contact us if you want to deploy your website publicly on IDS servers.
+
+:::
 
 ### On AWS Amplify
 
 [AWS Amplify](https://aws.amazon.com/amplify/)  is a set of products and tools that enables mobile and front-end web  developers to build and deploy secure, scalable full stack applications, powered by Amazon. With Amplify, you can configure app backends in  minutes, connect them to your app in just a few lines of code, and  deploy static web apps in three steps
+
+:::tip Always free
 
 [Always free](https://aws.amazon.com/free/):
 
 * Amazon DynamoDB 25 GB of storage
 * AWS Lambda 1 Million free requests per month
 
+:::
+
+:::info Temporarily free
 
 Free for the 12 first months:
 
@@ -269,5 +306,10 @@ Free for the 12 first months:
 * 1000 build minutes per month 
 * AWS AppSync 250 k query or data modifications per month (Develop, secure and run GraphQL APIs at any scale)
 
+:::
 
-> See the [pricing page](https://aws.amazon.com/amplify/pricing) for more details on prices outside of the free tier.
+:::warning Pricing
+
+See the [pricing page](https://aws.amazon.com/amplify/pricing) for more details on prices outside of the free tier.
+
+:::

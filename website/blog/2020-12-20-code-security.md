@@ -22,13 +22,11 @@ But some actions can be easily taken to improve your code security.
 
 <!--truncate-->
 
-:::warning
+## Update dependencies
 
-Work in progress :building_construction:
+GitHub proposes a tool, the "dependabot", to spot deprecated dependencies that needs to be upgraded to fix a known vulnerability.
 
-:::
-
-1. Example of GitHub dependabot warning triggered when doing `git push`:
+Example of GitHub dependabot warning triggered when doing `git push`:
 
 ```
 remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
@@ -53,7 +51,11 @@ See this [DSRI documentation automatic pull request](https://github.com/Maastric
 
 :::
 
-2. CodeQL analysis via GitHub Actions.
+## CodeQL analysis
+
+Tool from GitHub to spot dangerous coding practices, e.g. hardcoded credentials, known JavaScript vulnerability.
+
+Runs in a GitHub Actions workflow.
 
 :::info CodeQL analysis example
 
@@ -61,7 +63,9 @@ Check the OpenPredict API [CodeQL Analysis workflow](https://github.com/Maastric
 
 :::
 
-3. SonarCloud is quite nice for Test coverage + relevant reports on dangerous code ("code smells")
+## Test coverage and additional analysis
+
+SonarCloud is quite nice for test coverage, and various relevant reports on your code quality (spot security issues, code blocks that could be improved)
 
 :::note SonarCloud report example
 
@@ -69,7 +73,11 @@ Check the OpenPredict API [SonarCloud report](https://sonarcloud.io/dashboard?id
 
 :::
 
-4. Too many irrelevant issues with some Docker container analysis tools like [Anchore Container scan](https://github.com/marketplace/actions/anchore-container-scan).
+## Container scan
+
+1. Free Open Source tool
+
+Too many irrelevant issues with some Docker container analysis tools like [Anchore Container scan](https://github.com/marketplace/actions/anchore-container-scan).
 
 :::info Anchore container scan example
 
@@ -77,7 +85,9 @@ Check the OpenPredict API [Anchore docker scan workflow](https://github.com/Maas
 
 :::
 
-5. Better quality Docker image analysis with [Snyk](https://snyk.io/), but require to pay for extensive automated usage.
+2. Commercial tool
+
+Better quality Docker image analysis with [Snyk](https://snyk.io/), but require to pay for extensive automated usage.
 
 :::note
 
