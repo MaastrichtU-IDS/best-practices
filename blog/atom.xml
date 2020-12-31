@@ -15,10 +15,10 @@
         <summary type="html"><![CDATA[Improve the security of your code, web app and containers]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Create a web app]]></title>
-        <id>Create a web app</id>
-        <link href="https://maastrichtu-ids.github.io/best-practices/blog/2020/11/13/create-webapp"/>
-        <updated>2020-11-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Create a web application with React and TypeScript]]></summary>
+        <title type="html"><![CDATA[VisualStudio Code extensions]]></title>
+        <id>VisualStudio Code extensions</id>
+        <link href="https://maastrichtu-ids.github.io/best-practices/blog/2020/11/23/vscode-extensions"/>
+        <updated>2020-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A list of useful VisualStudio Code extensions]]></summary>
     </entry>
 </feed>

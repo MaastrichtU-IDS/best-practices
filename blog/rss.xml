@@ -15,11 +15,11 @@
             <description><![CDATA[Improve the security of your code, web app and containers]]></description>
         </item>
         <item>
-            <title><![CDATA[Create a web app]]></title>
-            <link>https://maastrichtu-ids.github.io/best-practices/blog/2020/11/13/create-webapp</link>
-            <guid>Create a web app</guid>
-            <pubDate>Fri, 13 Nov 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Create a web application with React and TypeScript]]></description>
+            <title><![CDATA[VisualStudio Code extensions]]></title>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2020/11/23/vscode-extensions</link>
+            <guid>VisualStudio Code extensions</guid>
+            <pubDate>Mon, 23 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[A list of useful VisualStudio Code extensions]]></description>
         </item>
     </channel>
 </rss>
