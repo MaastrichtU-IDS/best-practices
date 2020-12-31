@@ -38,7 +38,7 @@ Otherwise you will need to first [fork this repository](https://github.com/Maast
 
 You can really easily make quick changes directly on the GitHub website by clicking the **Edit this page** button at the bottom left of each documentation page.
 
-For example to edit this page you can go to https://github.com/MaastrichtU-IDS/best-practices/edit/master/website/src/pages/contributing.md
+For example to edit this page you can go to https://github.com/MaastrichtU-IDS/best-practices/edit/main/website/src/pages/contributing.md
 
 :::tip Quick changes
 

@@ -70,7 +70,7 @@ Fill in the form
 
 #### Step 3
 
-Download the file `.doap-project.ttl`
+Download the file `doap-project.ttl`
 
 #### Step 4
 

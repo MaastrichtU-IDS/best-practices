@@ -11,7 +11,7 @@ Best practices developed by the [Institute of Data Science](https://maastrichtun
 
 Contributions to this documentation are encouraged! 
 
-📝 See [CONTRIBUTING.md](https://github.com/MaastrichtU-IDS/best-practices/blob/master/CONTRIBUTING.md) for more details.
+📝 See [CONTRIBUTING.md](https://github.com/MaastrichtU-IDS/best-practices/blob/main/CONTRIBUTING.md) for more details.
 
 :::
 

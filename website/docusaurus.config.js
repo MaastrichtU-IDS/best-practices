@@ -38,7 +38,7 @@ module.exports={
           // "homePageId": "introduction",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,
-          "editUrl": "https://github.com/MaastrichtU-IDS/best-practices/edit/master/website/",
+          "editUrl": "https://github.com/MaastrichtU-IDS/best-practices/edit/main/website/",
           "path": "./docs",
           "sidebarPath": "./sidebars.json"
           // "sidebarPath": require.resolve('./sidebars.json')
