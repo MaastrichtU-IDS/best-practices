@@ -6,7 +6,7 @@ author_url: https://github.com/vemonet
 tags: [web, application, development]
 description: Create a web application with React and TypeScript
 hide_table_of_contents: false
-draft: True
+# draft: False
 # author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
 # image: https://i.imgur.com/mErPwqL.png
 ---
