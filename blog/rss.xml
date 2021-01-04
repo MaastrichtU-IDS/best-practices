@@ -21,5 +21,12 @@
             <pubDate>Thu, 17 Dec 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A list of useful VisualStudio Code extensions]]></description>
         </item>
+        <item>
+            <title><![CDATA[Create a web app]]></title>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2020/12/15/create-webapp</link>
+            <guid>Create a web app</guid>
+            <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Create a web application with React and TypeScript]]></description>
+        </item>
     </channel>
 </rss>

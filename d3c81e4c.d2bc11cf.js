@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[39],{108:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Improve code security","permalink":"/best-practices/blog/2020/12/20/code-security"},{"title":"VisualStudio Code extensions","permalink":"/best-practices/blog/2020/12/17/vscode-extensions"}]}')}}]);
