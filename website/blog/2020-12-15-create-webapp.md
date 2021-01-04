@@ -72,8 +72,19 @@ You can now make changes to `App.tsx` to develop your application!
 
 Various libraries are available to design your UI, if you don't know which one to pick we recommend the following:
 
-* UI Kitten for native applications: https://akveo.github.io/react-native-ui-kitten
-* Material UI for web applications: https://material-ui.com
+:::info Web app in browser
+
+Material UI for web applications: https://material-ui.com
+
+:::
+
+:::caution Mobile app (Android and iOS)
+
+UI Kitten for native applications: https://akveo.github.io/react-native-ui-kitten
+
+Support for [web app still experimental](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web).
+
+:::
 
 ### Add a CSS file
 
@@ -323,3 +334,9 @@ Free for the 12 first months:
 See the [pricing page](https://aws.amazon.com/amplify/pricing) for more details on prices outside of the free tier.
 
 :::
+
+## Diagram of tools and frameworks used
+
+Here is a simple diagram to better understand the stack of tools and framework used:
+
+![Stack diagram](/img/react_frameworks_stack.png) 
