@@ -12,7 +12,8 @@ const features = [
     imageUrl: 'img/undraw_data.svg',
     description: (
       <>
-        Concrete tools and methods to improve your software and data FAIRness
+        Concrete tools and methods to make your software and data more&nbsp;
+        <b>Findable</b>, <b>Accessible</b>, <b>Interoperable</b> and <b>Reusable</b> (FAIR)
       </>
     ),
   },
@@ -21,7 +22,8 @@ const features = [
     imageUrl: 'img/undraw_Container_ship.svg',
     description: (
       <>
-        Use package managers and docker containers to easily distribute your softwares or services.
+        Use package managers and docker containers to easily distribute and share your softwares and services
+        with your collaborators.
       </>
     ),
   },

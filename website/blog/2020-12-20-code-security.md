@@ -18,6 +18,12 @@ But some easy actions can be taken to quickly improve your code security.
 
 ## Update dependencies
 
+:::tip Easy to enable
+
+You can easily enable this feature in your GitHub repository **Security** tab. 
+
+:::
+
 GitHub proposes a tool, the **[Dependabot](https://github.com/features/security)**, to spot and warn you about deprecated dependencies that needs to be upgraded to fix known vulnerabilities.
 
 :::caution Dependabot example
@@ -51,6 +57,12 @@ To github.com:MaastrichtU-IDS/dsri-documentation.git
 
 ## CodeQL analysis
 
+:::tip Easy to enable
+
+You can easily enable this feature in your GitHub repository **Security** tab. This will create a GitHub Actions workflow that will run the CodeQL analysis.
+
+:::
+
 Tool from GitHub to spot dangerous coding practices, e.g. hardcoded credentials, known JavaScript vulnerability.
 
 Runs in a GitHub Actions workflow.
@@ -63,6 +75,12 @@ Check the OpenPredict API [CodeQL Analysis workflow](https://github.com/Maastric
 
 ## Test coverage and additional analysis
 
+:::caution Enable for larger project
+
+Setting this up requires a bit more time, it is recommended for larger projects where you define tests.
+
+:::
+
 SonarCloud is quite nice for test coverage, and various relevant reports on your code quality (spot security issues, code blocks that could be improved)
 
 :::note SonarCloud report example
@@ -72,6 +90,12 @@ Check the OpenPredict API [SonarCloud report](https://sonarcloud.io/dashboard?id
 :::
 
 ## Container scan
+
+:::warning Explore
+
+It can be interesting to use it for project with an emphasis on security.
+
+:::
 
 1. Free Open Source tool
 
