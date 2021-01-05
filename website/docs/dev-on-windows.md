@@ -1,6 +1,6 @@
 ---
 id: dev-on-windows
-title: Develop on Windows
+title: Prepare Windows
 ---
 
 This page provides instructions to prepare a Windows computer, and yourself, for data science development. 

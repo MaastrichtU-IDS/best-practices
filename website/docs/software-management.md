@@ -1,6 +1,6 @@
 ---
-id: software-distribution
-title: Software distribution
+id: software-management
+title: Software management
 ---
 
 ## Notebooks

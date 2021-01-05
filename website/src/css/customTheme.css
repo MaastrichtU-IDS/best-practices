@@ -8,6 +8,10 @@
   --ifm-color-primary-darkest: #026DA0;
 }
 
+/* body {
+    font-family: "Open Sans", "Roboto", "Serif"
+} */
+
 a:hover { 
   color: #ff6f00;
   text-decoration: none;

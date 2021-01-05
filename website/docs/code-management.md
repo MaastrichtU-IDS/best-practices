@@ -1,6 +1,6 @@
 ---
-id: code-distribution
-title: Code distribution
+id: code-management
+title: Code management
 ---
 
 ## Use git
@@ -39,66 +39,47 @@ If you want your **project listed on the [IDS projects website](https://maastric
 
 See https://maastrichtu-ids.github.io/projects/create-doap to create a RDF DOAP file.
 
-
-
-### What to know before you create DOAP
+:::info What is DOAP?
 
 **[DOAP](https://github.com/ewilderj/doap/wiki)** (Description of a Project) is an RDF Schema and XML vocabulary that describe software projects, in particular free and open source software.
 
-### Why DOAP is important?
+:::
 
-
-
-### What is IDS project?
+:::note What is an IDS project?
 
 A project is considered IDS if:
 
 * It is registered in [Maastricht University IDS organization](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=)
 * It is on your personal [GitHub](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=)
 
+:::
 
+**How to create your DOAP?**
 
-### How to create your DOAP?
+1. Go this [website](https://maastrichtu-ids.github.io/projects/create-doap)
 
-#### Step 1
+2. Fill in the form
 
-Go this [website](https://maastrichtu-ids.github.io/projects/create-doap)
+3. Download the file `doap-project.ttl`
 
-#### Step 2
+4. Add the file into your GitHub repository
 
-Fill in the form
+5. Push to origin `master` branch on GitHub
 
-#### Step 3
-
-Download the file `doap-project.ttl`
-
-#### Step 4
-
-Add the file into your GitHub repository
-
-#### Step 5
-
-Push-origin master
-
-
-
-### Learn more about DOAP
+:::info Learn more about DOAP
 
 - [Semantic Web](http://en.wikipedia.org/wiki/Semantic_web)
-
 - [DOAP Home Page](https://github.com/edumbill/doap/wiki)
-
 - [The Apache Software Foundation Projects](http://projects.apache.org/)
-
 - [Resource Description Framework (RDF)](http://en.wikipedia.org/wiki/Resource_Description_Framework)
 
-  
+:::
 
 ### Create releases
 
-When your project reach milestones feel free to create releases on GitHub.
+For projects with active or expected users it is recommended to create releases on GitHub when your project reach milestones, this insure better stability for the users.
 
-The standard for version number is:
+The standard for releases id is:
 
 * From `v0.0.1` to `v0.1.0` : alpha releases, your project is in a early development stage
 * From `v0.1.0` to `v1.0.0` : beta releases, your project is in a stable stage, already serve most of its core functions and can be accessed.

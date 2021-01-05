@@ -45,14 +45,22 @@ You can also create new group of users for specific projects.
 
 :::
 
-## Create a Gitter chat room
+## Create a chat
 
 Additionally, for some projects you might need a public chat channel.
 
-[Gitter](https://gitter.im/) is a service from GitLab which allows to easily create and use public and private chatrooms linked to GitHub repositories. 
+[Gitter](https://gitter.im/) is a service from GitLab which allows to easily create and use public and private chat rooms linked to GitHub repositories. 
 
 :::tip Connect with GitHub
 
 Users can easily connect using their [GitHub](https://github.com/) or [GitLab](https://gitlab.com) account.
+
+:::
+
+:::info GitHub Discussions in beta
+
+GitHub just released the new [**Discussions** feature](https://docs.github.com/en/free-pro-team@latest/discussions/quickstart) to create small forums in GitHub repositories to discuss about the project.
+
+Check the [OpenPredict project discussion](https://github.com/MaastrichtU-IDS/translator-openpredict/discussions) as an example.
 
 :::

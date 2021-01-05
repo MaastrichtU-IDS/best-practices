@@ -50,7 +50,7 @@ To make larger changes to the documentation it is easier to clone the repository
 
 :::info Use a Markdown editor
 
-We strongly recommend you to use a markdown editor, such as [Typora](https://typora.io/), to make writing documentation more convenient.
+We strongly recommend you to use a markdown editor, such as [Typora](https://typora.io/). It makes writing documentation much faster, and more enjoyable.
 
 :::
 
@@ -110,7 +110,7 @@ Most pages of this website are written in Markdown, hence they are really easy t
 
 :::warning Colorful boxes
 
-Use the following tags to create colorful boxes in the markdown files:
+Use the following tags to create colorful boxes in markdown files:
 
 :::
 
