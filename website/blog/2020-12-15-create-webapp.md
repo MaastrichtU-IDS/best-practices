@@ -78,11 +78,18 @@ Material UI for web applications: https://material-ui.com
 
 :::
 
-:::caution Mobile app (Android and iOS)
+Why I use Material UI:
+
+* Popular open source library, supported by a company (which sell a deluxe version of the lib, with support for multi sort in datatables for example)
+* Material design style familiar to most users
+* Optimized to design web app running on desktop browser, but also automatically rendering well on mobile size
+* I usually can find components to easily implement the UI features I want
+
+:::caution Mobile app (native Android and iOS)
 
 UI Kitten for native applications: https://akveo.github.io/react-native-ui-kitten
 
-Support for [web app still experimental](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web).
+Support for [web app is still experimental](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web).
 
 :::
 
@@ -105,13 +112,13 @@ It can be useful to define global CSS styles:
    import './App.css';
    ```
 
-### Add multiple page
+### Add multiple pages
 
-Add a router to be able to have more than one page.
+Add a [React Router](https://reactrouter.com/web/guides/quick-start) to be able to have more than one page.
 
-:::info Use Next.js
+:::info Server-side rendering
 
-[Next.js](https://nextjs.org/) is a framework to easily build complete React applications, it includes:
+[Next.js](https://nextjs.org/) is a framework to easily build complete React applications that are rendered on the server (not client), it includes:
 
 * A routing system
 * Built-in CSS and Sass support
@@ -340,3 +347,7 @@ See the [pricing page](https://aws.amazon.com/amplify/pricing) for more details 
 Here is a simple diagram to better understand the stack of tools and framework used:
 
 ![Stack diagram](/img/react_frameworks_stack.png) 
+
+The Semantic Web stack using React and TypeScript for static web app, and additional services 
+
+![Semantic web stack diagram](/img/semantic_web_stack.png) 
