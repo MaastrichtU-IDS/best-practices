@@ -78,10 +78,10 @@ Material UI for web applications: https://material-ui.com
 
 :::
 
-Why I use Material UI:
+Why we use Material UI:
 
 * Popular open source library, supported by a company (which sell a deluxe version of the lib, with support for multi sort in datatables for example)
-* Material design style familiar to most users
+* The Material Design style is familiar to a lot of users (promoted by Google)
 * Optimized to design web app running on desktop browser, but also automatically rendering well on mobile size
 * I usually can find components to easily implement the UI features I want
 
@@ -348,6 +348,6 @@ Here is a simple diagram to better understand the stack of tools and framework u
 
 ![Stack diagram](/img/react_frameworks_stack.png) 
 
-The Semantic Web stack using React and TypeScript for static web app, and additional services 
+The Semantic Web stack using React and TypeScript for static web app, and additional services:
 
 ![Semantic web stack diagram](/img/semantic_web_stack.png) 

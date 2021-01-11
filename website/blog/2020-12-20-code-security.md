@@ -118,3 +118,13 @@ Docker enable to do a limited number of Snyk vulnerability scan.
 See the [Docker and Snyk documentation](https://www.docker.com/partners/snyk) for more details
 
 :::
+
+## Improve password security
+
+A few small steps can also be taken to improve your password security:
+
+* Use a secure password manager, such as BitWarden, to store your passwords.
+* Use 2 factor authentication with a secure app, such as Authy or the Google Authenticator, when the website allows it. For example, on BitWarden and GitHub
+* To login to GitHub to push code, we recommend to: 
+  * [Use SSH keys](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) if possible
+  * Or [generate new API tokens](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) to be used in place of your password when pushing to git (to avoid unsecure practices when storing the password with git). Go to your settings to [create Personal Access Tokens](https://github.com/settings/tokens).

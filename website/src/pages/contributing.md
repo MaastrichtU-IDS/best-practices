@@ -10,11 +10,17 @@ Contributions to this documentation website are encouraged!
 
 :::
 
-Check if there are [issues](https://github.com/MaastrichtU-IDS/best-practices/issues) related to your contribution, or post a [new issue](https://github.com/MaastrichtU-IDS/best-practices/issues/new) to discuss improvement to the documentation. 
+## ⚠️ Issues
+
+Check if there are [issues](https://github.com/MaastrichtU-IDS/best-practices/issues) related to your contribution, or create a [new issue](https://github.com/MaastrichtU-IDS/best-practices/issues/new) to discuss your problem. 
 
 <a href="https://github.com/MaastrichtU-IDS/best-practices/issues" target="_blank" rel="noopener noreferrer" aria-label="GitHub issues">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/MaastrichtU-IDS/best-practices?label=best-practices"/>
 </a>
+
+---
+
+## ⚡ Quick edit on GitHub
 
 :::info Make changes in this repository
 
@@ -27,10 +33,6 @@ If you are part of the [MaastrichtU-IDS organization on GitHub](https://github.c
 Otherwise you will need to first [fork this repository](https://github.com/MaastrichtU-IDS/best-practices/fork), then send a pull request when your changes have been pushed.
 
 :::
-
----
-
-## ⚡ Quick edit on GitHub
 
 You can really easily make quick changes directly on the GitHub website by clicking the **Edit this page** button at the bottom left of each documentation page.
 
