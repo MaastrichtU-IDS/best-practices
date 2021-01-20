@@ -4,9 +4,16 @@
         <title>IDS Best Practices Blog</title>
         <link>https://maastrichtu-ids.github.io/blog</link>
         <description>IDS Best Practices Blog</description>
-        <lastBuildDate>Sun, 20 Dec 2020 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Jan 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hosting docker images for DSRI]]></title>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/01/19/private-image-openshift-deploy</link>
+            <guid>Hosting docker images for DSRI</guid>
+            <pubDate>Tue, 19 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[On deploying (private) images on OpenShift using GitHub actions]]></description>
+        </item>
         <item>
             <title><![CDATA[Improve code security]]></title>
             <link>https://maastrichtu-ids.github.io/best-practices/blog/2020/12/20/code-security</link>
