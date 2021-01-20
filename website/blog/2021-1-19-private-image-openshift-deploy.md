@@ -33,6 +33,8 @@ Some of the reasons to opt for the [GitHub Container Registry](https://docs.gith
     * Linking to the relevant GitHub repository.
     * Providing documentation in markdown for the package.
     * Utilizing Github users and groups for authorization on the image.
+* Storing code, CI/CD, packages and images on the same platform.
+* Faster communication between the GitHub Actions server and GHCR servers.
   
 ## Using GitHub Personal Access Tokens
 
