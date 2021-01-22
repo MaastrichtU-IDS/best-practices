@@ -258,7 +258,7 @@ Also add recursively all the submodules of the repository added as submodule:
 git submodule add --recursive https://github.com/MaastrichtU-IDS/best-practices.git
 ```
 
-### Revert and reset
+### Revert and reset changes
 
 Soft reset, without losing it (unlike reset). Creates a new commit that cancel the last commit.
 
@@ -300,7 +300,7 @@ git log --all --grep=searchme
 
 ### Check the `.git` folder
 
-Checkout `.git/config` file to find where your `git` repository configuration is stored
+Checkout `.git/config` file to find where your `git` repository configuration is stored. All files related to git (configurations, files diffs, commits) are stored in this folder.
 
 ---
 
