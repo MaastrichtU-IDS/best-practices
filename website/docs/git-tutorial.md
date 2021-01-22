@@ -3,9 +3,17 @@ id: git-tutorial
 title: Git tutorial
 ---
 
+Create an account on [GitHub](https://github.com), if you don't have one. It is particularly useful as it can be used to login to various website (like your Google account)
+
+:::tip Join the IDS GitHub organization
+
+Contact Vincent on IDS Slack (or someone else) to add your GitHub user to the [MaastrichtU-IDS organization](https://github.com/MaastrichtU-IDS) on GitHub. You will then be able to create and edit repositories in the [organization](https://github.com/MaastrichtU-IDS).
+
+:::
+
 ## Why use git?
 
-* The best solution to version your code. Most code development today are versioned with git
+* The best solution to version your code. Most (if not all) projects including code development today are using `git`.
 * Open source, standard, multi-platform, incredibly efficient and modular. 
   * `git` is supported by all code hosting platforms, and development environments (IDE)
   * A lot of systems directly uses `git` in their implementation (e.g. installing python or javascript packages can be done directly from `git` repositories)
