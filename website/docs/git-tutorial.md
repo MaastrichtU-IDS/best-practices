@@ -25,7 +25,7 @@ Whenever you start working on code (scripts, mappings, Jupyter notebooks) **use 
 
 Which tools do you want to use to manage your `git` repositories? 
 
-:::info Why not both?
+:::tip Why not both?
 
 A lot of people use multiple tools depending on the moment and the task they want to perform!
 :::
@@ -139,9 +139,9 @@ From the remote repository on GitHub to your local repository.
 git pull
 ```
 
-### Branching (checkout and merge)
+### Use branches
 
-:::caution The default main branch
+:::info The default main branch
 
 Note that the previous the default main branch of a repository was by standard `master`. It now has changed to be `main` (which is shorter, and less derogatory)
 
