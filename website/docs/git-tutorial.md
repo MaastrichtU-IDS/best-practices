@@ -222,6 +222,12 @@ git config --global user.name "Firstname Lastname"
 git config --global user.email "Firstname.Lastname@gmail.com"
 ```
 
+### Add a `.gitignore` file
+
+It is recommended to add a `.gitignore` file with the list of files and folders you don't want to be added by git (temporary build folder, data output folder, IDE config files, etc).
+
+This way you can do `git add .` without worrying about adding unwanted files.
+
 ### Add remote repositories
 
 The default remote repository is named `origin`
@@ -272,15 +278,21 @@ Remove all commits pushed to GitHub that are more recents than the provided comm
 git push origin +$COMMIT^:$BRANCH
 ```
 
-### Search in commits
+### Check commits log
 
-Current branch
+See the log:
+
+```bash
+git log
+```
+
+Search in current branch commit messages:
 
 ```bash
 git log --grep=searchme
 ```
 
-All branches
+In all branches:
 
 ```bash
 git log --all --grep=searchme
@@ -295,7 +307,7 @@ Checkout `.git/config` file to find where your `git` repository configuration is
 ## Git best practices
 
 ### Do not commit all your files
-In general, binary files should not be included in your commit as they can drastically reduce performance and make your repository bulky. The .gitignore file can be used to ignore any such files. Check [here](https://www.toptal.com/developers/gitignore) for examples. Furthermore, make sure never to include any credentials in your commits that can reside in configuration files. 
+In general, binary files should not be included in your commit as they can drastically reduce performance and make your repository bulky. The `.gitignore` file can be used to ignore any such files. Check [here](https://www.toptal.com/developers/gitignore) for examples. Furthermore, make sure never to include any credentials in your commits that can reside in configuration files. 
 
 ### Commit frequently
 As commits are stored locally until pushed, commit as frequently as possible. Undesired commits can always be changed, removed, squashed and so on as long as the commits have not yet been pushed. Once you are confident with your work, `git push`. Even if you have made mistakes pushing your code to a remote repository they can always be fixed. Don't panic, and ask the developer team for help.
@@ -307,7 +319,7 @@ Once you are familiar with the some of the technical basics of `git`, it can be 
 When writing the commit message, describe which changes were made and why they are important. By doing this, a later `git log` will allow you to read which changes were made where, making decision making involving earlier commits much easier.
 
 ### Git branching strategies
-When working on a codebase with a larger group, consider branching strategies such as [git flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html). As in most IDS cases this will be too involved, consider as a lightweight strategy to no longer commit to the master and create separate branches for each issue.
+When working on a codebase with a larger group, consider branching strategies such as [git flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html). As in most IDS cases this will be too involved, consider as a lightweight strategy to no longer commit to the `main` and create separate branches for each issue.
 
 
 ---
