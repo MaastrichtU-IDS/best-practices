@@ -15,7 +15,7 @@ title: Git tutorial
   * It allows you to check the history and changes you made to your code, allowing you to find where issues have been introduced
 * Bonus: allows you to run your code in GitHub Actions workflow for free (for data processing, testing, app deployment, etc)
 
-:::info Code = git
+:::info Write code = use git
 
 Whenever you start working on code (scripts, mappings, Jupyter notebooks) **use `git`**. It's that simple! Especially if you want to show this code to other people.
 
@@ -27,12 +27,12 @@ Which tools do you want to use to manage your `git` repositories?
 
 :::info Why not both?
 
-A lot of people use multiple of those tools depending of the moment and the task they want to perform!
+A lot of people use multiple tools depending on the moment and the task they want to perform!
 :::
 
 ### The terminal
 
-55% of `git` users at IDS use the `git` command in the terminal.
+55% of `git` users at IDS use the [`git` command](https://git-scm.com/) in the terminal.
 
 ✔️ Available anywhere (even when accessing a remote server without user interface)
 
@@ -40,17 +40,17 @@ A lot of people use multiple of those tools depending of the moment and the task
 
 ✔️ Can be easily customized to have a more personal process to commit and push
 
-❌ More work to learn, and get nice branch visualizations
+❌ More work to learn, and to get nice branches visualizations
 
 ### IDE built-in support
 
-25% of `git` users at IDS use their favorite IDE (Integrated Development Environment) `git` built-in support.
+25% of `git` users at IDS use their favorite IDE `git` built-in support (e.g. [VisualStudio Code](https://code.visualstudio.com/) or [IntelliJ](https://www.jetbrains.com/idea/)).
 
 ✔️ To manage `git` with a friendly UI without exiting your IDE
 
-✔️ Some IDE integrates `git` really well in their UI, e.g. VS Code allows you to revert only selected lines that changed directly from the test editor.
+✔️ Some IDEs integrate `git` really well in their UI, e.g. VS Code allows you to revert only selected lines that changed directly from the test editor.
 
-❌ Not always well integrated depending on the IDE and how you use `git` (have you seen the size of the buttons in the VSCode UI?!)
+❌ Not always well integrated depending on the IDE, and how you use `git` (have you seen the size of the buttons in the VSCode UI?!)
 
 ### Desktop UI applications
 
@@ -58,9 +58,9 @@ A lot of people use multiple of those tools depending of the moment and the task
 
 Other applications that focuses on managing `git` repositories are also available (such as [GitKraken](https://www.gitkraken.com/) or [SourceTree](https://www.sourcetreeapp.com/))
 
-✔️ If you want to avoid the terminal, and have a nice UI well integrated with GitHub and really focusing on the `git` repository management
+✔️ If you want to avoid the terminal, and have a nice UI well integrated with GitHub, and really focusing on the `git` repository management
 
-✔️ Quite helpful when needing to visualize repositories with multiple branches
+✔️ Quite helpful when needing to visualize repositories with complex branching
 
 ❌ Add one more app just for `git` management
 
@@ -72,9 +72,9 @@ Other applications that focuses on managing `git` repositories are also availabl
 
 ### Clone
 
-Download the remote repository on GitHub to your computer (here mentioned as "your local repository").
+Download a remote repository from GitHub to your computer (here mentioned as "your local repository").
 
-With SSH (require to have [set SSH keys to login](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account))
+Using SSH (requires to have [set SSH keys to login](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account), but is safer and really easier on the long term)
 
 ```bash
 git clone git@github.com:MaastrichtU-IDS/best-practices.git
