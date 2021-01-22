@@ -23,17 +23,48 @@ Whenever you start working on code (scripts, mappings, Jupyter notebooks) **use 
 
 ## Choose your weapon
 
-Which tool do you want to use to use `git`? A lot of people use multiple of those depending of the moment and the task they want to perform.
+Which tools do you want to use to manage your `git` repositories? 
 
-* The `git` command in the terminal: used by 55% of people at IDS
-  * Available anywhere (even when accessing a remote server without user interface)
-  * Quick and efficient, especially when you already need to use the terminal to run your programs
-  * Can be easily customized to have a more personal process to commit and push
-* Your favorite IDE `git` built-in support: used by 25% of people at IDS
-  * To manage `git` with a friendly UI without exiting your IDE
-* The GitHub Desktop UI application: used by 15% of people at IDS
-  * If you want to avoid the terminal, and have a nice UI well integrated with GitHub and really focusing on the `git` repository management
-  * Quite helpful when needing to visualize repositories with multiple branches
+:::info Why not both?
+
+A lot of people use multiple of those tools depending of the moment and the task they want to perform!
+:::
+
+### The terminal
+
+55% of `git` users at IDS use the `git` command in the terminal.
+
+✔️ Available anywhere (even when accessing a remote server without user interface)
+
+✔️ Quick and efficient, especially when you already need to use the terminal to run your programs
+
+✔️ Can be easily customized to have a more personal process to commit and push
+
+❌ More work to learn, and get nice branch visualizations
+
+### IDE built-in support
+
+25% of `git` users at IDS use their favorite IDE (Integrated Development Environment) `git` built-in support.
+
+✔️ To manage `git` with a friendly UI without exiting your IDE
+
+✔️ Some IDE integrates `git` really well in their UI, e.g. VS Code allows you to revert only selected lines that changed directly from the test editor.
+
+❌ Not always well integrated depending on the IDE and how you use `git` (have you seen the size of the buttons in the VSCode UI?!)
+
+### Desktop UI applications
+
+15% of `git` users at IDS use the [GitHub Desktop](https://desktop.github.com/) UI application.
+
+Other applications that focuses on managing `git` repositories are also available (such as [GitKraken](https://www.gitkraken.com/) or [SourceTree](https://www.sourcetreeapp.com/))
+
+✔️ If you want to avoid the terminal, and have a nice UI well integrated with GitHub and really focusing on the `git` repository management
+
+✔️ Quite helpful when needing to visualize repositories with multiple branches
+
+❌ Add one more app just for `git` management
+
+❌ They don't support all operating systems for most of them
 
 ---
 
@@ -100,7 +131,7 @@ From your local repository to the remote repository on GitHub.
 git push
 ```
 
-### Pull 
+### Pull changes
 
 From the remote repository on GitHub to your local repository.
 
@@ -162,9 +193,9 @@ Push and save to the `main` branch in the `origin` repository:
 git push -u origin main
 ```
 
-### Config user
+### Configure user
 
-Config the `git` user globally (just need to be done once when first using `git` on a machine)
+Configure the `git` user globally (just need to be done once when first using `git` on a machine)
 
 ```bash
 git config --global user.name "Firstname Lastname"
@@ -187,9 +218,9 @@ You can then pull in your current branch from any remote repository (here from t
 git pull origin main
 ```
 
-### Submodules
+### Use submodules
 
-Add a submodule
+Add a submodule:
 
 ```bash
 git submodule add https://github.com/MaastrichtU-IDS/best-practices.git
