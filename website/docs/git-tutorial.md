@@ -13,14 +13,18 @@ Contact Vincent on IDS Slack (or someone else) to add your GitHub user to the [M
 
 ## ⚖️ Why use git?
 
-* The best solution to version your code. Most (if not all) projects including code development today are using `git`.
-* Open source, standard, multi-platform, incredibly efficient and modular. 
-  * `git` is supported by all code hosting platforms, and development environments (IDE)
-  * A lot of systems directly uses `git` in their implementation (e.g. installing python or javascript packages can be done directly from `git` repositories)
+* The best solution to [version](https://en.wikipedia.org/wiki/Version_control) your code. Most (if not all) projects including code development today are using `git`.
 * `git` allows you to easily document, host and share your code. From the smallest programs with 2 files, to the largest software stacks!
 * `git` helps you adopt an efficient process to develop code by improving it incrementally. 
-  * It helps you reviewing your code before committing it, to make sure you only save what you want. 
-  * It allows you to check the history and changes you made to your code, allowing you to find where issues have been introduced
+  * It helps you by reviewing your code before committing it, to making sure you only save what you want. 
+  * It allows you to check the history and changes you made to your code, allowing you to find where issues have been introduced and go back to any earlier version of the code. 
+  * Code is stored both locally and on remote servers. You never have to worry about losing any of your work in a disaster scenario.
+  * `git` offers a plethora of features to work together and in parallel on the same codebase. 
+    * Changes from others contributing to your code can be reviewed and merged into your codebase. 
+    * Instead of copy pasting existing code, a *fork* can be created to build on the code of other projects. This allows you to continually update your code with changes done to the original project.
+* Open source, standard, multi-platform, incredibly efficient and modular. 
+  * `git` is supported by all code hosting platforms, and development environments (IDE)
+  * A lot of systems directly use `git` in their implementation (e.g. installing python or javascript packages can be done directly from `git` repositories)
 * Bonus: allows you to publish static websites on [GitHub Pages](https://pages.github.com), and run your code in [GitHub Actions](https://github.com/features/actions) workflow for free (for data processing, testing, app deployment, etc)
 
 :::info Write code = use git
@@ -285,6 +289,19 @@ git log --all --grep=searchme
 ### Check the `.git` folder
 
 Checkout `.git/config` file to find where your `git` repository configuration is stored
+
+---
+
+## Git best practices
+
+### Atomic commits
+Once you are familiar with the some of the technical basics of `git`, it can be helpful to start utilizing [atomic commits](https://www.pauline-vos.nl/atomic-commits/). Among other advantages, this practice of making small changes at a time without breaking the code allows you to go back to any point earlier point in time and run that version of the code without issues.
+
+### Write descriptive commit messages
+When writing the commit message, describe which changes were made and why they are important. By doing this, a later `git log` will allow you to read which changes were made where, making decision making involving earlier commits much easier.
+
+### Git branching strategies
+When working on a codebase with a larger group, consider branching strategies such as [git flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html). As in most IDS cases this will be too involved, consider as a lightweight strategy to no longer commit to the master and create separate branches for each issue.
 
 ---
 
