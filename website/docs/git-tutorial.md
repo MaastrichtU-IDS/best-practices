@@ -13,7 +13,7 @@ title: Git tutorial
 * `git` helps you adopt an efficient process to develop code by improving it incrementally. 
   * It helps you reviewing your code before committing it, to make sure you only save what you want. 
   * It allows you to check the history and changes you made to your code, allowing you to find where issues have been introduced
-* Bonus: allows you to run your code in GitHub Actions workflow for free (for data processing, testing, app deployment, etc)
+* Bonus: allows you to publish static websites on [GitHub Pages](https://pages.github.com), and run your code in [GitHub Actions](https://github.com/features/actions) workflow for free (for data processing, testing, app deployment, etc)
 
 :::info Write code = use git
 
