@@ -7,7 +7,7 @@ Create an account on [GitHub](https://github.com), if you don't have one. It is 
 
 :::tip Join the IDS GitHub organization
 
-Contact Vincent on IDS Slack (or someone else) to add your GitHub user to the [MaastrichtU-IDS organization](https://github.com/MaastrichtU-IDS) on GitHub. You will then be able to create and edit repositories in the [organization](https://github.com/MaastrichtU-IDS).
+Ask us on IDS Slack **#help-desk** channel to add your GitHub user to the [MaastrichtU-IDS organization](https://github.com/MaastrichtU-IDS). You will then be able to create and edit repositories in the [organization](https://github.com/MaastrichtU-IDS).
 
 :::
 
@@ -197,13 +197,13 @@ You can also initialize an existing local folder to be a `git` repository:
 git init
 ```
 
-Then you will probably want to add a remote repository on GitHub to push your changes:
+Then you will probably want to add a remote repository from GitHub to push your changes:
 
 ```bash
 git remote add origin https://github.com/MaastrichtU-IDS/best-practices.git
 ```
 
-Push and save to the `main` branch in the `origin` repository:
+Push to the `main` branch in the `origin` repository:
 
 ```bash
 git push -u origin main
@@ -211,7 +211,7 @@ git push -u origin main
 
 ### Configure user
 
-Configure the `git` user globally (just need to be done once when first using `git` on a machine)
+Configure the `git` user globally on your local machine (just need to be done once when first using `git` on a machine)
 
 ```bash
 git config --global user.name "Firstname Lastname"
