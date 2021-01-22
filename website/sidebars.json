@@ -2,7 +2,7 @@
   "docs": {
     "Get started": ["introduction", "run-your-code", "ids-services", 
       "create-doap", "dev-on-windows"],
-    "Development": ["project-management", "code-management", "software-management", 
+    "Development": ["project-management", "code-management", "git-tutorial", "software-management", 
       "documentation", "continuous-integration"],
     "FAIR": ["fair-principles","fair-data","fair-workflows", "publish-rdf-data"],
     "Education": ["education-workshops", "create-workshops"]
