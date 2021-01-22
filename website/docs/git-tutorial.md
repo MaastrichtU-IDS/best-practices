@@ -304,7 +304,7 @@ Checkout `.git/config` file to find where your `git` repository configuration is
 
 ---
 
-## Git best practices
+## 🏆 Git best practices
 
 ### Do not commit all your files
 In general, binary files should not be included in your commit as they can drastically reduce performance and make your repository bulky. The `.gitignore` file can be used to ignore any such files. Check [here](https://www.toptal.com/developers/gitignore) for examples. Furthermore, make sure never to include any credentials in your commits that can reside in configuration files. 
