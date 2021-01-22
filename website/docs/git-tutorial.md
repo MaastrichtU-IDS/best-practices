@@ -294,6 +294,12 @@ Checkout `.git/config` file to find where your `git` repository configuration is
 
 ## Git best practices
 
+### Do not commit all your files
+In general, binary files should not be included in your commit as they can drastically reduce performance and make your repository bulky. The .gitignore file can be used to ignore any such files. Check [here](https://www.toptal.com/developers/gitignore) for examples. Furthermore, make sure never to include any credentials in your commits that can reside in configuration files. 
+
+### Commit frequently
+As commits are stored locally until pushed, commit as frequently as possible. Undesired commits can always be changed, removed, squashed and so on as long as the commits have not yet been pushed. Once you are confident with your work, `git push`. Even if you have made mistakes pushing your code to a remote repository they can always be fixed. Don't panic, and ask the developer team for help.
+
 ### Atomic commits
 Once you are familiar with the some of the technical basics of `git`, it can be helpful to start utilizing [atomic commits](https://www.pauline-vos.nl/atomic-commits/). Among other advantages, this practice of making small changes at a time without breaking the code allows you to go back to any point earlier point in time and run that version of the code without issues.
 
@@ -302,6 +308,7 @@ When writing the commit message, describe which changes were made and why they a
 
 ### Git branching strategies
 When working on a codebase with a larger group, consider branching strategies such as [git flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html). As in most IDS cases this will be too involved, consider as a lightweight strategy to no longer commit to the master and create separate branches for each issue.
+
 
 ---
 
