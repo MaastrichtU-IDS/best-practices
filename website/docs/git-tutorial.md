@@ -11,7 +11,7 @@ Contact Vincent on IDS Slack (or someone else) to add your GitHub user to the [M
 
 :::
 
-## Why use git?
+## ⚖️ Why use git?
 
 * The best solution to version your code. Most (if not all) projects including code development today are using `git`.
 * Open source, standard, multi-platform, incredibly efficient and modular. 
@@ -29,7 +29,7 @@ Whenever you start working on code (scripts, mappings, Jupyter notebooks) **use 
 
 :::
 
-## Choose your weapon
+## ⚔️ Choose your weapons
 
 Which tools do you want to use to manage your `git` repositories? 
 
@@ -44,7 +44,7 @@ A lot of people use multiple tools depending on the moment and the task they wan
 
 ✔️ Available anywhere (even when accessing a remote server without user interface)
 
-✔️ Quick and efficient, especially when you already need to use the terminal to run your programs
+✔️ Quick and efficient, especially when you already use the terminal to run your programs and scripts
 
 ✔️ Can be easily customized to have a more personal process to commit and push
 
@@ -62,21 +62,21 @@ A lot of people use multiple tools depending on the moment and the task they wan
 
 ### Desktop UI applications
 
-15% of `git` users at IDS use the [GitHub Desktop](https://desktop.github.com/) UI application.
+20% of `git` users at IDS use the [GitHub Desktop](https://desktop.github.com/) UI application.
 
-Other applications that focuses on managing `git` repositories are also available (such as [GitKraken](https://www.gitkraken.com/) or [SourceTree](https://www.sourcetreeapp.com/))
+Other applications that focuses on managing `git` repositories are also available, such as [GitKraken](https://www.gitkraken.com/) or [SourceTree](https://www.sourcetreeapp.com/).
 
-✔️ If you want to avoid the terminal, and have a nice UI well integrated with GitHub, and really focusing on the `git` repository management
+✔️ If you want to avoid the terminal, and have a nice UI well integrated with GitHub, and only focusing on the `git` repositories management
 
-✔️ Quite helpful when needing to visualize repositories with complex branching
+✔️ Quite helpful when you need to visualize repositories with complex branching
 
-❌ Add one more app just for `git` management
+❌ Need to install one more app just for `git` management
 
 ❌ They don't support all operating systems for most of them
 
 ---
 
-## Get familiar with the basic concepts
+## 🐙 Get familiar with the basic concepts
 
 ### Clone
 
@@ -161,16 +161,24 @@ Create a new branch
 git checkout -b develop
 ```
 
-Merge with other branch
+Commit your changes to this `develop` branch.
+
+Then merge the `develop` branch with the `main` branch, to make sure `develop` has no conflict with `main` before merging the changes to the `main` branch:
 
 ```bash
 git merge main
 ```
 
-Change to existing branch
+Now change back to `main`:
 
 ```bash
 git checkout main
+```
+
+Finally, merge the changes you committed in the `develop` to the `main` branch:
+
+```bash
+git merge develop
 ```
 
 ### Pull request
@@ -179,7 +187,7 @@ Do it on https://github.com/MaastrichtU-IDS/best-practices/compare
 
 ---
 
-## More advanced concepts
+## 🦑 More advanced concepts
 
 ### Initialize a repository
 
@@ -280,7 +288,7 @@ Checkout `.git/config` file to find where your `git` repository configuration is
 
 ---
 
-## External resources
+## 🔗 External resources
 
 * GitHub tutorial: https://try.github.io
 
