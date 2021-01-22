@@ -104,7 +104,13 @@ git pull
 
 ### Branching (checkout and merge)
 
-Create branch
+:::caution The default main branch
+
+Note that the previous the default main branch of a repository was by standard `master`. It now has changed to be `main` (which is shorter, and less derogatory)
+
+:::
+
+Create a new branch
 
 ```bash
 git checkout -b develop
@@ -130,7 +136,29 @@ Do it on https://github.com/MaastrichtU-IDS/best-practices/compare
 
 ## More advanced concepts
 
+### Initialize a repository
+
+You can also initialize an existing local folder to be a `git` repository:
+
+```bash 
+git init
+```
+
+Then you will probably want to add a remote repository on GitHub to push your changes:
+
+```bash
+git remote add origin https://github.com/MaastrichtU-IDS/best-practices.git
+```
+
+Push and save to the `main` branch in the `origin` repository:
+
+```bash
+git push -u origin main
+```
+
 ### Config user
+
+Config the `git` user globally (just need to be done once when first using `git` on a machine)
 
 ```bash
 git config --global user.name "Firstname Lastname"
