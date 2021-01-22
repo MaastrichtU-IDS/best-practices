@@ -15,6 +15,12 @@ title: Git tutorial
   * It allows you to check the history and changes you made to your code, allowing you to find where issues have been introduced
 * Bonus: allows you to run your code in GitHub Actions workflow for free (for data processing, testing, app deployment, etc)
 
+:::info Code = git
+
+Whenever you start working on code (scripts, mappings, Jupyter notebooks) **use `git`**. It's that simple! Especially if you want to show this code to other people.
+
+:::
+
 ## Choose your weapon
 
 Which tool do you want to use to use `git`? A lot of people use multiple of those depending of the moment and the task they want to perform.
@@ -203,13 +209,13 @@ Soft reset, without losing it (unlike reset). Creates a new commit that cancel t
 git revert HEAD
 ```
 
-Will go back to last commit by reseting all files to their state at this commit
+This will go back to last commit by reseting all files to their state at this commit in your local repository.
 
 ```bash
 git reset --hard HEAD
 ```
 
-Remove all commits that are more recents in remote repository (pushed to GitHub)
+Remove all commits pushed to GitHub that are more recents than the provided commit in the `origin` remote repository
 
 ```shell
 git push origin +$COMMIT^:$BRANCH
@@ -235,9 +241,10 @@ Checkout `.git/config` file to find where your `git` repository configuration is
 
 ---
 
-## More tutorials
+## External resources
 
-* https://try.github.io
-* https://rogerdudler.github.io/git-guide
+* GitHub tutorial: https://try.github.io
 
-A problem? Visit [OhShitGit!](https://ohshitgit.com/)
+* Another tutorial: https://rogerdudler.github.io/git-guide
+
+* A problem? Visit [OhShitGit!](https://ohshitgit.com/)
