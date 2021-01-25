@@ -26,7 +26,7 @@ We hope that having IDS projects more discoverable through tools such as IDS Das
 
 ### Architecture
 
-1. A Python script running regularly using a GitHub Actions workflow to retrieve informations about IDS projects on GitHub. Data about projects stored in a triplestore, and releases data stored in a JSON file on GitHub.
+1. A Python script running regularly using a GitHub Actions workflow to retrieve information about IDS projects on GitHub. Data about projects stored in a triplestore, and releases data stored in a JSON file on GitHub.
 
 2. A React web UI in TypeScript which retrieves projects information from the SPARQL endpoint, and releases info from the JSON file on GitHub. You will find specific information [here]( https://github.com/MaastrichtU-IDS/projects#get-data-from-github-graphql-api).
 
