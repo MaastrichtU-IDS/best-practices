@@ -34,13 +34,13 @@ We hope that having IDS projects more discoverable through tools such as IDS Das
 
 ### Making IDS Project easily findable and accessible
 
-There is a growing research interests in making the [project (software) FAIR](https://content.iospress.com/articles/data-science/ds190026) and many funding agencies and academic publishers requires proper location, citation and replication of any digital object related with your project. While IDS Dashboard doesn't provide persistent interoperable identifiers (e.g. [DOI](https://www.doi.org/)), our tool presents relevant information of a project in a incisive manner. Humans will be able to quickly find an IDS project that is interesting them and similarly,  machines will communicate to exchange relevant project descriptors using the **machine-readable** ontology DOAP. This is accomplished by including a simple RDF file inside your Github repository project. The file is easily **findable** to humans, and machine can **access** and determine the project's status by searching for a string matching a specific pattern in a set of possible files.
+There is a growing research interest in making the [project (software) FAIR](https://content.iospress.com/articles/data-science/ds190026) and many funding agencies and academic publishers require proper location, citation and replication of any digital object related to your project. While the IDS Dashboard doesn't provide persistent interoperable identifiers (e.g. [DOI](https://www.doi.org/)), our tool presents relevant information of a project in a incisive manner. Humans will be able to quickly find an IDS project that is interesting them and similarly, machines will communicate to exchange relevant project descriptors using the **machine-readable** ontology DOAP. This is accomplished by including a simple RDF file inside your Github repository project. The file is easily **findable** to humans, and machine can **access** and determine the project's status by searching for a string matching a specific pattern in a set of possible files.
 
 ---
 
 ### What is an IDS project?
 
-An IDS project is a  publicly available code repository concerning IDS in varying state of usability, development and support. A IDS project can typically be classified as following:
+An IDS project is a publicly available code repository concerning IDS in varying state of usability, development and support. A IDS project can typically be classified as following:
 
 | 🗂️ Type of IDS project |                                                              |
 | --------------------- | ------------------------------------------------------------ |
@@ -51,15 +51,15 @@ An IDS project is a  publicly available code repository concerning IDS in varyin
 
 ### Which projects should be added?
 
-As a rule of thumb, a project should be added to the IDS Dashboard if:
+As a rule of thumb, a project should be added to the IDS Dashboard if all of the following apply:
 
-1. the project is no private,
-2. we can realistically claim (co-)ownership of the project AND
+1. the project is not private,
+2. we can realistically claim (co-)ownership of the project
 3. the project could be useful to somebody else.
 
-Under this definition, the following is not recorded in the IDS Dashboard:
+Under this definition, the following  examples are not recorded in the IDS Dashboard:
 
-- A script that was just meant to wrangle some data unique to a problem we were having (violates 3).
+- A script meant to manipulate data unique to a problem we are having (violates 3).
 - A package that is very useful but that IDS wasn't involved with (violates 2).
 
 The project can be stored either at MaastrichtU-IDS organization or your personal [GitHub](https://github.com/MaastrichtU-IDS?utf8=%E2%9C%93&q=&type=&language=) repository.
@@ -91,7 +91,7 @@ Your project to the IDS Dashboard do not show up immediately. The length of dela
 
 ### Other research project registries
 
-Here is the list of repository of software used in organizations:
+The following lists software repositories used in other organizations:
 
 * [Apache Projects Directory](https://projects.apache.org/)
 * [SourceForge](https://sourceforge.net/)
@@ -108,4 +108,4 @@ Here is the list of repository of software used in organizations:
 
 ### Future work
 
-In our initial efforts to create IDS Dashboard, we reached a conclusion which was adopting the DOAP to describe a IDS project. We were surprised to see that the descriptors associated to DOAP was close to Github properties. While our early development focused on a manual configuration of DOAP, there may be future opportunities to make this process rather automatically. For instance, the descriptors needed for the metadata are already available from public sources such [GH Archive](https://www.gharchive.org/) or [Zenodo](https://about.zenodo.org/). These primary source provides access to their data via API and will take into consideration to harvest this data via python script.
+In our initial efforts to create the IDS Dashboard, we reached a conclusion to use DOAP to describe a IDS project. We were surprised to see that the descriptors associated to DOAP were close to Github properties. While our early development focused on a manual configuration of DOAP, there may be future opportunities to make this process rather automatically. For instance, the descriptors needed for the metadata are already available from public sources such [GH Archive](https://www.gharchive.org/) or [Zenodo](https://about.zenodo.org/). These primary sources provide access to their data via API. We will take harvesting this data via python scripting into consideration.
