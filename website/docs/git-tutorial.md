@@ -326,8 +326,7 @@ When working on a codebase with a larger group, consider branching strategies su
 
 ## 🔗 External resources
 
+* **A problem? Visit [OhShitGit!](https://ohshitgit.com/)**
 * GitHub tutorial: https://try.github.io
-
 * Another tutorial: https://rogerdudler.github.io/git-guide
-
-* A problem? Visit [OhShitGit!](https://ohshitgit.com/)
+* Looking for a more user-friendly terminal UI for `git`? Try [tig](https://jonas.github.io/tig/)
