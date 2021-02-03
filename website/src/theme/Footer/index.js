@@ -9,6 +9,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import {useThemeConfig} from '@docusaurus/theme-common';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import { useLocation } from 'react-router-dom'
 import styles from './styles.module.css';
 
 function FooterLink({to, href, label, prependBaseUrlToHref, ...props}) {
@@ -40,6 +41,7 @@ const FooterLogo = ({url, alt}) => (
 
 function Footer() {
   const {footer} = useThemeConfig();
+  const location = useLocation();
   const {copyright, links = [], logo = {}} = footer || {};
   const logoUrl = useBaseUrl(logo.src);
 
@@ -47,7 +49,20 @@ function Footer() {
     return null;
   }
 
+  const page_url = 'https://maastrichtu-ids.github.io' + location.pathname
+  const feedback_url = "https://docs.google.com/forms/d/e/1FAIpQLScweJNcm474iIsqNnjqFsniZC7uADKnKIRrv12gjld82fWNCQ/viewform?usp=pp_url&entry.1130493462=" + location.pathname + "&embedded=true"
+  let displayState = "none";
+  if(location.pathname.startsWith("/best-practices/docs/")){
+    console.log("starts with bp docs");
+    displayState = "block";
+  }
   return (
+    <>
+      <iframe style={{display: displayState}} class="form" scrolling="no" 
+      src={feedback_url}
+      width="640" height="360" frameborder="0" marginheight="0" marginwidth="0">
+        Loading...
+    </iframe> 
     <footer
       className={clsx('footer', {
         'footer--dark': footer.style === 'dark',
@@ -125,6 +140,7 @@ function Footer() {
         )}
       </div>
     </footer>
+    </>
   );
 }
 
