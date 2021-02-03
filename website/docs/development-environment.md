@@ -1,7 +1,22 @@
 ---
-id: dev-on-windows
-title: Prepare Windows
+id: development-environment
+title: Development environment
 ---
+
+Taking the time to properly set up your development environment can save time and headaches in the long run. Your development environment will usually consist of a mix of local software and remote services. Consider taking the following practices into account for future work.
+
+## Local Development Environment
+
+### General Tips
+
+#### Docker
+Using Docker comes with lot of advantages, one of the most prominent ones being the ability to run programs in an environment that is always the same (and thus, no more 'it works on my laptop' issues). Consider using Docker to run existing third party software on your laptop, to share your program with others, or to run your application on a remote server. 
+
+#### Conda
+Consider using [Conda environments](https://docs.conda.io/en/latest/) to make managing libraries for different programming languages easier. Be wary of the [difference between pip and Conda](https://stackoverflow.com/questions/20994716/what-is-the-difference-between-pip-and-conda) if you do.
+
+### Windows
+
 
 This page provides instructions to prepare a Windows computer, and yourself, for data science development. 
 
@@ -141,3 +156,36 @@ For package not available in `winget` we recommend to use [Chocolatey](https://c
 Congratulation! If you installed those software you have now a cutting edge installation of Windows suited for any kind of development! 
 
 :::
+
+## Remote Environments
+
+### Data Science Research Infrastructure
+
+The [Data Science Research Infrastructure](https://maastrichtu-ids.github.io/dsri-documentation/) (DSRI) at Maastricht University provides CPU and GPUs nodes for Data Science computing. This service should be considered for all research that requires a large amount of computational resources, as well as anything that benefits from being run remotely and/or continuously. At the moment it is less suitable for public web services, as it requires a [VPN connection to the UM network](https://vpn.maastrichtuniversity.nl/) to gain access. Any program or script can easily be run on DSRI by deploying a Docker container.
+
+:::info
+
+See the [DSRI documentation](https://maastrichtu-ids.github.io/dsri-documentation)
+
+:::
+
+### Collaborative environments
+
+For free computational resources, collaborative scripting and sharing your work, consider using cloud environments such as [Google Collab](https://colab.research.google.com), [Kaggle](https://www.kaggle.com) or a combination of [Jupyter Notebook and Binder](https://mybinder.org/).
+
+:::tip Free power
+
+Kaggle is free during competitions.
+
+:::
+
+
+### Store data
+
+#### Sensible research data
+
+If you have sensible research data: use **[DataHub](https://portal.datahubmaastricht.nl/)**
+
+#### Research data
+
+If you have data to publish related to a research project: use [**SURF**](https://www.surf.nl/en/research-ict)

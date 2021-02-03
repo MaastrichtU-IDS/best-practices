@@ -1,5 +1,5 @@
 ---
-id: create-doap
+id: ids-dashboard
 title: IDS Dashboard
 ---
 

@@ -1,6 +1,6 @@
 ---
-id: publish-rdf-data
-title: Publish RDF data
+id: publish-data
+title: Publish data
 ---
 
 ## Publish to our public GraphDB triplestore

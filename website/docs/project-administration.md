@@ -1,6 +1,6 @@
 ---
-id: project-management
-title: Project management
+id: project-administration
+title: Project administration
 ---
 
 ## Create a code repository

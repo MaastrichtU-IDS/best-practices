@@ -1,10 +1,9 @@
 {
   "docs": {
-    "Get started": ["introduction", "run-your-code", "ids-services", 
-      "create-doap", "dev-on-windows"],
-    "Development": ["project-management", "code-management", "git-tutorial", "software-management", 
-      "documentation", "continuous-integration"],
-    "FAIR": ["fair-principles","fair-data","fair-workflows", "publish-rdf-data"],
-    "Education": ["education-workshops", "create-workshops"]
+    "Get started": ["introduction"],
+    "Research Development": ["development-environment", "ids-services",  
+      "code-management", "publishing", "administration", "continuous-integration", "documentation", "workshops"],
+    "Project Management": ["project-administration", "ids-dashboard"],
+    "Research Output": ["fair-principles","fair-data","fair-workflows", "publish-data"]
   }
 }

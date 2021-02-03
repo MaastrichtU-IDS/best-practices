@@ -1,6 +1,6 @@
 ---
-id: software-management
-title: Software management
+id: publishing
+title: Publishing
 ---
 
 ## Notebooks

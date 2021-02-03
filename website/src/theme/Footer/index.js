@@ -53,7 +53,6 @@ function Footer() {
   const feedback_url = "https://docs.google.com/forms/d/e/1FAIpQLScweJNcm474iIsqNnjqFsniZC7uADKnKIRrv12gjld82fWNCQ/viewform?usp=pp_url&entry.1130493462=" + location.pathname + "&embedded=true"
   let displayState = "none";
   if(location.pathname.startsWith("/best-practices/docs/")){
-    console.log("starts with bp docs");
     displayState = "block";
   }
   return (
