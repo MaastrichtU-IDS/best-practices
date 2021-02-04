@@ -57,9 +57,9 @@ function Footer() {
   }
   return (
     <>
-      <iframe style={{display: displayState}} class="form" scrolling="no" 
+      <iframe style={{display: displayState}} class="form"
       src={feedback_url}
-      width="640" height="360" frameborder="0" marginheight="0" marginwidth="0">
+      width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">
         Loading...
     </iframe> 
     <footer
