@@ -48,7 +48,7 @@ A project is considered IDS if:
 
 4. Add the file into your GitHub repository
 
-5. Push to origin `master` branch on GitHub
+5. Push to origin `master` or `main` branch on GitHub
 
 :::info Learn more about DOAP
 
