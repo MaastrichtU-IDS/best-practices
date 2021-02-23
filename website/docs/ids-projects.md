@@ -1,6 +1,6 @@
 ---
-id: ids-dashboard
-title: IDS Dashboard
+id: ids-projects
+title: IDS Projects
 ---
 
 ### Motivation: lack of semantic interoperability
