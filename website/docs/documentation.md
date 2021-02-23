@@ -9,7 +9,7 @@ If you wish to make contributing to your project easier, it is standard practice
 
 ## At least a README 
 
-The `README.md` at the root of the git repository should be used for all informations targeted at other developers. Check [this `README.md` for a Python package](https://github.com/MaastrichtU-IDS/python-template) for a direct example. 
+The `README.md` at the root of the git repository should be used for all information targeted at other developers. Check [this `README.md` for a Python package](https://github.com/MaastrichtU-IDS/python-template) for a direct example. 
 
 At the **minimum** it should contain the following information:
 
@@ -26,7 +26,7 @@ At the **minimum** it should contain the following information:
 
   > E.g.: "Start the API on port 8080 by running `python3 start_api.py -p 8080`"
 
-**Optionally** you can add more informations
+**Optionally** you can add more information
 
 📦 Provide instructions on **how to build and publish** the application if applicable (e.g. with `pip` or docker).
 

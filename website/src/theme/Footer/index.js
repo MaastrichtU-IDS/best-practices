@@ -9,6 +9,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import {useThemeConfig} from '@docusaurus/theme-common';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import { useLocation } from 'react-router-dom'
 import styles from './styles.module.css';
 
 function FooterLink({to, href, label, prependBaseUrlToHref, ...props}) {
@@ -40,6 +41,7 @@ const FooterLogo = ({url, alt}) => (
 
 function Footer() {
   const {footer} = useThemeConfig();
+  const location = useLocation();
   const {copyright, links = [], logo = {}} = footer || {};
   const logoUrl = useBaseUrl(logo.src);
 
@@ -47,7 +49,19 @@ function Footer() {
     return null;
   }
 
+  const page_url = 'https://maastrichtu-ids.github.io' + location.pathname
+  const feedback_url = "https://docs.google.com/forms/d/e/1FAIpQLSdvfnNT5Yi7XLoVjDcwTuEM45npNCcjwMrGD8oKSXJfSalVZQ/viewform?usp=pp_url&entry.1130493462=" + location.pathname + "&embedded=true"
+  let displayState = "none";
+  if(location.pathname.startsWith("/best-practices/docs/")){
+    displayState = "block";
+  }
   return (
+    <>
+      <iframe style={{display: displayState}} class="form"
+      src={feedback_url}
+      width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">
+        Loading...
+    </iframe> 
     <footer
       className={clsx('footer', {
         'footer--dark': footer.style === 'dark',
@@ -118,13 +132,14 @@ function Footer() {
             />
 
             {/* <div style={{marginBottom: '10px', color: 'grey'}}>
-              We track page views and users demographics using Google Analytics to improve our users experience. <a href="https://policies.google.com/technologies/partner-sites">See how Google uses collected informations</a>.<br/>
+              We track page views and users demographics using Google Analytics to improve our users experience. <a href="https://policies.google.com/technologies/partner-sites">See how Google uses collected information</a>.<br/>
               You can prevent Google Analytics tracking by enabling <a href="https://blog.mozilla.org/blog/2019/06/04/firefox-now-available-with-enhanced-tracking-protection-by-default/">Firefox Tracking Protection</a>, installing <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=fr">uBlock Origin add-on</a>, or using the official <a href='https://tools.google.com/dlpage/gaoptout/'>Google Analytics Opt-out add-on</a>.
             </div> */}
           </div>
         )}
       </div>
     </footer>
+    </>
   );
 }
 

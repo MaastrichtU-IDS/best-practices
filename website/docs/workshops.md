@@ -1,6 +1,6 @@
 ---
-id: education-workshops
-title: Try IDS workshops
+id: workshops
+title: IDS development workshops
 ---
 
 ## Publish a Python package
