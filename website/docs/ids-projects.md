@@ -1,6 +1,6 @@
 ---
-id: ids-dashboard
-title: IDS Dashboard
+id: ids-projects
+title: IDS Projects
 ---
 
 ### Motivation: lack of semantic interoperability
@@ -9,7 +9,7 @@ The lack of well-defined indexing practices is a common problem in most institut
 
 ---
 
-### What is the IDS Dashboard?
+### What is the IDS Projects dashboard?
 
 A website for projects at the [Institute of Data Science](http://maastrichtuniversity.nl/ids/) at Maastricht University. It is designed to help you find specific projects that meet your interests and to gain a broader understanding of the wide variety of work currently underway in the IDS.
 
