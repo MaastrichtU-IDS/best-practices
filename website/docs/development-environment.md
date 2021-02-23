@@ -16,7 +16,7 @@ Using Docker comes with lot of advantages, one of the most prominent ones being 
 Consider using [Conda environments](https://docs.conda.io/en/latest/) to make managing libraries for different programming languages easier. Be wary of the [difference between pip and Conda](https://stackoverflow.com/questions/20994716/what-is-the-difference-between-pip-and-conda) if you do.
 
 #### Terminal basics
-The terminal is the interface with which you can execute text based commands. We recommend getting a basic familiarity to at least be able to navigate the folder structure and run shell commands. This is not as difficult as it may seem at first.
+The terminal is the interface with which you can execute text based commands. We recommend getting a basic familiarity to at least be able to navigate the folder structure and run shell commands. This is not as difficult as it may seem at first (windows cmd will not run some of these commands, see the section below to set up a similar terminal experience).
 
 List files and directories in the current directory:
 
@@ -39,7 +39,7 @@ Get the current directory you are in:
 pwd
 ```
 
-To open and edit a file in the terminal the easiest is to use `nano`:
+The easiest way to open and edit a file in the terminal is to use `nano`:
 
 ```bash
 nano my_file.txt
@@ -87,7 +87,7 @@ You can use the `apt` package manager to install packages on WSL.
 
 When you want to install a package just google "install MY_APPLICATION ubuntu", you should be proposed a few easy way to install your application/package in a few commands.
 
-We highly recommend you to install [zsh and oh-my-zsh](https://ohmyz.sh/), it will take a minute and upgrade your Ubuntu terminal. Providing a much more user-friendly way to navigate the terminal!
+We recommend the installation of [zsh and oh-my-zsh](https://ohmyz.sh/), it will take a minute and upgrade your Ubuntu terminal. Providing a much more user-friendly way to navigate the terminal.
 
 ##### Winget
 [Install winget](https://github.com/microsoft/winget-cli), the official Windows package manager. Still in beta at the moment. So the list of available packages is limited.

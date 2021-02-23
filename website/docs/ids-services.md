@@ -3,9 +3,7 @@ id: ids-services
 title: Services available at IDS
 ---
 
-Here are the services hosted at the Institute of Data Science. Feel free to contact us if you want to make use of any of those services.
-
-And let us know if you are interested in deploying new services on IDS servers.
+The following services are hosted at the Institute of Data Science. Feel free to contact us if you want to make use of any of them, or are interested in deploying your own services on IDS servers.
 
 ## Data Science Research Infrastructure
 

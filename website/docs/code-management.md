@@ -3,7 +3,8 @@ id: code-management
 title: Code management
 ---
 
-Create an account on [GitHub](https://github.com), if you don't have one. It is particularly useful as it can be used to login to various website (like your Google account)
+## Git 
+The most important step to managing your code is to save it in a manner that will allow a version history as well as collaboration with others. The current standard for this is to use [Git](https://git-scm.com/). It pays off quickly to get familiar with the workings of Git and make sure all your code related work is stored in a Git repository. There are multiple different possible locations to store your Git 'repository', by default we recommend using [GitHub](https://github.com). Create an account for [GitHub](https://github.com) if you don't have one. It is particularly useful as it can also be used to login to various websites (like your Google account)
 
 :::tip Join the IDS GitHub organization
 
@@ -11,26 +12,7 @@ Contact Vincent on IDS Slack (or someone else) to add your GitHub user to the [M
 
 :::
 
-
-:::tip GitHub at IDS
-
-If you are developing code related to the Institute of Data Science, we recommend you to create the repository in the MaastrichtU-IDS organization on GitHub: [https://github.com/MaastrichtU-IDS](https://github.com/MaastrichtU-IDS)
-
-:::
-
-:::info Set your repository user access
-
-See [how to define user access](/docs/project-administration) to your repository when created in the [MaastrichtU-IDS GitHub organization](https://github.com/MaastrichtU-IDS).
-
-:::
-
-:::caution GitLab for specific private projects
-
-Some projects in collaboration with other entities can be hosted on GitLab depending on the requirements and project stack. You can use the [UM-hosted GitLab](https://gitlab.maastrichtuniversity.nl/) for private projects.
-
-:::
-
-## ⚖️ Why use git?
+### Why use git?
 
 * The best solution to [version](https://en.wikipedia.org/wiki/Version_control) your code. Most (if not all) projects including code development today are using `git`.
 * `git` allows you to easily document, host and share your code. From the smallest programs with 2 files, to the largest software stacks!
@@ -44,7 +26,7 @@ Some projects in collaboration with other entities can be hosted on GitLab depen
 * Open source, standard, multi-platform, incredibly efficient and modular. 
   * `git` is supported by all code hosting platforms, and development environments (IDE)
   * A lot of systems directly use `git` in their implementation (e.g. installing python or javascript packages can be done directly from `git` repositories)
-* Bonus: allows you to publish static websites on [GitHub Pages](https://pages.github.com), and run your code in [GitHub Actions](https://github.com/features/actions) workflow for free (for data processing, testing, app deployment, etc)
+* Alows you to publish static websites on [GitHub Pages](https://pages.github.com), and run your code in [GitHub Actions](https://github.com/features/actions) workflow for free (for data processing, testing, app deployment, etc)
 
 :::info Write code = use git
 
@@ -52,14 +34,16 @@ Whenever you start working on code (scripts, mappings, Jupyter notebooks) **use 
 
 :::
 
-## ⚔️ Choose your weapons
+:::caution GitLab for specific private projects
 
-Which tools do you want to use to manage your `git` repositories? 
+Some projects in collaboration with other entities can be hosted on GitLab depending on the requirements and project stack. You can use the [UM-hosted GitLab](https://gitlab.maastrichtuniversity.nl/) for private projects.
 
-:::tip Why not both?
-
-A lot of people use multiple tools depending on the moment and the task they want to perform!
 :::
+
+
+## IDS Git usage
+
+Depending on your usecase and preference, there are numerous tools to help you use `git`. Below are some of the ways other colleagues utilize different environments for `git`.
 
 ### The terminal
 
@@ -71,17 +55,17 @@ A lot of people use multiple tools depending on the moment and the task they wan
 
 ✔️ Can be easily customized to have a more personal process to commit and push
 
-❌ More work to learn, and to get nice branches visualizations
+❌ More difficult to learn, poor branching visualization
 
 ### IDE built-in support
 
 25% of `git` users at IDS use their favorite IDE `git` built-in support (e.g. [VisualStudio Code](https://code.visualstudio.com/) or [IntelliJ](https://www.jetbrains.com/idea/)).
 
-✔️ To manage `git` with a friendly UI without exiting your IDE
+✔️ Manage `git` with a friendly UI without exiting your IDE
 
 ✔️ Some IDEs integrate `git` really well in their UI, e.g. VS Code allows you to revert only selected lines that changed directly from the test editor.
 
-❌ Not always well integrated depending on the IDE, and how you use `git` (have you seen the size of the buttons in the VSCode UI?!)
+❌ Not always well integrated depending on the IDE, and how you use `git`
 
 ### Desktop UI applications
 
@@ -89,23 +73,25 @@ A lot of people use multiple tools depending on the moment and the task they wan
 
 Other applications that focuses on managing `git` repositories are also available, such as [GitKraken](https://www.gitkraken.com/) or [SourceTree](https://www.sourcetreeapp.com/).
 
-✔️ If you want to avoid the terminal, and have a nice UI well integrated with GitHub, and only focusing on the `git` repositories management
+✔️ More user friendly; avoids using the terminal
 
-✔️ Quite helpful when you need to visualize repositories with complex branching
+✔️ Helpful for visualizing repositories with complex branching
 
-❌ Need to install one more app just for `git` management
+❌ Less flexibility (when scripting for example)
 
-❌ They don't support all operating systems for most of them
+❌ The need to install one more app just for `git` management
+
+❌ Most tools do not support multiple operating systems
 
 ---
 
-## 🐙 Get familiar with the basic concepts
+## Basic Git concepts
 
 ### Clone
 
 Download a remote repository from GitHub to your computer (here mentioned as "your local repository").
 
-Using SSH (requires to have [set SSH keys to login](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account), but is safer and really easier on the long term)
+Using SSH (requires to have [set SSH keys to login](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account), but is safer and easier in the long run)
 
 ```bash
 git clone git@github.com:MaastrichtU-IDS/best-practices.git
@@ -210,7 +196,7 @@ Do it on https://github.com/MaastrichtU-IDS/best-practices/compare
 
 ---
 
-## 🦑 More advanced concepts
+## Advanced concepts
 
 ### Initialize a repository
 

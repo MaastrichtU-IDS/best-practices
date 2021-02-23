@@ -1,9 +1,10 @@
 {
   "docs": {
     "Get started": ["introduction"],
-    "Research Development": ["development-environment", "ids-services",  
-      "code-management", "publishing", "administration", "continuous-integration", "documentation", "workshops"],
+    "Research Development": ["development-environment",  
+      "code-management",  "publishing-code", "repository-administration", "continuous-integration", "documentation"],
     "Project Management": ["project-administration", "ids-dashboard"],
-    "Research Output": ["fair-principles","fair-data","fair-workflows", "publish-data"]
+    "IDS Resources": ["ids-services", "workshops"],
+    "Research Output": ["fair-principles","fair-data", "publish-data"]
   }
 }

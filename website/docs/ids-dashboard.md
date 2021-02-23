@@ -32,7 +32,7 @@ We hope that having IDS projects more discoverable through tools such as IDS Das
 
 ---
 
-### Making IDS Project easily findable and accessible
+### Making IDS Projects easily findable and accessible
 
 There is a growing research interest in making the [project (software) FAIR](https://content.iospress.com/articles/data-science/ds190026) and many funding agencies and academic publishers require proper location, citation and replication of any digital object related to your project. While the IDS Dashboard doesn't provide persistent interoperable identifiers (e.g. [DOI](https://www.doi.org/)), our tool presents relevant information of a project in a incisive manner. Humans will be able to quickly find an IDS project that is interesting them and similarly, machines will communicate to exchange relevant project descriptors using the **machine-readable** ontology DOAP. This is accomplished by including a simple RDF file inside your Github repository project. The file is easily **findable** to humans, and machine can **access** and determine the project's status by searching for a string matching a specific pattern in a set of possible files.
 

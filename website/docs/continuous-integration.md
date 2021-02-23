@@ -3,15 +3,14 @@ id: continuous-integration
 title: Continuous integration
 ---
 
+Continuous integration and continuous delivery/deployment involves automating all possible processes in your development cycle, such as testing or deploying. This should be considered when you are expecting to work on a codebase for an extended amount of time or with a group of people in order to save time in the long run. The choice of CI/CD technology depends on the platform you are using to store your code. We strongly recommend you to define Continuous Integration if you wrote tests for your application or regularly need to publish some packages.
+
 :::tip Checkout the workshop
 
 See our [IDS CI/CD workshop](https://maastrichtu-ids.github.io/workshop-ci/) to package and define Continuous Integration workflow for Python with GitHub Actions.
 
 :::
 
-The choice of CI/CD technology depends on the platform you are using to store your code.
-
-We strongly recommend you to define Continuous Integration if you wrote tests for your application or regularly need to publish some packages.
 
 ## [GitHub Actions](https://github.com/features/actions)
 

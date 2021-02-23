@@ -1,7 +1,13 @@
 ---
-id: administration
-title: Administration
+id: repository-administration
+title: Repository Administration
 ---
+
+Once your code repository is available publicly, a number of steps can be taken to allow others to more easily reuse your code in their own work. 
+
+## Define user access
+
+Take some time to See [how to define user access](/docs/project-administration) to your repository when created in the [MaastrichtU-IDS GitHub organization](https://github.com/MaastrichtU-IDS).
 
 ## Add a license
 
@@ -9,7 +15,7 @@ Adding a license file is mandatory as no one is allowed to legally use your code
 
 ## Optional
 
-Depending on your project you might want to perform the actions below.
+Depending on your project you may want to perform the actions below.
 
 ### Add a DOAP project description
 
