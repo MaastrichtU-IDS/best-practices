@@ -8,6 +8,13 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
+            <title><![CDATA[Publish Nanopublications]]></title>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/01/19/usecase-nanopublication</link>
+            <guid>Publish Nanopublications</guid>
+            <pubDate>Tue, 19 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Publish Nanopublications using Nanobench.]]></description>
+        </item>
+        <item>
             <title><![CDATA[Hosting docker images for DSRI]]></title>
             <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/01/19/private-image-openshift-deploy</link>
             <guid>Hosting docker images for DSRI</guid>
