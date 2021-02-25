@@ -9,14 +9,12 @@ The best-practices page is a combination of introductory information and guideli
 
 The Guidelines provided here are clustered into four categories that help improve research output:
 
-* **Research Development**
-  General coding practices that will improve productivity for both individual use as well as collaboration on and reuse of code within the organization.
 * **Project Management**
   Practices to improve project transparancy for both internal and external researchers looking to collaborate on code. 
+* **Research Development**
+  General coding practices that will improve productivity for both individual use as well as collaboration on and reuse of code within the organization.
 * **IDS Resources**
   Reusing and collaborating on existing IDS resources will ensure improved quality of the existing software landscape as well as prevent unnecessarily reinventing the wheel.
-* **Research Output**
-  Practices on how to best publish generated outputs.
 
 ---
 
