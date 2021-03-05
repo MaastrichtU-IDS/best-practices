@@ -17,7 +17,7 @@ This would enable distributed processing, edition and querying of RDF data in th
 
 <!--truncate-->
 
-## Git 
+## [Git](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain) 
 
 This would allow to work with RDF data a bit like we work with code in `git`: in a distributed and scalable manner
 
@@ -73,9 +73,9 @@ See the documentation to try it out: https://graphy.link/memory.dataset.fast
 
 ## What about IndexedDB then?
 
-7 years ago a guy asked to RDF community if there was any interest about implementing something like "IndexedGraph" that would enable storing and querying RDF data similarly to IndexedDB: https://lists.w3.org/Archives/Public/public-rdfjs/2013Oct/0040.html. Since then, there was no answer, and I could not find of any mention of using IndexedDB for RDF. 
+7 years ago, someone asked if there was any interest in implementing something like "IndexedGraph" that would enable storing and querying RDF data similarly to IndexedDB: https://lists.w3.org/Archives/Public/public-rdfjs/2013Oct/0040.html. But I could not find any other mention of using IndexedDB for RDF. 
 
-Note, there are a few wrappers to use IndexedDB with NoSQL db like CouchDB, or query it as SQL: 
+Note, there are a [few wrappers to use IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API#see_also) with NoSQL databases like CouchDB, or query it as SQL.
 
 Implementing full SPARQL support would be a relatively large project. But it seems like a wrapper could be written to have better support to work with JSON-LD RDF data in IndexedDB. 
 
