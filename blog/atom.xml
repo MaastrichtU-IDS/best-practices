@@ -8,11 +8,11 @@
     <subtitle>IDS Best Practices Blog</subtitle>
     <icon>https://maastrichtu-ids.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Distributed RDF in the browser]]></title>
-        <id>Distributed RDF in the browser</id>
+        <title type="html"><![CDATA[A triplestore in your browser?]]></title>
+        <id>A triplestore in your browser?</id>
         <link href="https://maastrichtu-ids.github.io/best-practices/blog/2021/03/02/rdf-in-the-browser"/>
         <updated>2021-03-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Create a web application with React and TypeScript]]></summary>
+        <summary type="html"><![CDATA[Doing some exploration to handle large scale RDF knowledge graphs directly in the browser]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Publish Nanopublications]]></title>

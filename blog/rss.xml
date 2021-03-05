@@ -8,11 +8,11 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Distributed RDF in the browser]]></title>
+            <title><![CDATA[A triplestore in your browser?]]></title>
             <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/03/02/rdf-in-the-browser</link>
-            <guid>Distributed RDF in the browser</guid>
+            <guid>A triplestore in your browser?</guid>
             <pubDate>Tue, 02 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Create a web application with React and TypeScript]]></description>
+            <description><![CDATA[Doing some exploration to handle large scale RDF knowledge graphs directly in the browser]]></description>
         </item>
         <item>
             <title><![CDATA[Publish Nanopublications]]></title>
