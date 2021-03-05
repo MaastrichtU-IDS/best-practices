@@ -4,9 +4,16 @@
         <title>IDS Best Practices Blog</title>
         <link>https://maastrichtu-ids.github.io/blog</link>
         <description>IDS Best Practices Blog</description>
-        <lastBuildDate>Tue, 19 Jan 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Distributed RDF in the browser]]></title>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/03/02/rdf-in-the-browser</link>
+            <guid>Distributed RDF in the browser</guid>
+            <pubDate>Tue, 02 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Create a web application with React and TypeScript]]></description>
+        </item>
         <item>
             <title><![CDATA[Publish Nanopublications]]></title>
             <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/01/19/usecase-nanopublication</link>
