@@ -4,14 +4,14 @@
         <title>IDS Best Practices Blog</title>
         <link>https://maastrichtu-ids.github.io/blog</link>
         <description>IDS Best Practices Blog</description>
-        <lastBuildDate>Tue, 02 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[A triplestore in your browser?]]></title>
-            <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/03/02/rdf-in-the-browser</link>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/03/12/rdf-in-the-browser</link>
             <guid>A triplestore in your browser?</guid>
-            <pubDate>Tue, 02 Mar 2021 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 12 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Doing some exploration to handle large scale RDF knowledge graphs directly in the browser]]></description>
         </item>
         <item>
