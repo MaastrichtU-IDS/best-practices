@@ -11,24 +11,15 @@ hide_table_of_contents: false
 # image: https://i.imgur.com/mErPwqL.png
 ---
 
-Which solutions are available to store and access relatively large RDF file directly in a browser? Without the need for NodeJS, or anything else than a static server to publish files (using GitHub or GitLab Pages for example)
+Which solutions are available to store and access relatively large RDF file directly in a browser? 
 
-This would enable distributed processing, edition and querying of RDF data in the browser without requiring any installation, or any backend server to perform the processing or pre-processing. We would just need to host the JavaScript and RDF files on a static hosting service. When a user access the website it will download the JavaScript, which will download and handle the RDF. Additionally JS workers will be able to efficiently cache the data to avoid needing to reload everything at each new connection.
+Without the need for NodeJS, or anything else than a static server to publish files (using GitHub or GitLab Pages for example)
+
+This would enable distributed processing, edition and querying of RDF data in the browser without requiring any installation, or any backend server to perform the processing or pre-processing. 
+
+Just host the JavaScript and RDF files on a static hosting service! When a user access the website it will download the JavaScript, which will load and handle the RDF. Additionally JS workers will be able to efficiently cache the data to avoid needing to reload everything at each new connection.
 
 <!--truncate-->
-
-## [Git](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain) 
-
-This would allow to work with RDF data a bit like we work with code in `git`: in a distributed and scalable manner
-
-Nowadays, Git has become a reference in software engineering, one of it's most important concept is distribution (done right). Which was aiming to overcome Subversion main problem: centralization. 
-
-In our case:
-
-* The scalability of centralized systems fully depends on the resources of the person/entity deploying the system (and requires a good connection). It will require the maintainer to increase allocated resources when the users and data size will grow.
-* The scalability of distributed systems mainly relies on the implementation of standards by each actor using the system. It will require the maintainer to only make sure the files are stored on a scalable static serving server (cheap, stable, and efficient solution)
-
-Pull the data, play with it locally, edit it, push it back, authenticate with [SOLID](https://solidproject.org/)
 
 ## [IndexedDB](https://www.w3.org/TR/IndexedDB-2)
 
@@ -71,7 +62,7 @@ The graph is stored in memory, and they nicely warn that the main strength of Gr
 
 See the documentation to try it out: https://graphy.link/memory.dataset.fast
 
-## What about IndexedDB then?
+## What about IndexedDB for RDF?
 
 7 years ago, someone asked if there was any interest in implementing something like "IndexedGraph" that would enable storing and querying RDF data similarly to IndexedDB: https://lists.w3.org/Archives/Public/public-rdfjs/2013Oct/0040.html. But I could not find any other mention of using IndexedDB for RDF. 
 
