@@ -47,6 +47,12 @@ Each repository acts like an isolated triplestore database coming with various f
 * The repository deployed is a RDF4J repository, enabling all features from the RDF4J stack (such as the RDF4J API to manage the triplestore).
 * Search index can be easily enabled to make text search queries much faster.
 
+:::tip More documentation about triplestores
+
+Visit the [data2services documentation website](https://d2s.semanticscience.org/docs/store-rdf) for more details on storage options for RDF data.
+
+:::
+
 ## Web Protégé server
 
 :::info Access Protégé
