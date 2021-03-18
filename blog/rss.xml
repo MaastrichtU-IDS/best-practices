@@ -4,9 +4,16 @@
         <title>IDS Best Practices Blog</title>
         <link>https://maastrichtu-ids.github.io/blog</link>
         <description>IDS Best Practices Blog</description>
-        <lastBuildDate>Fri, 12 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Simply build a Knowledge Graph]]></title>
+            <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/03/18/build-a-kg</link>
+            <guid>Simply build a Knowledge Graph</guid>
+            <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Build a RDF Knowledge Graph from CSV files]]></description>
+        </item>
         <item>
             <title><![CDATA[A triplestore in your browser?]]></title>
             <link>https://maastrichtu-ids.github.io/best-practices/blog/2021/03/12/rdf-in-the-browser</link>

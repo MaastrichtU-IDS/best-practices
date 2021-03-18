@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[57],{126:function(e){e.exports=JSON.parse('{"allTagsPath":"/best-practices/blog/tags","slug":"knowledge-graph","name":"knowledge graph","count":1,"permalink":"/best-practices/blog/tags/knowledge-graph"}')}}]);
