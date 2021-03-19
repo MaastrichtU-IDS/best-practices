@@ -8,8 +8,8 @@
     <subtitle>IDS Best Practices Blog</subtitle>
     <icon>https://maastrichtu-ids.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Simply build a Knowledge Graph]]></title>
-        <id>Simply build a Knowledge Graph</id>
+        <title type="html"><![CDATA[Build a FAIR Knowledge Graph]]></title>
+        <id>Build a FAIR Knowledge Graph</id>
         <link href="https://maastrichtu-ids.github.io/best-practices/blog/2021/03/18/build-a-kg"/>
         <updated>2021-03-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Build a RDF Knowledge Graph from CSV files]]></summary>
