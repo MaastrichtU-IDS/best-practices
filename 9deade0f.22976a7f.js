@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{112:function(s){s.exports=JSON.parse('{"allTagsPath":"/best-practices/blog/tags","slug":"dsri","name":"dsri","count":1,"permalink":"/best-practices/blog/tags/dsri"}')}}]);

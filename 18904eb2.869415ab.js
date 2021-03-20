@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{79:function(o){o.exports=JSON.parse('{"allTagsPath":"/best-practices/blog/tags","slug":"ontologies","name":"ontologies","count":1,"permalink":"/best-practices/blog/tags/ontologies"}')}}]);

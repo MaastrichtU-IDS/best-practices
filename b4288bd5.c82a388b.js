@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[47],{116:function(s){s.exports=JSON.parse('{"allTagsPath":"/best-practices/blog/tags","slug":"openshift","name":"openshift","count":1,"permalink":"/best-practices/blog/tags/openshift"}')}}]);
