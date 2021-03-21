@@ -142,6 +142,7 @@ You can also [query SOLID data with Tripledoc](https://medium.com/javascript-in-
 
 ```bash
 yarn add @solid/react
+yarn add @types/solid__react --dev
 ```
 
 2. Add the login/logout button to your navigation bar:
