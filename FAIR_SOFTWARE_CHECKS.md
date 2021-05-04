@@ -75,3 +75,5 @@ The focus of future improvements is on: [future improvements]
 - [ ] **EAA.2** - The dependencies to build the software are at least described by name, version number, purpose, licensing terms and reference source. *(from application class 1)*
 
 - [ ] **EAA.10** - The repository ideally contains all artefacts to perform the build process. *(from application class 1)*
+
+> Source: https://rse.dlr.de/01_guidelines.html
