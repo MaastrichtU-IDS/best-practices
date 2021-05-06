@@ -1,7 +1,6 @@
 {
   "author": "Vincent Emonet",
   "license": "CC-BY-4.0",
-  "private": true,
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus start",
@@ -25,14 +24,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
-  "workspaces": {
-    "packages": [
-      "docs",
-      "blog"
-    ],
-    "nohoist": [
-      "docs/**",
-      "blog/**"
-    ]
+  "resolutions": {
+    "**/terser-webpack-plugin": "^1.4.3"
   }
 }
