@@ -24,7 +24,6 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
-  "nohoist": [
-    "**/html-minifier-terser"
-  ]
+  "hoist": true,
+  "nohoist": ["@docusaurus/*"]
 }
