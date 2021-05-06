@@ -1,5 +1,7 @@
 The FAIR (Findable, Accessible, Interoperable, Reusable) Guiding Principles are intended to facilitate the discovery and reuse of data, not only for people, but for machines. Read the full paper [here](https://www.nature.com/articles/sdata201618).
 
+You can find a list of various websites to assess if a resource is FAIR at https://fairassist.org
+
 ## Findable 🔎
 
 The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the [FAIRification process](https://www.go-fair.org/fair-principles/fairification-process/).

@@ -21,15 +21,20 @@ Recommendations adapted from [this article](https://ai.googleblog.com/2020/08/an
 
 :::
 
-## Tools and frameworks
+## Assessing your data FAIRness
 
-Pointer to tools and framework to build FAIR data systems (depend on the use-case)
+You can find a list of various websites to assess if a resource is FAIR at https://fairassist.org
 
-* Use the [Smart API](https://smart-api.info) specifications to document your API (extension of OpenAPI).
-  * Take advantage of the [Swagger UI](https://swagger.io/tools/swagger-ui/) to try your API.
-* Use the [JSON-LD](https://json-ld.org/) format to add a `@context` to your JSON objects, and obtain Linked Data.
-* Use the [Health Care and Life Science (HCLS) descriptive metadata profile](https://www.w3.org/TR/hcls-dataset/) to generate and store relevant metadata for Biomedical datasets (in RDF).
-* Use the [FAIR evaluator](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/) to assess the FAIRness of your services.
+From all those tools, here is our expert selection:
+
+* [FAIR Data Self-Assessment Tool](https://www.ands.org.au/working-with-data/fairdata/fair-data-self-assessment-tool)
+
+* [FAIR-Aware (BETA)](https://fairaware.dans.knaw.nl/)
+
+* [FAIR-Checker](http://fair-checker.france-bioinformatique.fr/)
+* [FAIR Evaluator](https://w3id.org/AmIFAIR) (to evaluate a service)
+
+You can also find guidelines on what you need to provide to insure your data is FAIR in this [FAIR data checklist file](https://github.com/MaastrichtU-IDS/best-practices/blob/main/FAIR_DATA_CHECKS.md) developed at IDS. Feel free to propose improvements in the [best-practices repository issues](https://github.com/MaastrichtU-IDS/best-practices/issues).
 
 
 ## The FAIR principles
