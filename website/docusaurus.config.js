@@ -68,7 +68,7 @@ module.exports={
     "announcementBar": {
       "id": 'supportus',
       "content":
-        '⭐️ If you like IDS best practices, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/MaastrichtU-IDS/best-practices">GitHub</a>! ⭐️',
+        'If you have comments and want to help improve this website, feel free create an <a target="_blank" rel="noopener noreferrer" href="https://github.com/MaastrichtU-IDS/best-practices/issues">issue</a>! 💬',
     },
     "navbar": {
       "hideOnScroll": false,
