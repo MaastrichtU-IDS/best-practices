@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "label": "http://www.w3.org/2000/01/rdf-schema#label",
+        "url": {
+            "@id": "http://schema.org/url",
+            "@type": "@id"
+        },
+        "version": "http://purl.org/pav/version",
+        "isVersionOf": "http://purl.org/dc/terms/isVersionOf",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "title": "http://purl.org/dc/terms/title",
+        "keyword": "http://www.w3.org/ns/dcat#keyword",
+        "preferredPrefix": "http://identifiers.org/idot/preferredPrefix",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "rights": "http://purl.org/dc/terms/rights",
+        "format": "http://purl.org/dc/terms/format",
+        "subject": "http://purl.org/dc/terms/subject",
+        "lastUpdateOn": "http://purl.org/pav/lastUpdateOn",
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "sparqlEndpoint": {
+            "@id": "http://rdfs.org/ns/void#sparqlEndpoint",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id"
+        },
+        "created": {
+            "@id": "http://purl.org/dc/terms/created",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },  
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "downloadFiles": {
+            "@id": "https://w3id.org/d2s/vocab/downloadFiles",
+            "@type": "@id"
+        },
+        "downloadScript": "https://w3id.org/d2s/vocab/downloadScript",
+        "postProcessScript": "https://w3id.org/d2s/vocab/postProcessScript",
+        "processor": "https://w3id.org/d2s/vocab/processor",
+        "graph": "https://w3id.org/d2s/vocab/graph",
+        "rdfSyntax": "https://w3id.org/d2s/vocab/rdfSyntax",
+        "processedFilename": "https://w3id.org/d2s/vocab/processedFilename",
+        "versionRegex": "https://w3id.org/d2s/vocab/versionRegex"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "@context": "https://raw.githubusercontent.com/MaastrichtU-IDS/play-fair/main/files/context.jsonld",
+    "@type": "http://purl.org/dc/dcmitype/Dataset",
+
+    "title": "Daily cases and pandemic evolution in Andalucia (Spain)",
+    "description": "Daily cases and pandemic evolution in Andalucia, Spain.",
+    "subject": "Biomedical",
+    "language": [
+        "Spanish"
+    ],
+    "rights": "CC0",
+    "date": "2021/08/24",
+    "source": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/operaciones/consulta/anual/44088?CodOper=b3_2314&codConsulta=44088",
+    "page": "http://www.interactome-atlas.org/",
+    "publisher": {
+        "@type": "http://purl.org/dc/terms/Agent",
+        "name": "Instituto de Estadística y Cartografía",
+        "page": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/"
+    },
+    "format": [
+        "Web (not structured)",
+        "csv"
+    ],
+    "evaluations": [
+        {
+            "@type": "https://schema.org/Rating",
+            "name": "FAIR evaluator",
+            "url": "https://www.f-uji.net/index.php",
+            "results": "https://w3id.org/FAIR_Evaluator/evaluations/5613.json"
+        },
+        {
+            "@type": "https://schema.org/Rating",
+            "name": "F-UJI",
+            "url": "https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/",
+            "results": "6/10"
+        }
+    ],
+
+    "@wizardQuestions": {
+        "title": "Provide the name of this dataset:",
+        "description": "Give a short description of the dataset:",
+        "publisher": "Person, or organization, who published this work:",
+        "language": "What language is used in this dataset? Use ISO 2 language code e.g. EN for English",
+        "version": "What is the version number for this dataset? e.g. 1.1.1 or v1.2",
+        "rights": "Link to the full text of the terms of use (license) for this dataset:",
+        "format": "In which formats is the dataset available?",
+        "temporalCoverage": "What is the creation or publishing date range for the documents or contents of this dataset? Use https://en.wikipedia.org/wiki/ISO_8601#Time_intervals format - e.g. 2007-03-01/2008-05-11:",
+        "subject": "Provide the subject of this dataset:",
+        "source": "Source URL to download the dataset",
+        "page": "Homepage URL",
+        "date": "On what date was the dataset published? YYYY-MM-DD",
+        "evaluations": "Scores to FAIR evaluations:",
+        "frequency": "How often does a new version get published for this dataset? e.g. daily, weekly, monthly"
+    }
+}
