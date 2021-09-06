@@ -1,5 +1,5 @@
 {
-    "@context": "https://raw.githubusercontent.com/MaastrichtU-IDS/play-fair/main/files/context.jsonld",
+    "@context": "https://raw.githubusercontent.com/MaastrichtU-IDS/best-practices/main/resources/context.jsonld",
     "@type": "http://purl.org/dc/dcmitype/Dataset",
 
     "title": "Daily cases and pandemic evolution in Andalucia (Spain)",
